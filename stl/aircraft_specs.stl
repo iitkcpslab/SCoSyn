@@ -1,0 +1,27 @@
+
+# settling
+param dt=0.1, epsi=1e-2, tau=10
+phi_d := abs(theta[t+dt]-theta[t]) < epsi
+phi_settle := alw_[5,30] (phi_d)
+
+#rise time
+param tau=2 , bt=0.8
+phi_rise :=  ev_[0,tau] (theta[t] > bt*theta_ref[t])
+
+
+#spike
+param tau=5, dt=0.1, m=0.1
+x_up := ((theta[t+dt]-theta[t])*10 > m)
+x_down := ((theta[t+dt]-theta[t])*10 < -1*m)
+phi_spike := alw (not((x_up) and ev_[0,5] (x_down)))
+
+# convergence in aircraft pitch
+param tau=10, epsi=0.1
+phi_conv :=  ev_[0,tau] alw (abs(theta[t]-theta_ref[t]) < epsi )
+
+#overshoot
+param al=1.15
+phi_ov := alw (theta[t] < al*theta_ref[t])
+
+
+phi_all := (phi_conv and phi_settle and phi_ov and phi_spike and phi_rise)

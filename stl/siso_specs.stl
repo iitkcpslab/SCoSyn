@@ -1,0 +1,20 @@
+# convergence
+param tau = 10
+phi_conv :=  ev_[0,tau] alw (abs(Z[t]-Zref[t]) < 0.1 )
+
+# settling
+param dt=0.1,epsi=1e-2
+
+phi_d := abs(Z[t+dt]-Z[t])<epsi
+phi_settle := alw_[5, 30] (phi_d)
+
+#rise time
+param tau=5, beta=0.8 
+phi_rise := ev_[0,tau] (Z[t] > 0.8*Zref[t])
+
+#spike
+#param tau=1, dt=0.1, m=3
+#x_up := ((Z[t+dt]-Z[t])*10 > 0.1)
+#x_down := ((Z[t+dt]-Z[t])*10 < -0.1)
+#phi_spike := alw (not((x_up) and ev_[0,tau] (x_down)))
+

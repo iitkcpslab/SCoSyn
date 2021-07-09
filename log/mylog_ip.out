@@ -1,0 +1,2225 @@
+$$$$$$ default value $$$$$$$
+   41.7600   65.5800    3.8700
+
+Elapsed time is 90.930006 seconds.
+initialisation time
+Elapsed time is 0.000275 seconds.
+time taken
+------------------ITERATION
+     1
+
+----------------------------
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+(alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))) and ((alw ((theta[t] < al))) and (alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        1.1               [-2.13102e+00]    (-2.13102e+00)
+
+ ---- Best value -2.13102 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -2.13102
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+(alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))) and ((alw ((theta[t] < al))) and (alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        1.1               [-2.41528e+00]    (-2.41528e+00)
+
+ ---- Best value -2.41528 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -2.41528
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+(alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))) and ((alw ((theta[t] < al))) and (alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        1.0               [-2.02746e+00]    (-2.02746e+00)
+
+ ---- Best value -2.02746 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -2.02746
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   41.7600   16.3950    3.8700
+
+phi_settle
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        1.0               [-1.05406e-02]    (-1.05406e-02)
+
+ ---- Best value -0.0105406 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -0.0105406
+phi_ov
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+alw ((theta[t] < al))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        1.0               [-2.67773e-02]    (-2.67773e-02)
+
+ ---- Best value -0.0267773 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -0.0267773
+phi_spike
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.8               [-1.94266e+00]    (-1.94266e+00)
+
+ ---- Best value -1.94266 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -1.94266
+max+spec_count 
+     0
+
+maximum weight is 
+     0
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 106.707626 seconds.
+time taken
+------------------ITERATION
+     3
+
+----------------------------
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+(alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))) and ((alw ((theta[t] < al))) and (alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.9               [-1.97547e+00]    (-1.97547e+00)
+
+ ---- Best value -1.97547 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -1.97547
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+(alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))) and ((alw ((theta[t] < al))) and (alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.9               [-2.07931e+00]    (-2.07931e+00)
+
+ ---- Best value -2.07931 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -2.07931
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   41.7600   24.5925    3.8700
+
+phi_settle
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.8               [-1.13898e-02]    (-1.13898e-02)
+
+ ---- Best value -0.0113898 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -0.0113898
+phi_ov
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+alw ((theta[t] < al))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.8               [-2.58944e-02]    (-2.58944e-02)
+
+ ---- Best value -0.0258944 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -0.0258944
+phi_spike
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.9               [-1.93164e+00]    (-1.93164e+00)
+
+ ---- Best value -1.93164 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -1.93164
+max+spec_count 
+     0
+
+maximum weight is 
+     0
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 186.482713 seconds.
+time taken
+------------------ITERATION
+     4
+
+----------------------------
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+(alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))) and ((alw ((theta[t] < al))) and (alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.9               [-2.00149e+00]    (-2.00149e+00)
+
+ ---- Best value -2.00149 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -2.00149
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+(alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))) and ((alw ((theta[t] < al))) and (alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.9               [-2.15682e+00]    (-2.15682e+00)
+
+ ---- Best value -2.15682 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -2.15682
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+(alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))) and ((alw ((theta[t] < al))) and (alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        1.0               [-1.96245e+00]    (-1.96245e+00)
+
+ ---- Best value -1.96245 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -1.96245
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   41.7600    6.1481    3.8700
+
+phi_settle
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.8               [-1.35655e-02]    (-1.35655e-02)
+
+ ---- Best value -0.0135655 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -0.0135655
+phi_ov
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+alw ((theta[t] < al))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.9               [-2.78813e-02]    (-2.78813e-02)
+
+ ---- Best value -0.0278813 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -0.0278813
+phi_spike
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.8               [-1.95645e+00]    (-1.95645e+00)
+
+ ---- Best value -1.95645 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -1.95645
+max+spec_count 
+     0
+
+maximum weight is 
+     0
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 286.687570 seconds.
+time taken
+------------------ITERATION
+     6
+
+----------------------------
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+(alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))) and ((alw ((theta[t] < al))) and (alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.9               [-1.94290e+00]    (-1.94290e+00)
+
+ ---- Best value -1.9429 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -1.9429
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+(alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))) and ((alw ((theta[t] < al))) and (alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        1.0               [-1.98198e+00]    (-1.98198e+00)
+
+ ---- Best value -1.98198 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -1.98198
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   41.7600    9.2222    3.8700
+
+phi_settle
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.8               [-1.28280e-02]    (-1.28280e-02)
+
+ ---- Best value -0.012828 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -0.012828
+phi_ov
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+alw ((theta[t] < al))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.8               [-2.75500e-02]    (-2.75500e-02)
+
+ ---- Best value -0.02755 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -0.02755
+phi_spike
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.8               [-1.95231e+00]    (-1.95231e+00)
+
+ ---- Best value -1.95231 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -1.95231
+max+spec_count 
+     0
+
+maximum weight is 
+     0
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 365.624383 seconds.
+time taken
+------------------ITERATION
+     7
+
+----------------------------
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+(alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))) and ((alw ((theta[t] < al))) and (alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        1.0               [-1.95268e+00]    (-1.95268e+00)
+
+ ---- Best value -1.95268 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -1.95268
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+(alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))) and ((alw ((theta[t] < al))) and (alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.9               [-2.01123e+00]    (-2.01123e+00)
+
+ ---- Best value -2.01123 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -2.01123
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   41.7600   13.8333    3.8700
+
+phi_settle
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.9               [-1.14819e-02]    (-1.14819e-02)
+
+ ---- Best value -0.0114819 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -0.0114819
+phi_ov
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+alw ((theta[t] < al))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.8               [-2.70532e-02]    (-2.70532e-02)
+
+ ---- Best value -0.0270532 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -0.0270532
+phi_spike
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.9               [-1.94611e+00]    (-1.94611e+00)
+
+ ---- Best value -1.94611 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -1.94611
+max+spec_count 
+     0
+
+maximum weight is 
+     0
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 443.874084 seconds.
+time taken
+------------------ITERATION
+     8
+
+----------------------------
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+(alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))) and ((alw ((theta[t] < al))) and (alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        1.0               [-1.96733e+00]    (-1.96733e+00)
+
+ ---- Best value -1.96733 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -1.96733
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+(alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))) and ((alw ((theta[t] < al))) and (alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.9               [-2.05502e+00]    (-2.05502e+00)
+
+ ---- Best value -2.05502 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -2.05502
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   41.7600   20.7499    3.8700
+
+phi_settle
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.9               [-1.07868e-02]    (-1.07868e-02)
+
+ ---- Best value -0.0107868 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -0.0107868
+phi_ov
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+alw ((theta[t] < al))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.8               [-2.63082e-02]    (-2.63082e-02)
+
+ ---- Best value -0.0263082 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -0.0263082
+phi_spike
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.8               [-1.93680e+00]    (-1.93680e+00)
+
+ ---- Best value -1.9368 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -1.9368
+max+spec_count 
+     0
+
+maximum weight is 
+     0
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 522.487445 seconds.
+time taken
+------------------ITERATION
+     9
+
+----------------------------
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+(alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))) and ((alw ((theta[t] < al))) and (alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.9               [-1.98930e+00]    (-1.98930e+00)
+
+ ---- Best value -1.9893 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -1.9893
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+(alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))) and ((alw ((theta[t] < al))) and (alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.9               [-2.12052e+00]    (-2.12052e+00)
+
+ ---- Best value -2.12052 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -2.12052
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+(alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))) and ((alw ((theta[t] < al))) and (alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.9               [-1.95635e+00]    (-1.95635e+00)
+
+ ---- Best value -1.95635 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -1.95635
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   41.7600    5.1875    3.8700
+
+phi_settle
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.9               [-1.37033e-02]    (-1.37033e-02)
+
+ ---- Best value -0.0137033 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -0.0137033
+phi_ov
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+alw ((theta[t] < al))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.8               [-2.79848e-02]    (-2.79848e-02)
+
+ ---- Best value -0.0279848 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -0.0279848
+phi_spike
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.8               [-1.95635e+00]    (-1.95635e+00)
+
+ ---- Best value -1.95635 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -1.95635
+max+spec_count 
+     0
+
+maximum weight is 
+     0
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 623.511627 seconds.
+time taken
+------------------ITERATION
+    11
+
+----------------------------
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+(alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))) and ((alw ((theta[t] < al))) and (alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.9               [-1.93985e+00]    (-1.93985e+00)
+
+ ---- Best value -1.93985 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -1.93985
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+(alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))) and ((alw ((theta[t] < al))) and (alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.9               [-1.97283e+00]    (-1.97283e+00)
+
+ ---- Best value -1.97283 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -1.97283
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   41.7600    7.7812    3.8700
+
+phi_settle
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.9               [-1.32173e-02]    (-1.32173e-02)
+
+ ---- Best value -0.0132173 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -0.0132173
+phi_ov
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+alw ((theta[t] < al))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.8               [-2.77053e-02]    (-2.77053e-02)
+
+ ---- Best value -0.0277053 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -0.0277053
+phi_spike
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.8               [-1.95425e+00]    (-1.95425e+00)
+
+ ---- Best value -1.95425 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -1.95425
+max+spec_count 
+     0
+
+maximum weight is 
+     0
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 701.586408 seconds.
+time taken
+------------------ITERATION
+    12
+
+----------------------------
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+(alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))) and ((alw ((theta[t] < al))) and (alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        1.0               [-1.94810e+00]    (-1.94810e+00)
+
+ ---- Best value -1.9481 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -1.9481
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+(alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))) and ((alw ((theta[t] < al))) and (alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.9               [-1.99752e+00]    (-1.99752e+00)
+
+ ---- Best value -1.99752 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -1.99752
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   41.7600   11.6718    3.8700
+
+phi_settle
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.9               [-1.21800e-02]    (-1.21800e-02)
+
+ ---- Best value -0.01218 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -0.01218
+phi_ov
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+alw ((theta[t] < al))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.8               [-2.72861e-02]    (-2.72861e-02)
+
+ ---- Best value -0.0272861 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -0.0272861
+phi_spike
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.8               [-1.94902e+00]    (-1.94902e+00)
+
+ ---- Best value -1.94902 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -1.94902
+max+spec_count 
+     0
+
+maximum weight is 
+     0
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 779.647041 seconds.
+time taken
+------------------ITERATION
+    13
+
+----------------------------
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+(alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))) and ((alw ((theta[t] < al))) and (alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        1.0               [-1.96047e+00]    (-1.96047e+00)
+
+ ---- Best value -1.96047 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -1.96047
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+(alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))) and ((alw ((theta[t] < al))) and (alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.9               [-2.03451e+00]    (-2.03451e+00)
+
+ ---- Best value -2.03451 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -2.03451
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   41.7600   17.5077    3.8700
+
+phi_settle
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.9               [-1.01320e-02]    (-1.01320e-02)
+
+ ---- Best value -0.010132 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -0.010132
+phi_ov
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+alw ((theta[t] < al))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.9               [-2.66574e-02]    (-2.66574e-02)
+
+ ---- Best value -0.0266574 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -0.0266574
+phi_spike
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.8               [-1.94117e+00]    (-1.94117e+00)
+
+ ---- Best value -1.94117 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -1.94117
+max+spec_count 
+     0
+
+maximum weight is 
+     0
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 3
+*******************************************
+Elapsed time is 857.521069 seconds.
+time taken
+------------------ITERATION
+    14
+
+----------------------------
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+(alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))) and ((alw ((theta[t] < al))) and (alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.9               [-1.99980e+00]    (-1.99980e+00)
+
+ ---- Best value -1.9998 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -1.9998
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+(alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))) and ((alw ((theta[t] < al))) and (alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.9               [-1.59869e+00]    (-1.59869e+00)
+
+ ---- Best value -1.59869 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -1.59869
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+(alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))) and ((alw ((theta[t] < al))) and (alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.9               [-9.95852e-01]    (-9.95852e-01)
+
+ ---- Best value -0.995852 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -0.995852
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+(alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))) and ((alw ((theta[t] < al))) and (alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.9               [-4.86878e-01]    (-4.86878e-01)
+
+ ---- Best value -0.486878 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -0.486878
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+(alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))) and ((alw ((theta[t] < al))) and (alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+         1                        0.9               [-1.49010e-01]    (-1.49010e-01)
+
+ ---- Best value -0.14901 found with
+        Force_u0 = 900
+        Force_u1 = 0
+
+Falsified with obj = -0.14901
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+falsify
+
+(alw_[1,3] ((abs(theta[t+dt]-theta[t]) < epsi1))) and ((alw ((theta[t] < al))) and (alw (not ((((theta[t+dt]-theta[t])*10 > m)) and (ev_[0,tau2] (((theta[t+dt]-theta[t])*10 < -1*m)))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+        10                        6.3               [+1.50211e-02]    (+1.09145e-02)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+        20                       11.0               [+2.29815e-02]    (+1.09145e-02)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+        30                       16.7               [+1.09152e-02]    (+1.09145e-02)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+        40                       21.5               [+1.09145e-02]    (+1.09145e-02)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+        50                       26.8               [+1.09145e-02]    (+1.09145e-02)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+        60                       32.0               [+1.09145e-02]    (+1.09145e-02)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+        70                       37.0               [+1.09145e-02]    (+1.09145e-02)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+        80                       41.7               [+1.09145e-02]    (+1.09145e-02)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+        90                       46.7               [+1.09145e-02]    (+1.09145e-02)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+Found algebraic loop containing: 
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/thetaddot','error')">Inverted_Pendulum_breach/Subsystem/thetaddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/P','error')">Inverted_Pendulum_breach/Subsystem/P</a> (algebraic variable)
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/xddot','error')">Inverted_Pendulum_breach/Subsystem/xddot</a>
+<a href="matlab:open_and_hilite_hyperlink ('Inverted_Pendulum_breach/Subsystem/N','error')">Inverted_Pendulum_breach/Subsystem/N</a> (algebraic variable)
+       100                       51.7               [+1.09145e-02]    (+1.09145e-02)
+
+ ---- Best value 0.0109145 found with
+        Force_u0 = 1000
+        Force_u1 = 1.29546e-10
+
+No falsifying trace found.
+*************************************************
+ the controller is synthesized in 17iterations
+ the final value of the parameters is 
+   41.7600   17.5077   29.3878
+
+*************************************************
+Elapsed time is 1029.990255 seconds.
+time for Whole CS Algo
+main_script_random
+Initializing Breach from folder /home/nikhil/home/CSyn/breach...
+********* SELECT MODEL ******************
+select 1 for Quadcopter-SISO
+select 2 for Cruise Control
+select 3 for Aircraft Pitch
+select 4 for Inverted Pendulum
+select 5 for DC Motor
+select 6 for AutoPilot for Pass Jet
+select 7 for Quadcopter-MIMO
+select 9 for Robot Arm
+select 11 for DPC
+select 14 for Airframe
+select 15 for Heatex
+select 16 for Heatex
+***************************************
+enter the model number5
+ 
+********* SELECT SPECIFICATION ************
+select 1 for settling time
+select 2 for rise time
+select 3 for convergence
+select 4 for overshoot
+select 5 for smoothness
+select 6 for Conjunct of all specs
+*******************************************
+enter the specification number6
+---------------------------------------
+selected model is : 5
+---------------------------------------
+--------------------------------------
+selected specification is phi : 6
+---------------------------------------
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        2.4               [-6.16050e-03]    (-6.16050e-03)
+
+ ---- Best value -0.0061605 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 1
+        Voltage_u2 = 1
+
+Falsified with obj = -0.0061605
+#############################
+ tuning 
+     2
+
+#############################

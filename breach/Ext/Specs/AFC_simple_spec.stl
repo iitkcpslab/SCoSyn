@@ -1,0 +1,27 @@
+# We declare parameters with default values 
+param tol=0.01, af_ref=14.7 
+AF_abs_ok := AF[t] <  af_ref+tol
+AF_tol := (AF[t] > 14.7-tol)
+
+# Slightly more complex definition of Air-Fuel Ratio being OK
+AF_above_ref := AF[t] >  af_ref-tol
+AF_below_ref := AF[t] < -af_ref+tol
+AF_ok := not (AF_above_ref or AF_below_ref) 
+
+# Top formula, using time parameters
+param t_start=10, t_end=40
+AF_alw_ok := alw_[t_start, t_end] (AF_ok)
+AF_alw_tol :=  alw_[t_start, t_end](not (AF_tol))
+#AF_alw_tol :=  alw_[0, 5](not (AF_tol))  this gives id=1,5,6
+
+# A => B type formula
+param t_0=5
+control_mode_check := (controller_mode[t] == 1)
+AF_ok_controller := alw_[t_0, t_end] (control_mode_check => AF_ok)
+
+# generic check, computed by postprocessing function 
+AF_ok_check := alw_[t_0, t_end] (check[t]>0  => AF_ok)
+
+# A => ev B formula
+param t_stab=2
+AF_overshoot_req := alw_[t_0,t_end] ( AF_above_ref => ev_[0, t_stab] ( AF_abs_ok )  ) 

@@ -1,0 +1,1153 @@
+$$$$$$ default value $$$$$$$
+   -3.8640    0.6770    0.8156
+
+Elapsed time is 38.127353 seconds.
+initialisation time
+Elapsed time is 0.000482 seconds.
+time taken
+------------------ITERATION
+     1
+
+----------------------------
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.1               [-3.67689e-02]    (-3.67689e-02)
+
+ ---- Best value -0.0367689 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.0367689
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.1               [-4.29116e-02]    (-4.29116e-02)
+
+ ---- Best value -0.0429116 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.0429116
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.0               [-2.46062e-01]    (-2.46062e-01)
+
+ ---- Best value -0.246062 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.246062
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   -3.8640    0.3808    0.8156
+
+phi_settle
+falsify
+
+alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.0               [-2.36051e-03]    (-2.36051e-03)
+
+ ---- Best value -0.00236051 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.00236051
+phi_rise
+falsify
+
+ev_[0,tau1] ((alpha[t] > bt*stick[t]))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        2.3               [-4.07634e-02]    (-4.07634e-02)
+
+ ---- Best value -0.0407634 found with
+        stick_u0 = 1
+
+Falsified with obj = -0.0407634
+phi_conv
+falsify
+
+ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-2.46062e-01]    (-2.46062e-01)
+
+ ---- Best value -0.246062 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.246062
+pval_best = 
+max+spec_count 
+     0
+
+maximum weight is 
+     0
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 104.595882 seconds.
+time taken
+------------------ITERATION
+     3
+
+----------------------------
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-1.01368e-03]    (-1.01368e-03)
+
+ ---- Best value -0.00101368 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.00101368
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-2.90626e-02]    (-2.90626e-02)
+
+ ---- Best value -0.0290626 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.0290626
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-2.21222e-02]    (-2.21222e-02)
+
+ ---- Best value -0.0221222 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.0221222
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   -3.8640    0.5183    0.8156
+
+phi_settle
+falsify
+
+alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        6.0               [+2.94715e-04]    (+2.94715e-04)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                       10.6               [+2.94715e-04]    (+2.94715e-04)
+        30                       15.4               [+2.94715e-04]    (+2.94715e-04)
+        40                       20.2               [+2.94715e-04]    (+2.94715e-04)
+        50                       24.9               [+2.94715e-04]    (+2.94715e-04)
+        60                       29.1               [+2.94715e-04]    (+2.94715e-04)
+        70                       34.2               [+2.94715e-04]    (+2.94715e-04)
+        80                       39.7               [+2.94715e-04]    (+2.94715e-04)
+        90                       44.3               [+2.94715e-04]    (+2.94715e-04)
+       100                       49.1               [+2.94740e-04]    (+2.94715e-04)
+
+ ---- Best value 0.000294715 found with
+        stick_u0 = 0.0752566
+
+No falsifying trace found.
+phi_rise
+falsify
+
+ev_[0,tau1] ((alpha[t] > bt*stick[t]))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        2.1               [-5.71919e-02]    (-5.71919e-02)
+
+ ---- Best value -0.0571919 found with
+        stick_u0 = 1
+
+Falsified with obj = -0.0571919
+phi_conv
+falsify
+
+ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-2.21222e-02]    (-2.21222e-02)
+
+ ---- Best value -0.0221222 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.0221222
+pval_best >
+max+spec_count 
+     1
+
+maximum weight is 
+     1
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 254.328799 seconds.
+time taken
+------------------ITERATION
+     5
+
+----------------------------
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-8.07036e-03]    (-8.07036e-03)
+
+ ---- Best value -0.00807036 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.00807036
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-2.20948e-02]    (-2.20948e-02)
+
+ ---- Best value -0.0220948 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.0220948
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-1.45486e-03]    (-1.45486e-03)
+
+ ---- Best value -0.00145486 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.00145486
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        2.3               [-4.38676e-01]    (-4.38676e-01)
+
+ ---- Best value -0.438676 found with
+        stick_u0 = 1
+
+Falsified with obj = -0.438676
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   -3.8640    0.5578    0.8156
+
+phi_settle
+falsify
+
+alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        6.2               [+2.90378e-04]    (+4.84496e-05)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                       10.2               [+4.84622e-05]    (+4.84496e-05)
+        30                       13.3               [+4.84496e-05]    (+4.84496e-05)
+        40                       16.0               [+4.84496e-05]    (+4.84496e-05)
+        50                       19.9               [+1.00527e-04]    (+4.84496e-05)
+        60                       25.1               [+4.90898e-05]    (+4.84496e-05)
+        70                       29.8               [+4.84498e-05]    (+4.84496e-05)
+        80                       34.4               [+4.84496e-05]    (+4.84496e-05)
+        90                       39.2               [+4.84496e-05]    (+4.84496e-05)
+       100                       44.2               [+4.86157e-05]    (+4.84496e-05)
+
+ ---- Best value 4.84496e-05 found with
+        stick_u0 = -1
+
+No falsifying trace found.
+phi_rise
+falsify
+
+ev_[0,tau1] ((alpha[t] > bt*stick[t]))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        2.2               [-6.18811e-02]    (-6.18811e-02)
+
+ ---- Best value -0.0618811 found with
+        stick_u0 = 1
+
+Falsified with obj = -0.0618811
+phi_conv
+falsify
+
+ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        6.0               [+1.32467e-01]    (+4.77081e-03)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        9.5               [+4.77362e-03]    (+4.77081e-03)
+        30                       11.9               [+4.77081e-03]    (+4.77081e-03)
+        40                       14.5               [+4.77081e-03]    (+4.77081e-03)
+        50                       17.1               [+4.77081e-03]    (+4.77081e-03)
+        60                       20.1               [+7.14462e-03]    (+4.77081e-03)
+        70                       22.7               [+7.14392e-03]    (+4.77081e-03)
+        80                       25.2               [+7.14392e-03]    (+4.77081e-03)
+        90                       28.6               [+1.64440e-02]    (+4.77081e-03)
+       100                       33.3               [+4.91430e-03]    (+4.77081e-03)
+
+ ---- Best value 0.00477081 found with
+        stick_u0 = -1
+
+No falsifying trace found.
+pval_best >
+max+spec_count 
+     2
+
+maximum weight is 
+     4
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 448.902119 seconds.
+time taken
+------------------ITERATION
+     8
+
+----------------------------
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.0               [-1.15867e-02]    (-1.15867e-02)
+
+ ---- Best value -0.0115867 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.0115867
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.0               [-1.86006e-02]    (-1.86006e-02)
+
+ ---- Best value -0.0186006 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.0186006
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.0               [-8.18021e-03]    (-8.18021e-03)
+
+ ---- Best value -0.00818021 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.00818021
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-4.87177e-03]    (-4.87177e-03)
+
+ ---- Best value -0.00487177 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.00487177
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-1.66204e-03]    (-1.66204e-03)
+
+ ---- Best value -0.00166204 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.00166204
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-1.86112e-04]    (-1.86112e-04)
+
+ ---- Best value -0.000186112 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.000186112
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        2.2               [-4.38718e-01]    (-4.38718e-01)
+
+ ---- Best value -0.438718 found with
+        stick_u0 = 1
+
+Falsified with obj = -0.438718
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   -3.8640    0.5596    0.8156
+
+phi_settle
+falsify
+
+alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        5.8               [+2.90190e-04]    (+2.60333e-05)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        9.1               [+2.60463e-05]    (+2.60333e-05)
+        30                       11.5               [+2.60333e-05]    (+2.60333e-05)
+        40                       13.9               [+2.60333e-05]    (+2.60333e-05)
+        50                       17.1               [+7.99019e-05]    (+2.60333e-05)
+        60                       21.7               [+2.66955e-05]    (+2.60333e-05)
+        70                       26.3               [+2.60335e-05]    (+2.60333e-05)
+        80                       31.0               [+2.60333e-05]    (+2.60333e-05)
+        90                       35.5               [+2.60333e-05]    (+2.60333e-05)
+       100                       40.1               [+8.45481e-05]    (+2.60333e-05)
+
+ ---- Best value 2.60333e-05 found with
+        stick_u0 = -1
+
+No falsifying trace found.
+phi_rise
+falsify
+
+ev_[0,tau1] ((alpha[t] > bt*stick[t]))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        2.3               [-6.20885e-02]    (-6.20885e-02)
+
+ ---- Best value -0.0620885 found with
+        stick_u0 = 1
+
+Falsified with obj = -0.0620885
+phi_conv
+falsify
+
+ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        6.0               [+1.32742e-01]    (+4.47734e-03)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        9.4               [+4.48016e-03]    (+4.47734e-03)
+        30                       11.9               [+4.47734e-03]    (+4.47734e-03)
+        40                       14.3               [+4.47734e-03]    (+4.47734e-03)
+        50                       16.8               [+4.47734e-03]    (+4.47734e-03)
+        60                       19.7               [+6.84960e-03]    (+4.47734e-03)
+        70                       22.3               [+6.84889e-03]    (+4.47734e-03)
+        80                       24.8               [+6.84889e-03]    (+4.47734e-03)
+        90                       28.1               [+1.61744e-02]    (+4.47734e-03)
+       100                       32.8               [+4.62112e-03]    (+4.47734e-03)
+
+ ---- Best value 0.00447734 found with
+        stick_u0 = -1
+
+No falsifying trace found.
+pval_best = 
+max+spec_count 
+     2
+
+maximum weight is 
+     4
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 702.444294 seconds.
+time taken
+------------------ITERATION
+    14
+
+----------------------------
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-1.33430e-02]    (-1.33430e-02)
+
+ ---- Best value -0.013343 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.013343
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.0               [-1.68499e-02]    (-1.68499e-02)
+
+ ---- Best value -0.0168499 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.0168499
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-1.16150e-02]    (-1.16150e-02)
+
+ ---- Best value -0.011615 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.011615
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-9.91178e-03]    (-9.91178e-03)
+
+ ---- Best value -0.00991178 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.00991178
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-8.23346e-03]    (-8.23346e-03)
+
+ ---- Best value -0.00823346 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.00823346
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-6.58011e-03]    (-6.58011e-03)
+
+ ---- Best value -0.00658011 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.00658011
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-4.95014e-03]    (-4.95014e-03)
+
+ ---- Best value -0.00495014 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.00495014
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-3.34529e-03]    (-3.34529e-03)
+
+ ---- Best value -0.00334529 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.00334529
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-1.76228e-03]    (-1.76228e-03)
+
+ ---- Best value -0.00176228 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.00176228
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-2.88241e-04]    (-2.88241e-04)
+
+ ---- Best value -0.000288241 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.000288241
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-1.93868e-04]    (-1.93868e-04)
+
+ ---- Best value -0.000193868 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.000193868
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   -3.8640    0.5784    0.8156
+
+phi_settle
+falsify
+
+alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-1.93868e-04]    (-1.93868e-04)
+
+ ---- Best value -0.000193868 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.000193868
+phi_rise
+falsify
+
+ev_[0,tau1] ((alpha[t] > bt*stick[t]))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        2.3               [-6.43119e-02]    (-6.43119e-02)
+
+ ---- Best value -0.0643119 found with
+        stick_u0 = 1
+
+Falsified with obj = -0.0643119
+phi_conv
+falsify
+
+ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        6.0               [+1.32741e-01]    (+1.33288e-03)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        9.6               [+1.33576e-03]    (+1.33288e-03)
+        30                       12.0               [+1.33288e-03]    (+1.33288e-03)
+        40                       14.5               [+1.33288e-03]    (+1.33288e-03)
+        50                       16.9               [+1.33288e-03]    (+1.33288e-03)
+        60                       19.9               [+3.69062e-03]    (+1.33288e-03)
+        70                       22.4               [+3.68774e-03]    (+1.33288e-03)
+        80                       24.8               [+3.68774e-03]    (+1.33288e-03)
+        90                       27.3               [+3.68774e-03]    (+1.33288e-03)
+       100                       32.0               [+1.33500e-03]    (+1.33288e-03)
+
+ ---- Best value 0.00133288 found with
+        stick_u0 = -1
+
+No falsifying trace found.
+max+spec_count 
+     2
+
+maximum weight is 
+     4
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 999.549869 seconds.
+time taken
+------------------ITERATION
+    24
+
+----------------------------
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.0               [-1.42204e-02]    (-1.42204e-02)
+
+ ---- Best value -0.0142204 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.0142204
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.0               [-1.59739e-02]    (-1.59739e-02)
+
+ ---- Best value -0.0159739 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.0159739
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-1.33496e-02]    (-1.33496e-02)
+
+ ---- Best value -0.0133496 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.0133496
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-1.24867e-02]    (-1.24867e-02)
+
+ ---- Best value -0.0124867 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.0124867
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-1.16283e-02]    (-1.16283e-02)
+
+ ---- Best value -0.0116283 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.0116283
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-1.07761e-02]    (-1.07761e-02)
+
+ ---- Best value -0.0107761 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.0107761
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.0               [-9.93173e-03]    (-9.93173e-03)
+
+ ---- Best value -0.00993173 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.00993173
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.0               [-9.09196e-03]    (-9.09196e-03)
+
+ ---- Best value -0.00909196 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.00909196
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-8.26009e-03]    (-8.26009e-03)
+
+ ---- Best value -0.00826009 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.00826009
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-7.43280e-03]    (-7.43280e-03)
+
+ ---- Best value -0.0074328 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.0074328
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-6.61176e-03]    (-6.61176e-03)
+
+ ---- Best value -0.00661176 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.00661176
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.0               [-5.79699e-03]    (-5.79699e-03)
+
+ ---- Best value -0.00579699 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.00579699
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-4.98849e-03]    (-4.98849e-03)
+
+ ---- Best value -0.00498849 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.00498849
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.0               [-4.18461e-03]    (-4.18461e-03)
+
+ ---- Best value -0.00418461 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.00418461
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.0               [-3.38868e-03]    (-3.38868e-03)
+
+ ---- Best value -0.00338868 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.00338868
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.0               [-2.59739e-03]    (-2.59739e-03)
+
+ ---- Best value -0.00259739 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.00259739
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.0               [-1.81240e-03]    (-1.81240e-03)
+
+ ---- Best value -0.0018124 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.0018124
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.0               [-1.03206e-03]    (-1.03206e-03)
+
+ ---- Best value -0.00103206 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.00103206
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.0               [-2.91374e-04]    (-2.91374e-04)
+
+ ---- Best value -0.000291374 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.000291374
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-2.45453e-04]    (-2.45453e-04)
+
+ ---- Best value -0.000245453 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.000245453
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   -3.8640    0.5833    0.8156
+
+phi_settle
+falsify
+
+alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-2.45453e-04]    (-2.45453e-04)
+
+ ---- Best value -0.000245453 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.000245453
+phi_rise
+falsify
+
+ev_[0,tau1] ((alpha[t] > bt*stick[t]))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        2.3               [-6.48942e-02]    (-6.48942e-02)
+
+ ---- Best value -0.0648942 found with
+        stick_u0 = 1
+
+Falsified with obj = -0.0648942
+phi_conv
+falsify
+
+ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        6.2               [+1.32636e-01]    (+5.09624e-04)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        9.7               [+5.12521e-04]    (+5.09624e-04)
+        30                       12.1               [+5.09627e-04]    (+5.09624e-04)
+        40                       14.6               [+5.09624e-04]    (+5.09624e-04)
+        50                       17.1               [+5.09624e-04]    (+5.09624e-04)
+        60                       20.0               [+2.86301e-03]    (+5.09624e-04)
+        70                       22.5               [+2.86011e-03]    (+5.09624e-04)
+        80                       25.1               [+2.86011e-03]    (+5.09624e-04)
+        90                       27.8               [+2.86011e-03]    (+5.09624e-04)
+       100                       32.5               [+5.11755e-04]    (+5.09624e-04)
+
+ ---- Best value 0.000509624 found with
+        stick_u0 = -1
+
+No falsifying trace found.
+max+spec_count 
+     2
+
+maximum weight is 
+     4
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 1489.171671 seconds.
+time taken
+------------------ITERATION
+    43
+
+----------------------------
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-1.46598e-02]    (-1.46598e-02)
+
+ ---- Best value -0.0146598 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.0146598
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-1.55349e-02]    (-1.55349e-02)
+
+ ---- Best value -0.0155349 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.0155349
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-1.42221e-02]    (-1.42221e-02)
+
+ ---- Best value -0.0142221 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.0142221
+{Operation terminated by the user.
+} 
+main_script_random
+Initializing Breach from folder /home/nikhil/home/CSyn/breach...
+********* SELECT MODEL ******************
+select 1 for Quadcopter-SISO
+select 2 for Cruise Control
+select 3 for Aircraft Pitch
+select 4 for Inverted Pendulum
+select 5 for DC Motor
+select 6 for AutoPilot for Pass Jet
+select 7 for Quadcopter-MIMO
+select 9 for Robot Arm
+select 11 for DPC
+select 14 for Airframe
+select 15 for Heatex
+select 16 for Heatex
+***************************************
+enter the model number9
+ 
+********* SELECT SPECIFICATION ************
+select 1 for settling time
+select 2 for rise time
+select 3 for convergence
+select 4 for overshoot
+select 5 for smoothness
+select 6 for Conjunct of all specs
+*******************************************
+enter the specification number6
+---------------------------------------
+selected model is : 9
+---------------------------------------
+--------------------------------------
+selected specification is phi : 6
+---------------------------------------
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        3.2               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+#############################
+ tuning 
+     2
+
+#############################

@@ -1,0 +1,2443 @@
+$$$$$$ default value $$$$$$$
+   50.0000    2.0000    0.5000   50.0000    1.0000    2.0000
+
+Elapsed time is 144.388211 seconds.
+initialisation time
+Elapsed time is 0.000040 seconds.
+time taken
+------------------ITERATION
+     1
+
+----------------------------
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.5               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.6               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+Elapsed time is 150.475815 seconds.
+time taken
+------------------ITERATION
+     2
+
+----------------------------
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.5               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.5               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+Elapsed time is 301.913320 seconds.
+time taken
+------------------ITERATION
+     3
+
+----------------------------
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.5               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+Elapsed time is 441.708800 seconds.
+time taken
+------------------ITERATION
+     4
+
+----------------------------
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+Elapsed time is 582.567386 seconds.
+time taken
+------------------ITERATION
+     5
+
+----------------------------
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+Elapsed time is 722.244596 seconds.
+time taken
+------------------ITERATION
+     6
+
+----------------------------
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+Elapsed time is 866.001328 seconds.
+time taken
+------------------ITERATION
+     7
+
+----------------------------
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+Elapsed time is 1007.638512 seconds.
+time taken
+------------------ITERATION
+     8
+
+----------------------------
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+Elapsed time is 1150.595920 seconds.
+time taken
+------------------ITERATION
+     9
+
+----------------------------
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.5               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+Elapsed time is 1295.227333 seconds.
+time taken
+------------------ITERATION
+    10
+
+----------------------------
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-1.29061e-01]    (-1.29061e-01)
+
+ ---- Best value -0.129061 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.129061
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-1.96792e-01]    (-1.96792e-01)
+
+ ---- Best value -0.196792 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.196792
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   50.0000   11.5200    0.5000   50.0000    1.0000    2.0000
+
+phi_settle
+
+alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.2               [-2.17217e-02]    (-2.17217e-02)
+
+ ---- Best value -0.0217217 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0217217
+phi_conv
+
+ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-1.96792e-01]    (-1.96792e-01)
+
+ ---- Best value -0.196792 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.196792
+phi_ov
+
+alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-9.34637e-04]    (-9.34637e-04)
+
+ ---- Best value -0.000934637 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.000934637
+phi_spike
+
+alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        2.5               [-7.61567e-03]    (-7.61567e-03)
+
+ ---- Best value -0.00761567 found with
+        theta2md_u0 = 1
+        theta3md_u0 = 1
+
+Falsified with obj = -0.00761567
+max+spec_count 
+     0
+
+maximum weight is 
+     0
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 1576.802205 seconds.
+time taken
+------------------ITERATION
+    12
+
+----------------------------
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-1.44628e+01]    (-1.44628e+01)
+
+ ---- Best value -14.4628 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -14.4628
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-5.27288e-01]    (-5.27288e-01)
+
+ ---- Best value -0.527288 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.527288
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-2.14484e+01]    (-2.14484e+01)
+
+ ---- Best value -21.4484 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -21.4484
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   50.0000   66.3552    0.5000   50.0000    1.0000    2.0000
+
+phi_settle
+
+alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.2               [-3.46585e+00]    (-3.46585e+00)
+
+ ---- Best value -3.46585 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -3.46585
+phi_conv
+
+ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.2               [-1.41919e+01]    (-1.41919e+01)
+
+ ---- Best value -14.1919 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -14.1919
+phi_ov
+
+alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-1.31219e+01]    (-1.31219e+01)
+
+ ---- Best value -13.1219 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -13.1219
+phi_spike
+
+alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-2.14484e+01]    (-2.14484e+01)
+
+ ---- Best value -21.4484 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -21.4484
+max+spec_count 
+     0
+
+maximum weight is 
+     0
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 1824.178142 seconds.
+time taken
+------------------ITERATION
+    14
+
+----------------------------
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-6.83740e+02]    (-6.83740e+02)
+
+ ---- Best value -683.74 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -683.74
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-2.43820e+02]    (-2.43820e+02)
+
+ ---- Best value -243.82 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -243.82
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-4.35985e+02]    (-4.35985e+02)
+
+ ---- Best value -435.985 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -435.985
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   50.0000  382.2060    0.5000   50.0000    1.0000    2.0000
+
+phi_settle
+
+alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-1.05317e+01]    (-1.05317e+01)
+
+ ---- Best value -10.5317 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -10.5317
+phi_conv
+
+ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-4.35985e+02]    (-4.35985e+02)
+
+ ---- Best value -435.985 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -435.985
+phi_ov
+
+alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-4.34915e+02]    (-4.34915e+02)
+
+ ---- Best value -434.915 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -434.915
+phi_spike
+
+alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-8.23232e+01]    (-8.23232e+01)
+
+ ---- Best value -82.3232 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -82.3232
+max+spec_count 
+     0
+
+maximum weight is 
+     0
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 2071.079246 seconds.
+time taken
+------------------ITERATION
+    16
+
+----------------------------
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+Elapsed time is 2193.424515 seconds.
+time taken
+------------------ITERATION
+    17
+
+----------------------------
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+Elapsed time is 2327.090297 seconds.
+time taken
+------------------ITERATION
+    18
+
+----------------------------
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+Elapsed time is 2462.917760 seconds.
+time taken
+------------------ITERATION
+    19
+
+----------------------------
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+Elapsed time is 2598.085425 seconds.
+time taken
+------------------ITERATION
+    20
+
+----------------------------
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.5               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+Elapsed time is 2735.339335 seconds.
+time taken
+------------------ITERATION
+    21
+
+----------------------------
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+Elapsed time is 2873.342552 seconds.
+time taken
+------------------ITERATION
+    22
+
+----------------------------
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+Elapsed time is 3013.041732 seconds.
+time taken
+------------------ITERATION
+    23
+
+----------------------------
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.5               [-1.29061e-01]    (-1.29061e-01)
+
+ ---- Best value -0.129061 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.129061
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-9.09346e-02]    (-9.09346e-02)
+
+ ---- Best value -0.0909346 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909346
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-1.96792e-01]    (-1.96792e-01)
+
+ ---- Best value -0.196792 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.196792
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   50.0000   11.5200    0.5000   50.0000    1.0000    2.0000
+
+phi_settle
+
+alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-2.17217e-02]    (-2.17217e-02)
+
+ ---- Best value -0.0217217 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0217217
+phi_conv
+
+ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-1.96792e-01]    (-1.96792e-01)
+
+ ---- Best value -0.196792 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.196792
+phi_ov
+
+alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.2               [-9.34637e-04]    (-9.34637e-04)
+
+ ---- Best value -0.000934637 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.000934637
+phi_spike
+
+alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        2.3               [-7.61567e-03]    (-7.61567e-03)
+
+ ---- Best value -0.00761567 found with
+        theta2md_u0 = 1
+        theta3md_u0 = 1
+
+Falsified with obj = -0.00761567
+max+spec_count 
+     0
+
+maximum weight is 
+     0
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 3289.234241 seconds.
+time taken
+------------------ITERATION
+    25
+
+----------------------------
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-1.44628e+01]    (-1.44628e+01)
+
+ ---- Best value -14.4628 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -14.4628
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.5               [-5.27288e-01]    (-5.27288e-01)
+
+ ---- Best value -0.527288 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.527288
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-2.14484e+01]    (-2.14484e+01)
+
+ ---- Best value -21.4484 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -21.4484
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   50.0000   66.3552    0.5000   50.0000    1.0000    2.0000
+
+phi_settle
+
+alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-3.46585e+00]    (-3.46585e+00)
+
+ ---- Best value -3.46585 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -3.46585
+phi_conv
+
+ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-1.41919e+01]    (-1.41919e+01)
+
+ ---- Best value -14.1919 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -14.1919
+phi_ov
+
+alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-1.31219e+01]    (-1.31219e+01)
+
+ ---- Best value -13.1219 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -13.1219
+phi_spike
+
+alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-2.14484e+01]    (-2.14484e+01)
+
+ ---- Best value -21.4484 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -21.4484
+max+spec_count 
+     0
+
+maximum weight is 
+     0
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 3
+*******************************************
+Elapsed time is 3540.521672 seconds.
+time taken
+------------------ITERATION
+    27
+
+----------------------------
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-1.48787e+01]    (-1.48787e+01)
+
+ ---- Best value -14.8787 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -14.8787
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-1.01650e+01]    (-1.01650e+01)
+
+ ---- Best value -10.165 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -10.165
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-1.07000e+01]    (-1.07000e+01)
+
+ ---- Best value -10.7 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -10.7
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   50.0000   66.3552    2.8800   50.0000    1.0000    2.0000
+
+phi_settle
+
+alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-3.18460e+00]    (-3.18460e+00)
+
+ ---- Best value -3.1846 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -3.1846
+phi_conv
+
+ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-1.07000e+01]    (-1.07000e+01)
+
+ ---- Best value -10.7 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -10.7
+phi_ov
+
+alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-9.63003e+00]    (-9.63003e+00)
+
+ ---- Best value -9.63003 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -9.63003
+phi_spike
+
+alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-9.50678e+00]    (-9.50678e+00)
+
+ ---- Best value -9.50678 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -9.50678
+max+spec_count 
+     0
+
+maximum weight is 
+     0
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 3
+*******************************************
+Elapsed time is 3791.587636 seconds.
+time taken
+------------------ITERATION
+    29
+
+----------------------------
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-7.40261e+00]    (-7.40261e+00)
+
+ ---- Best value -7.40261 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -7.40261
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-6.86650e+00]    (-6.86650e+00)
+
+ ---- Best value -6.8665 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -6.8665
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-7.90358e+00]    (-7.90358e+00)
+
+ ---- Best value -7.90358 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -7.90358
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   50.0000   66.3552   16.5888   50.0000    1.0000    2.0000
+
+phi_settle
+
+alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-2.91507e+00]    (-2.91507e+00)
+
+ ---- Best value -2.91507 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -2.91507
+phi_conv
+
+ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-6.52433e+00]    (-6.52433e+00)
+
+ ---- Best value -6.52433 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -6.52433
+phi_ov
+
+alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-5.45433e+00]    (-5.45433e+00)
+
+ ---- Best value -5.45433 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -5.45433
+phi_spike
+
+alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-7.90358e+00]    (-7.90358e+00)
+
+ ---- Best value -7.90358 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -7.90358
+max+spec_count 
+     0
+
+maximum weight is 
+     0
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 3
+*******************************************
+Elapsed time is 4043.839404 seconds.
+time taken
+------------------ITERATION
+    31
+
+----------------------------
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-8.62335e+00]    (-8.62335e+00)
+
+ ---- Best value -8.62335 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -8.62335
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-3.89498e+01]    (-3.89498e+01)
+
+ ---- Best value -38.9498 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -38.9498
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-1.13619e+01]    (-1.13619e+01)
+
+ ---- Best value -11.3619 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -11.3619
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   50.0000   66.3552    2.6542   50.0000    1.0000    2.0000
+
+phi_settle
+
+alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.2               [-2.75609e+00]    (-2.75609e+00)
+
+ ---- Best value -2.75609 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -2.75609
+phi_conv
+
+ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-1.13619e+01]    (-1.13619e+01)
+
+ ---- Best value -11.3619 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -11.3619
+phi_ov
+
+alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-1.02919e+01]    (-1.02919e+01)
+
+ ---- Best value -10.2919 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -10.2919
+phi_spike
+
+alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-1.09205e+01]    (-1.09205e+01)
+
+ ---- Best value -10.9205 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -10.9205
+max+spec_count 
+     0
+
+maximum weight is 
+     0
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 3
+*******************************************
+Elapsed time is 4294.663620 seconds.
+time taken
+------------------ITERATION
+    33
+
+----------------------------
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-8.40830e+00]    (-8.40830e+00)
+
+ ---- Best value -8.4083 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -8.4083
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-6.59321e+00]    (-6.59321e+00)
+
+ ---- Best value -6.59321 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -6.59321
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-8.59045e+00]    (-8.59045e+00)
+
+ ---- Best value -8.59045 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -8.59045
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   50.0000   66.3552   15.2882   50.0000    1.0000    2.0000
+
+phi_settle
+
+alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-2.78636e+00]    (-2.78636e+00)
+
+ ---- Best value -2.78636 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -2.78636
+phi_conv
+
+ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.2               [-8.59045e+00]    (-8.59045e+00)
+
+ ---- Best value -8.59045 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -8.59045
+phi_ov
+
+alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-4.68908e+00]    (-4.68908e+00)
+
+ ---- Best value -4.68908 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -4.68908
+phi_spike
+
+alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-6.81517e+00]    (-6.81517e+00)
+
+ ---- Best value -6.81517 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -6.81517
+max+spec_count 
+     0
+
+maximum weight is 
+     0
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 3
+*******************************************
+Elapsed time is 4545.712307 seconds.
+time taken
+------------------ITERATION
+    35
+
+----------------------------
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-1.74356e+01]    (-1.74356e+01)
+
+ ---- Best value -17.4356 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -17.4356
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-3.82849e+01]    (-3.82849e+01)
+
+ ---- Best value -38.2849 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -38.2849
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-1.03851e+01]    (-1.03851e+01)
+
+ ---- Best value -10.3851 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -10.3851
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-8.51522e+00]    (-8.51522e+00)
+
+ ---- Best value -8.51522 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -8.51522
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-9.39295e+00]    (-9.39295e+00)
+
+ ---- Best value -9.39295 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -9.39295
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   50.0000   66.3552    0.3914   50.0000    1.0000    2.0000
+
+phi_settle
+
+alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-2.76047e+00]    (-2.76047e+00)
+
+ ---- Best value -2.76047 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -2.76047
+phi_conv
+
+ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-9.39295e+00]    (-9.39295e+00)
+
+ ---- Best value -9.39295 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -9.39295
+phi_ov
+
+alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.2               [-8.32295e+00]    (-8.32295e+00)
+
+ ---- Best value -8.32295 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -8.32295
+phi_spike
+
+alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-6.13151e+00]    (-6.13151e+00)
+
+ ---- Best value -6.13151 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -6.13151
+max+spec_count 
+     0
+
+maximum weight is 
+     0
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 1
+*******************************************
+Elapsed time is 4931.978317 seconds.
+time taken
+------------------ITERATION
+    39
+
+----------------------------
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-7.38737e+02]    (-7.38737e+02)
+
+ ---- Best value -738.737 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -738.737
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-9.79635e-01]    (-9.79635e-01)
+
+ ---- Best value -0.979635 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.979635
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-2.15077e-01]    (-2.15077e-01)
+
+ ---- Best value -0.215077 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.215077
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-1.03389e-01]    (-1.03389e-01)
+
+ ---- Best value -0.103389 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.103389
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-9.10011e-02]    (-9.10011e-02)
+
+ ---- Best value -0.0910011 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0910011
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-9.09719e-02]    (-9.09719e-02)
+
+ ---- Best value -0.0909719 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909719
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   1.0e+03 *
+
+    3.9813    0.0664    0.0004    0.0500    0.0010    0.0020
+
+phi_settle
+
+alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        8.4               [+1.30986e-02]    (+4.33569e-04)
+        17                       13.6               [-5.97518e-04]    (-5.97518e-04)
+
+ ---- Best value -0.000597518 found with
+        theta2md_u0 = 0.94375
+        theta3md_u0 = 0.981481
+
+Falsified with obj = -0.000597518
+phi_conv
+
+ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        2.4               [-1.97673e-04]    (-1.97673e-04)
+
+ ---- Best value -0.000197673 found with
+        theta2md_u0 = 1
+        theta3md_u0 = 1
+
+Falsified with obj = -0.000197673
+phi_ov
+
+alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-9.71915e-04]    (-9.71915e-04)
+
+ ---- Best value -0.000971915 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.000971915
+phi_spike
+
+alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        2.4               [-2.16968e-02]    (-2.16968e-02)
+
+ ---- Best value -0.0216968 found with
+        theta2md_u0 = 1
+        theta3md_u0 = 1
+
+Falsified with obj = -0.0216968
+max+spec_count 
+     0
+
+maximum weight is 
+     0
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 1
+*******************************************
+Elapsed time is 5396.032476 seconds.
+time taken
+------------------ITERATION
+    44
+
+----------------------------
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-9.02362e+02]    (-9.02362e+02)
+
+ ---- Best value -902.362 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -902.362
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-9.09720e-02]    (-9.09720e-02)
+
+ ---- Best value -0.090972 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.090972
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.5               [-9.09661e-02]    (-9.09661e-02)
+
+ ---- Best value -0.0909661 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909661
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   1.0e+04 *
+
+    2.2932    0.0066    0.0000    0.0050    0.0001    0.0002
+
+phi_settle
+
+alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         8                        7.0               [-3.07972e-04]    (-3.07972e-04)
+
+ ---- Best value -0.000307972 found with
+        theta2md_u0 = 0.9625
+        theta3md_u0 = 0.977778
+
+Falsified with obj = -0.000307972
+phi_conv
+
+ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        2.4               [-2.24116e-03]    (-2.24116e-03)
+
+ ---- Best value -0.00224116 found with
+        theta2md_u0 = 1
+        theta3md_u0 = 1
+
+Falsified with obj = -0.00224116
+phi_ov
+
+alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.5               [-9.66128e-04]    (-9.66128e-04)
+
+ ---- Best value -0.000966128 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.000966128
+phi_spike
+
+alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        2.3               [-2.15730e-02]    (-2.15730e-02)
+
+ ---- Best value -0.021573 found with
+        theta2md_u0 = 1
+        theta3md_u0 = 1
+
+Falsified with obj = -0.021573
+max+spec_count 
+     0
+
+maximum weight is 
+     0
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 1
+*******************************************
+Elapsed time is 5656.034273 seconds.
+time taken
+------------------ITERATION
+    46
+
+----------------------------
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-1.20045e-01]    (-1.20045e-01)
+
+ ---- Best value -0.120045 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.120045
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-9.09611e-02]    (-9.09611e-02)
+
+ ---- Best value -0.0909611 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909611
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-9.10322e-02]    (-9.10322e-02)
+
+ ---- Best value -0.0910322 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0910322
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+  144.5000   66.3552    0.3914   50.0000    1.0000    2.0000
+
+phi_settle
+
+alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        7.7               [+3.61568e-02]    (+3.19952e-02)
+        20                       14.8               [+3.30552e-02]    (+3.19952e-02)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       22.1               [+3.22031e-02]    (+3.19952e-02)
+        40                       29.2               [+3.20528e-02]    (+3.17857e-02)
+        50                       36.2               [+3.18790e-02]    (+3.17857e-02)
+        60                       43.2               [+3.17379e-02]    (+3.17379e-02)
+        70                       50.2               [+3.18196e-02]    (+3.17379e-02)
+        80                       57.1               [+3.20706e-02]    (+3.17379e-02)
+        90                       64.2               [+3.19052e-02]    (+3.17379e-02)
+       100                       71.2               [+3.17409e-02]    (+3.17373e-02)
+
+ ---- Best value 0.0317373 found with
+        theta2md_u0 = 0.999992
+        theta3md_u0 = 0.999314
+
+No falsifying trace found.
+phi_conv
+
+ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        2.2               [-1.97302e-03]    (-1.97302e-03)
+
+ ---- Best value -0.00197302 found with
+        theta2md_u0 = 1
+        theta3md_u0 = 1
+
+Falsified with obj = -0.00197302
+phi_ov
+
+alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.2               [-1.03221e-03]    (-1.03221e-03)
+
+ ---- Best value -0.00103221 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.00103221
+phi_spike
+
+alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        2.2               [-2.03640e-02]    (-2.03640e-02)
+
+ ---- Best value -0.020364 found with
+        theta2md_u0 = 1
+        theta3md_u0 = 1
+
+Falsified with obj = -0.020364
+pval_best
+max+spec_count 
+     1
+
+maximum weight is 
+     1
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 1
+*******************************************
+Elapsed time is 5979.086543 seconds.
+time taken
+------------------ITERATION
+    48
+
+----------------------------
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-9.09356e-02]    (-9.09356e-02)
+
+ ---- Best value -0.0909356 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909356
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-9.10877e-02]    (-9.10877e-02)
+
+ ---- Best value -0.0910877 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0910877
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+  245.6500   66.3552    0.3914   50.0000    1.0000    2.0000
+
+phi_settle
+
+alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        7.8               [+1.07125e-02]    (+4.82964e-03)
+        20                       14.7               [+6.51117e-03]    (+4.82964e-03)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       21.9               [+3.86338e-03]    (+3.86338e-03)
+        40                       28.9               [+4.86916e-03]    (+3.84729e-03)
+        50                       36.0               [+3.84265e-03]    (+3.84265e-03)
+        60                       42.9               [+3.84431e-03]    (+3.84246e-03)
+        70                       50.0               [+5.07233e-03]    (+3.84246e-03)
+        80                       57.0               [+4.98475e-03]    (+3.84246e-03)
+        90                       64.0               [+3.84936e-03]    (+3.84246e-03)
+       100                       70.9               [+5.10586e-03]    (+3.84246e-03)
+
+ ---- Best value 0.00384246 found with
+        theta2md_u0 = 0.999554
+        theta3md_u0 = 0.9995
+
+No falsifying trace found.
+phi_conv
+
+ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        2.2               [-2.39017e-03]    (-2.39017e-03)
+
+ ---- Best value -0.00239017 found with
+        theta2md_u0 = 1
+        theta3md_u0 = 1
+
+Falsified with obj = -0.00239017
+phi_ov
+
+alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.2               [-1.08769e-03]    (-1.08769e-03)
+
+ ---- Best value -0.00108769 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.00108769
+phi_spike
+
+alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        2.3               [-2.16650e-02]    (-2.16650e-02)
+
+ ---- Best value -0.021665 found with
+        theta2md_u0 = 1
+        theta3md_u0 = 1
+
+Falsified with obj = -0.021665
+max+spec_count 
+     1
+
+maximum weight is 
+     1
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 1
+*******************************************
+Elapsed time is 6233.265810 seconds.
+time taken
+------------------ITERATION
+    49
+
+----------------------------
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.4               [-9.09537e-02]    (-9.09537e-02)
+
+ ---- Best value -0.0909537 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0909537
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.6               [-9.11798e-02]    (-9.11798e-02)
+
+ ---- Best value -0.0911798 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0911798
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+  417.6050   66.3552    0.3914   50.0000    1.0000    2.0000
+
+phi_settle
+
+alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        7.8               [+1.46693e-02]    (+1.44001e-03)
+        20                       14.7               [+4.80227e-03]    (+1.44001e-03)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       21.8               [+6.55431e-04]    (+4.78449e-04)
+        40                       28.8               [+4.36698e-04]    (+1.22973e-04)
+        50                       35.8               [+9.63199e-04]    (+1.22973e-04)
+        60                       42.8               [+8.27353e-04]    (+1.22973e-04)
+        70                       49.8               [+6.37824e-04]    (+1.22973e-04)
+        80                       56.8               [+9.79529e-04]    (+1.22973e-04)
+        90                       63.8               [+1.53312e-03]    (+1.22973e-04)
+       100                       70.8               [+3.90174e-04]    (+8.68799e-05)
+
+ ---- Best value 8.68799e-05 found with
+        theta2md_u0 = 0.965303
+        theta3md_u0 = 0.980719
+
+No falsifying trace found.
+phi_conv
+
+ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        2.2               [-2.34322e-03]    (-2.34322e-03)
+
+ ---- Best value -0.00234322 found with
+        theta2md_u0 = 1
+        theta3md_u0 = 1
+
+Falsified with obj = -0.00234322
+phi_ov
+
+alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-1.17984e-03]    (-1.17984e-03)
+
+ ---- Best value -0.00117984 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.00117984
+phi_spike
+
+alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        2.3               [-2.23792e-02]    (-2.23792e-02)
+
+ ---- Best value -0.0223792 found with
+        theta2md_u0 = 1
+        theta3md_u0 = 1
+
+Falsified with obj = -0.0223792
+max+spec_count 
+     1
+
+maximum weight is 
+     1
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 4
+*******************************************
+Elapsed time is 6488.210018 seconds.
+time taken
+------------------ITERATION
+    50
+
+----------------------------
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-1.39256e-01]    (-1.39256e-01)
+
+ ---- Best value -0.139256 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.139256
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-9.03224e-02]    (-9.03224e-02)
+
+ ---- Best value -0.0903224 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0903224
+
+(alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))) and ((ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))) and ((alw (((theta2m[t] < al*theta2md[t])) and ((theta3m[t] < al*theta3md[t])))) and (alw ((not ((((theta2m[t+dt2]-theta2m[t])*10 > m)) and (ev_[0,tau3] (((theta2m[t+dt2]-theta2m[t])*10 < -1*m))))) and (not ((((theta3m[t+dt2]-theta3m[t])*10 > m)) and (ev_[0,tau3] (((theta3m[t+dt2]-theta3m[t])*10 < -1*m)))))))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-9.00398e-02]    (-9.00398e-02)
+
+ ---- Best value -0.0900398 found with
+        theta2md_u0 = 0.9
+        theta3md_u0 = 0.9
+
+Falsified with obj = -0.0900398
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+  417.6050   66.3552    0.3914  144.5000    1.0000    2.0000
+
+phi_settle
+
+alw_[4,20] (((abs(theta2m[t+dt]-theta2m[t]) < epsi1)) and ((abs(theta3m[t+dt]-theta3m[t]) < epsi1)))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        7.8               [+3.68308e-03]    (+2.79968e-04)
+        20                       14.8               [+7.65164e-04]    (+2.79968e-04)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        25                       18.8               [-2.68324e-04]    (-2.68324e-04)
+
+ ---- Best value -0.000268324 found with
+        theta2md_u0 = 0.999942
+        theta3md_u0 = 0.999996
+
+Falsified with obj = -0.000268324
+phi_conv
+
+ev_[0,tau2] (alw (((abs(theta2m[t]-theta2md[t]) < epsi2)) and ((abs(theta3m[t]-theta3md[t]) < epsi2))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        8.3               [+6.10152e-02]    (+5.34705e-02)
+        20                       16.4               [+5.75078e-02]    (+5.34705e-02)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       24.6               [+5.34201e-02]    (+5.34201e-02)
+        40                       32.8               [+5.34729e-02]    (+5.34201e-02)
+{Operation terminated by user during Simulink.sdi.DatasetStorage/fullFlushIfNeeded
+
+
+In Simulink.sdi.DatasetStorage/numElements
+
+In Simulink.SimulationData.Dataset/numElements
+
+In Simulink.SimulationData.Dataset/getElementNames
+
+In Simulink.SimulationData.Dataset/subsref
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('BreachSimulinkSystem/GetXFrom_simout', '/home/nikhil/home/CSyn/breach/Core/BreachSimulinkSystem.m', 875)" style="font-weight:bold">BreachSimulinkSystem/GetXFrom_simout</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/breach/Core/BreachSimulinkSystem.m',875,0)">line 875</a>)
+                logs_names = logs.getElementNames();
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('BreachSimulinkSystem/sim_breach', '/home/nikhil/home/CSyn/breach/Core/BreachSimulinkSystem.m', 800)" style="font-weight:bold">BreachSimulinkSystem/sim_breach</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/breach/Core/BreachSimulinkSystem.m',800,0)">line 800</a>)
+                    [tout, X] = GetXFrom_simout(this, simout);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('BreachSimulinkSystem>@(Sys,pts,tspan)this.sim_breach(Sys,pts,tspan)', '/home/nikhil/home/CSyn/breach/Core/BreachSimulinkSystem.m', 504)" style="font-weight:bold">BreachSimulinkSystem>@(Sys,pts,tspan)this.sim_breach(Sys,pts,tspan)</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/breach/Core/BreachSimulinkSystem.m',504,0)">line 504</a>)
+            Sys.sim = @(Sys, pts, tspan) this.sim_breach(Sys,pts, tspan);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ComputeTraj>task_sim', '/home/nikhil/home/CSyn/breach/Core/ComputeTraj.m', 350)" style="font-weight:bold">ComputeTraj>task_sim</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/breach/Core/ComputeTraj.m',350,0)">line 350</a>)
+    [traj.time, traj.X,traj.status] = Sys.sim(Sys, tspan, P0.pts(:,ii));
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ComputeTraj', '/home/nikhil/home/CSyn/breach/Core/ComputeTraj.m', 256)" style="font-weight:bold">ComputeTraj</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/breach/Core/ComputeTraj.m',256,0)">line 256</a>)
+                trajs{ii} = task_sim(Sys, P0, tspan, ii);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('BreachOpenSystem/Sim', '/home/nikhil/home/CSyn/breach/Core/BreachOpenSystem.m', 69)" style="font-weight:bold">BreachOpenSystem/Sim</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/breach/Core/BreachOpenSystem.m',69,0)">line 69</a>)
+            this.P = ComputeTraj(Sys, this.P, tspan);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('BreachSimulinkSystem/Sim', '/home/nikhil/home/CSyn/breach/Core/BreachSimulinkSystem.m', 714)" style="font-weight:bold">BreachSimulinkSystem/Sim</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/breach/Core/BreachSimulinkSystem.m',714,0)">line 714</a>)
+                    Sim@BreachOpenSystem(this);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('BreachRequirement/getBrSet', '/home/nikhil/home/CSyn/breach/Core/BreachRequirement.m', 991)" style="font-weight:bold">BreachRequirement/getBrSet</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/breach/Core/BreachRequirement.m',991,0)">line 991</a>)
+            B.Sim();
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('BreachRequirement/evalAllTraces', '/home/nikhil/home/CSyn/breach/Core/BreachRequirement.m', 169)" style="font-weight:bold">BreachRequirement/evalAllTraces</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/breach/Core/BreachRequirement.m',169,0)">line 169</a>)
+            this.getBrSet(varargin{:});
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('BreachRequirement/Eval', '/home/nikhil/home/CSyn/breach/Core/BreachRequirement.m', 159)" style="font-weight:bold">BreachRequirement/Eval</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/breach/Core/BreachRequirement.m',159,0)">line 159</a>)
+            [traces_vals, traces_vals_precond] = this.evalAllTraces(varargin{:});
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('BreachProblem>@(x)(this.Spec.Eval(this.BrSys,this.params,x))', '/home/nikhil/home/CSyn/breach/Core/Algos/@BreachProblem/BreachProblem.m', 252)" style="font-weight:bold">BreachProblem>@(x)(this.Spec.Eval(this.BrSys,this.params,x))</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/breach/Core/Algos/@BreachProblem/BreachProblem.m',252,0)">line 252</a>)
+            this.robust_fn = @(x) (this.Spec.Eval(this.BrSys, this.params, x));
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('FalsificationProblem/objective_fn', '/home/nikhil/home/CSyn/breach/Core/Algos/FalsificationProblem.m', 76)" style="font-weight:bold">FalsificationProblem/objective_fn</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/breach/Core/Algos/FalsificationProblem.m',76,0)">line 76</a>)
+            this.robust_fn(x);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('BreachProblem>@(isample)this.objective_fn(x(:,isample))', '/home/nikhil/home/CSyn/breach/Core/Algos/@BreachProblem/BreachProblem.m', 640)" style="font-weight:bold">BreachProblem>@(isample)this.objective_fn(x(:,isample))</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/breach/Core/Algos/@BreachProblem/BreachProblem.m',640,0)">line 640</a>)
+            fun = @(isample) this.objective_fn(x(:, isample));
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('BreachProblem/objective_wrapper', '/home/nikhil/home/CSyn/breach/Core/Algos/@BreachProblem/BreachProblem.m', 661)" style="font-weight:bold">BreachProblem/objective_wrapper</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/breach/Core/Algos/@BreachProblem/BreachProblem.m',661,0)">line 661</a>)
+                            fval(:,iter) = fun(iter);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('BreachProblem>@(x)(objective_wrapper(this,x))', '/home/nikhil/home/CSyn/breach/Core/Algos/@BreachProblem/BreachProblem.m', 255)" style="font-weight:bold">BreachProblem>@(x)(objective_wrapper(this,x))</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/breach/Core/Algos/@BreachProblem/BreachProblem.m',255,0)">line 255</a>)
+            this.objective = @(x) (objective_wrapper(this,x));
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('BreachProblem/solve_global_nelder_mead>@(x)(min(this.objective(x),[],1))', '/home/nikhil/home/CSyn/breach/Core/Algos/@BreachProblem/solve_global_nelder_mead.m', 20)" style="font-weight:bold">BreachProblem/solve_global_nelder_mead>@(x)(min(this.objective(x),[],1))</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/breach/Core/Algos/@BreachProblem/solve_global_nelder_mead.m',20,0)">line 20</a>)
+    fun_obj = @(x)(min(this.objective(x),[],1)); % for multi-objective support
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('optimize/funfncP', '/home/nikhil/home/CSyn/breach/Ext/Toolboxes/optimize/optimize.m', 614)" style="font-weight:bold">optimize/funfncP</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/breach/Ext/Toolboxes/optimize/optimize.m',614,0)">line 614</a>)
+            obj_fval = funfcn(x_new, varargin{:});
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('optimize>@(x)funfncP(X(x),varargin{:})', '/home/nikhil/home/CSyn/breach/Ext/Toolboxes/optimize/optimize.m', 395)" style="font-weight:bold">optimize>@(x)funfncP(X(x),varargin{:})</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/breach/Ext/Toolboxes/optimize/optimize.m',395,0)">line 395</a>)
+    funfncT = @(x) funfncP(X(x), varargin{:});
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('optimize/NelderMead', '/home/nikhil/home/CSyn/breach/Ext/Toolboxes/optimize/optimize.m', 944)" style="font-weight:bold">optimize/NelderMead</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/breach/Ext/Toolboxes/optimize/optimize.m',944,0)">line 944</a>)
+                fc = funfcn(xc);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('optimize', '/home/nikhil/home/CSyn/breach/Ext/Toolboxes/optimize/optimize.m', 404)" style="font-weight:bold">optimize</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/breach/Ext/Toolboxes/optimize/optimize.m',404,0)">line 404</a>)
+            [presol, fval, exitflag, output] = NelderMead(funfncT, xin, options, varargin{:});
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('BreachProblem/solve_global_nelder_mead', '/home/nikhil/home/CSyn/breach/Core/Algos/@BreachProblem/solve_global_nelder_mead.m', 62)" style="font-weight:bold">BreachProblem/solve_global_nelder_mead</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/breach/Core/Algos/@BreachProblem/solve_global_nelder_mead.m',62,0)">line 62</a>)
+                [x, fval, exitflag, output] = optimize(...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('BreachProblem/solve', '/home/nikhil/home/CSyn/breach/Core/Algos/@BreachProblem/BreachProblem.m', 396)" style="font-weight:bold">BreachProblem/solve</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/breach/Core/Algos/@BreachProblem/BreachProblem.m',396,0)">line 396</a>)
+                    res = this.solve_global_nelder_mead();
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('FalsificationProblem/solve', '/home/nikhil/home/CSyn/breach/Core/Algos/FalsificationProblem.m', 96)" style="font-weight:bold">FalsificationProblem/solve</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/breach/Core/Algos/FalsificationProblem.m',96,0)">line 96</a>)
+            res = solve@BreachProblem(this);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('init_robotarm', '/home/nikhil/home/CSyn/src/init_robotarm.m', 108)" style="font-weight:bold">init_robotarm</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/src/init_robotarm.m',108,0)">line 108</a>)
+    falsif_pb.solve();
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('maximal_specifications', '/home/nikhil/home/CSyn/src/maximal_specifications.m', 357)" style="font-weight:bold">maximal_specifications</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/src/maximal_specifications.m',357,0)">line 357</a>)
+                 [phi,rob,BrFalse]=init_robotarm('RobotArm_Full',specno,1);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_script_random', '/home/nikhil/home/CSyn/main_script_random.m', 409)" style="font-weight:bold">main_script_random</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/main_script_random.m',409,0)">line 409</a>)
+     [max_spec_count,pval_best,max_wt]=maximal_specifications(modelno,pval,max_spec_count,pval_best,max_wt);
+} 
+simulated_annealing

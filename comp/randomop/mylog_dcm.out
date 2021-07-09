@@ -1,0 +1,1502 @@
+$$$$$$ default value $$$$$$$
+   20.0000   50.0000    1.6500
+
+Elapsed time is 30.171399 seconds.
+initialisation time
+Elapsed time is 0.000669 seconds.
+time taken
+------------------ITERATION
+     1
+
+----------------------------
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         4                        3.0               [-8.78038e-03]    (-8.78038e-03)
+
+ ---- Best value -0.00878038 found with
+        Voltage_u0 = 0.8
+        Voltage_u1 = 1
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.00878038
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        1.8               [-1.40519e-01]    (-1.40519e-01)
+
+ ---- Best value -0.140519 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 1
+        Voltage_u2 = 1
+
+Falsified with obj = -0.140519
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         4                        2.8               [-7.26098e-03]    (-7.26098e-03)
+
+ ---- Best value -0.00726098 found with
+        Voltage_u0 = 0.8
+        Voltage_u1 = 1
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.00726098
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         4                        2.7               [-3.89093e-03]    (-3.89093e-03)
+
+ ---- Best value -0.00389093 found with
+        Voltage_u0 = 0.8
+        Voltage_u1 = 1
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.00389093
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         4                        2.8               [-1.48122e-03]    (-1.48122e-03)
+
+ ---- Best value -0.00148122 found with
+        Voltage_u0 = 0.8
+        Voltage_u1 = 1
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.00148122
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         3                        2.4               [-2.92342e-04]    (-2.92342e-04)
+
+ ---- Best value -0.000292342 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 0.8
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.000292342
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         3                        2.3               [-9.90167e-04]    (-9.90167e-04)
+
+ ---- Best value -0.000990167 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 0.8
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.000990167
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   20.0000    0.7812    1.6500
+
+phi_settle
+falsify
+
+alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         3                        2.3               [-9.90167e-04]    (-9.90167e-04)
+
+ ---- Best value -0.000990167 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 0.8
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.000990167
+phi_ov
+falsify
+
+alw ((speed[t] < al))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        5.3               [+4.64804e-01]    (+4.04736e-01)
+        20                        9.6               [+4.52765e-01]    (+4.04736e-01)
+        30                       13.8               [+4.40167e-01]    (+4.04736e-01)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        40                       18.0               [+4.04742e-01]    (+4.04736e-01)
+        50                       22.5               [+4.04738e-01]    (+4.04736e-01)
+        60                       26.6               [+4.04736e-01]    (+4.04736e-01)
+        70                       30.8               [+4.04736e-01]    (+4.04736e-01)
+        80                       35.1               [+4.04736e-01]    (+4.04736e-01)
+        90                       39.2               [+4.04736e-01]    (+4.04736e-01)
+       100                       43.4               [+4.04736e-01]    (+4.04736e-01)
+
+ ---- Best value 0.404736 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 1
+        Voltage_u2 = 1
+
+No falsifying trace found.
+phi_spike
+falsify
+
+alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        5.4               [+1.80082e-01]    (+7.73019e-02)
+        20                        9.7               [+4.06070e-01]    (+7.73019e-02)
+        30                       14.3               [+4.57340e-01]    (+7.73019e-02)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        40                       18.9               [+7.74671e-02]    (+7.73019e-02)
+        50                       23.1               [+7.73417e-02]    (+7.73019e-02)
+        60                       27.4               [+7.73028e-02]    (+7.73019e-02)
+        70                       31.7               [+7.73020e-02]    (+7.73019e-02)
+        80                       36.0               [+7.73019e-02]    (+7.73019e-02)
+        90                       40.2               [+7.73019e-02]    (+7.73019e-02)
+       100                       44.5               [+7.73019e-02]    (+7.73019e-02)
+
+ ---- Best value 0.0773019 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 1
+        Voltage_u2 = 0.8
+
+No falsifying trace found.
+pval_best
+max+spec_count 
+     2
+
+maximum weight is 
+     9
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 272.131683 seconds.
+time taken
+------------------ITERATION
+     7
+
+----------------------------
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         3                        2.4               [-1.35496e-03]    (-1.35496e-03)
+
+ ---- Best value -0.00135496 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 0.8
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.00135496
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         3                        2.3               [-6.35966e-04]    (-6.35966e-04)
+
+ ---- Best value -0.000635966 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 0.8
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.000635966
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         3                        2.4               [-1.24413e-04]    (-1.24413e-04)
+
+ ---- Best value -0.000124413 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 0.8
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.000124413
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         4                        2.7               [-1.05437e-03]    (-1.05437e-03)
+
+ ---- Best value -0.00105437 found with
+        Voltage_u0 = 0.8
+        Voltage_u1 = 1
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.00105437
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   20.0000    2.6367    1.6500
+
+phi_settle
+falsify
+
+alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         4                        2.7               [-1.05437e-03]    (-1.05437e-03)
+
+ ---- Best value -0.00105437 found with
+        Voltage_u0 = 0.8
+        Voltage_u1 = 1
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.00105437
+phi_ov
+falsify
+
+alw ((speed[t] < al))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        5.2               [+3.52447e-01]    (+2.82124e-01)
+        20                        9.5               [+3.38327e-01]    (+2.82124e-01)
+        30                       13.6               [+3.23131e-01]    (+2.82124e-01)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        40                       17.9               [+2.82131e-01]    (+2.82124e-01)
+        50                       22.1               [+2.82127e-01]    (+2.82124e-01)
+        60                       26.3               [+2.82124e-01]    (+2.82124e-01)
+        70                       30.5               [+2.82124e-01]    (+2.82124e-01)
+        80                       34.6               [+2.82124e-01]    (+2.82124e-01)
+        90                       38.8               [+2.82124e-01]    (+2.82124e-01)
+       100                       42.9               [+2.82124e-01]    (+2.82124e-01)
+
+ ---- Best value 0.282124 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 1
+        Voltage_u2 = 1
+
+No falsifying trace found.
+phi_spike
+falsify
+
+alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        5.3               [+1.95234e-01]    (+8.84033e-02)
+        20                        9.6               [+4.24396e-01]    (+8.84033e-02)
+        30                       13.8               [+4.72814e-01]    (+8.84033e-02)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        40                       18.1               [+8.85674e-02]    (+8.84033e-02)
+        50                       22.4               [+8.84430e-02]    (+8.84033e-02)
+        60                       26.5               [+8.84043e-02]    (+8.84033e-02)
+        70                       30.7               [+8.84035e-02]    (+8.84033e-02)
+        80                       35.1               [+8.84033e-02]    (+8.84033e-02)
+        90                       39.3               [+8.84033e-02]    (+8.84033e-02)
+       100                       43.5               [+8.84033e-02]    (+8.84033e-02)
+
+ ---- Best value 0.0884033 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 1
+        Voltage_u2 = 0.8
+
+No falsifying trace found.
+max+spec_count 
+     2
+
+maximum weight is 
+     9
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 473.216327 seconds.
+time taken
+------------------ITERATION
+    10
+
+----------------------------
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         3                        2.3               [-5.05943e-04]    (-5.05943e-04)
+
+ ---- Best value -0.000505943 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 0.8
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.000505943
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         4                        2.8               [-2.17505e-03]    (-2.17505e-03)
+
+ ---- Best value -0.00217505 found with
+        Voltage_u0 = 0.8
+        Voltage_u1 = 1
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.00217505
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         3                        2.3               [-1.10303e-03]    (-1.10303e-03)
+
+ ---- Best value -0.00110303 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 0.8
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.00110303
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   20.0000    0.6592    1.6500
+
+phi_settle
+falsify
+
+alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         3                        2.2               [-1.10303e-03]    (-1.10303e-03)
+
+ ---- Best value -0.00110303 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 0.8
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.00110303
+phi_ov
+falsify
+
+alw ((speed[t] < al))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        5.2               [+4.74893e-01]    (+4.15765e-01)
+        20                        9.4               [+4.63046e-01]    (+4.15765e-01)
+        30                       13.6               [+4.50709e-01]    (+4.15765e-01)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        40                       17.7               [+4.15770e-01]    (+4.15765e-01)
+        50                       21.9               [+4.15767e-01]    (+4.15765e-01)
+        60                       26.0               [+4.15765e-01]    (+4.15765e-01)
+        70                       31.1               [+4.15765e-01]    (+4.15765e-01)
+        80                       35.3               [+4.15765e-01]    (+4.15765e-01)
+        90                       39.3               [+4.15765e-01]    (+4.15765e-01)
+       100                       43.4               [+4.15765e-01]    (+4.15765e-01)
+
+ ---- Best value 0.415765 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 1
+        Voltage_u2 = 1
+
+No falsifying trace found.
+phi_spike
+falsify
+
+alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        5.3               [+1.79009e-01]    (+7.64208e-02)
+        20                        9.5               [+4.04782e-01]    (+7.64208e-02)
+        30                       13.8               [+4.56158e-01]    (+7.64208e-02)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        40                       17.9               [+7.65861e-02]    (+7.64208e-02)
+        50                       22.2               [+7.64605e-02]    (+7.64208e-02)
+        60                       26.3               [+7.64217e-02]    (+7.64208e-02)
+        70                       30.5               [+7.64208e-02]    (+7.64208e-02)
+        80                       34.7               [+7.64208e-02]    (+7.64208e-02)
+        90                       38.9               [+7.64208e-02]    (+7.64208e-02)
+       100                       43.1               [+7.64208e-02]    (+7.64208e-02)
+
+ ---- Best value 0.0764208 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 1
+        Voltage_u2 = 0.8
+
+No falsifying trace found.
+max+spec_count 
+     2
+
+maximum weight is 
+     9
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 650.747142 seconds.
+time taken
+------------------ITERATION
+    12
+
+----------------------------
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         3                        2.4               [-1.41291e-03]    (-1.41291e-03)
+
+ ---- Best value -0.00141291 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 0.8
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.00141291
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         3                        2.3               [-8.00702e-04]    (-8.00702e-04)
+
+ ---- Best value -0.000800702 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 0.8
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.000800702
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         3                        2.4               [-3.61343e-04]    (-3.61343e-04)
+
+ ---- Best value -0.000361343 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 0.8
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.000361343
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         4                        2.8               [-1.09523e-03]    (-1.09523e-03)
+
+ ---- Best value -0.00109523 found with
+        Voltage_u0 = 0.8
+        Voltage_u1 = 1
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.00109523
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   20.0000    2.2247    1.6500
+
+phi_settle
+falsify
+
+alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         4                        2.6               [-1.09523e-03]    (-1.09523e-03)
+
+ ---- Best value -0.00109523 found with
+        Voltage_u0 = 0.8
+        Voltage_u1 = 1
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.00109523
+phi_ov
+falsify
+
+alw ((speed[t] < al))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        5.2               [+3.71766e-01]    (+3.03172e-01)
+        20                        9.3               [+3.57996e-01]    (+3.03172e-01)
+        30                       13.3               [+3.43196e-01]    (+3.03172e-01)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        40                       17.5               [+3.03179e-01]    (+3.03172e-01)
+        50                       21.5               [+3.03175e-01]    (+3.03172e-01)
+        60                       25.7               [+3.03172e-01]    (+3.03172e-01)
+        70                       29.8               [+3.03172e-01]    (+3.03172e-01)
+        80                       34.0               [+3.03172e-01]    (+3.03172e-01)
+        90                       38.1               [+3.03172e-01]    (+3.03172e-01)
+       100                       42.2               [+3.03172e-01]    (+3.03172e-01)
+
+ ---- Best value 0.303172 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 1
+        Voltage_u2 = 1
+
+No falsifying trace found.
+phi_spike
+falsify
+
+alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        5.3               [+1.92056e-01]    (+8.62951e-02)
+        20                        9.5               [+4.20526e-01]    (+8.62951e-02)
+        30                       13.7               [+4.69768e-01]    (+8.62951e-02)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        40                       18.0               [+8.64594e-02]    (+8.62951e-02)
+        50                       22.3               [+8.63347e-02]    (+8.62951e-02)
+        60                       26.5               [+8.62961e-02]    (+8.62951e-02)
+        70                       30.7               [+8.62953e-02]    (+8.62951e-02)
+        80                       35.0               [+8.62951e-02]    (+8.62951e-02)
+        90                       39.2               [+8.62951e-02]    (+8.62951e-02)
+       100                       43.4               [+8.62951e-02]    (+8.62951e-02)
+
+ ---- Best value 0.0862951 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 1
+        Voltage_u2 = 0.8
+
+No falsifying trace found.
+max+spec_count 
+     2
+
+maximum weight is 
+     9
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 850.070315 seconds.
+time taken
+------------------ITERATION
+    15
+
+----------------------------
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         3                        2.3               [-6.89322e-04]    (-6.89322e-04)
+
+ ---- Best value -0.000689322 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 0.8
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.000689322
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         4                        2.8               [-1.66222e-03]    (-1.66222e-03)
+
+ ---- Best value -0.00166222 found with
+        Voltage_u0 = 0.8
+        Voltage_u1 = 1
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.00166222
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         3                        2.3               [-1.19906e-03]    (-1.19906e-03)
+
+ ---- Best value -0.00119906 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 0.8
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.00119906
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   20.0000    0.5562    1.6500
+
+phi_settle
+falsify
+
+alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         3                        2.3               [-1.19906e-03]    (-1.19906e-03)
+
+ ---- Best value -0.00119906 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 0.8
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.00119906
+phi_ov
+falsify
+
+alw ((speed[t] < al))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        5.2               [+4.83724e-01]    (+4.25419e-01)
+        20                        9.4               [+4.72045e-01]    (+4.25419e-01)
+        30                       13.4               [+4.59939e-01]    (+4.25419e-01)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        40                       17.6               [+4.25425e-01]    (+4.25419e-01)
+        50                       21.8               [+4.25422e-01]    (+4.25419e-01)
+        60                       26.0               [+4.25420e-01]    (+4.25419e-01)
+        70                       30.2               [+4.25420e-01]    (+4.25419e-01)
+        80                       34.9               [+4.25420e-01]    (+4.25419e-01)
+        90                       40.1               [+4.25420e-01]    (+4.25419e-01)
+       100                       44.2               [+4.25420e-01]    (+4.25419e-01)
+
+ ---- Best value 0.425419 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 1
+        Voltage_u2 = 1
+
+No falsifying trace found.
+phi_spike
+falsify
+
+alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        5.3               [+1.78097e-01]    (+7.56621e-02)
+        20                       10.3               [+4.03688e-01]    (+7.56621e-02)
+        30                       14.6               [+4.55144e-01]    (+7.56621e-02)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        40                       18.8               [+7.58275e-02]    (+7.56621e-02)
+        50                       23.4               [+7.57019e-02]    (+7.56621e-02)
+        60                       27.8               [+7.56631e-02]    (+7.56621e-02)
+        70                       32.1               [+7.56622e-02]    (+7.56621e-02)
+        80                       36.3               [+7.56622e-02]    (+7.56621e-02)
+        90                       40.6               [+7.56621e-02]    (+7.56621e-02)
+       100                       44.8               [+7.56621e-02]    (+7.56621e-02)
+
+ ---- Best value 0.0756621 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 1
+        Voltage_u2 = 0.8
+
+No falsifying trace found.
+max+spec_count 
+     2
+
+maximum weight is 
+     9
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 1029.437802 seconds.
+time taken
+------------------ITERATION
+    17
+
+----------------------------
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         3                        2.4               [-1.46202e-03]    (-1.46202e-03)
+
+ ---- Best value -0.00146202 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 0.8
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.00146202
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         3                        2.3               [-9.41483e-04]    (-9.41483e-04)
+
+ ---- Best value -0.000941483 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 0.8
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.000941483
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         3                        2.5               [-5.65176e-04]    (-5.65176e-04)
+
+ ---- Best value -0.000565176 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 0.8
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.000565176
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         3                        2.5               [-2.30984e-05]    (-2.30984e-05)
+
+ ---- Best value -2.30984e-05 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 0.8
+        Voltage_u2 = 0.8
+
+Falsified with obj = -2.30984e-05
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         4                        2.8               [-1.21237e-03]    (-1.21237e-03)
+
+ ---- Best value -0.00121237 found with
+        Voltage_u0 = 0.8
+        Voltage_u1 = 1
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.00121237
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   20.0000    2.8156    1.6500
+
+phi_settle
+falsify
+
+alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         4                        2.8               [-1.21237e-03]    (-1.21237e-03)
+
+ ---- Best value -0.00121237 found with
+        Voltage_u0 = 0.8
+        Voltage_u1 = 1
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.00121237
+phi_ov
+falsify
+
+alw ((speed[t] < al))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        5.2               [+3.44860e-01]    (+2.73862e-01)
+        20                        9.2               [+3.30604e-01]    (+2.73862e-01)
+        30                       13.3               [+3.15260e-01]    (+2.73862e-01)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        40                       17.4               [+2.73870e-01]    (+2.73862e-01)
+        50                       21.5               [+2.73866e-01]    (+2.73862e-01)
+        60                       25.7               [+2.73863e-01]    (+2.73862e-01)
+        70                       29.8               [+2.73862e-01]    (+2.73862e-01)
+        80                       33.8               [+2.73862e-01]    (+2.73862e-01)
+        90                       38.0               [+2.73862e-01]    (+2.73862e-01)
+       100                       42.0               [+2.73862e-01]    (+2.73862e-01)
+
+ ---- Best value 0.273862 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 1
+        Voltage_u2 = 1
+
+No falsifying trace found.
+phi_spike
+falsify
+
+alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        5.3               [+1.96582e-01]    (+8.92586e-02)
+        20                        9.5               [+4.26041e-01]    (+8.92586e-02)
+        30                       13.7               [+4.74071e-01]    (+8.92586e-02)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        40                       18.0               [+8.94226e-02]    (+8.92586e-02)
+        50                       22.3               [+8.92982e-02]    (+8.92586e-02)
+        60                       26.5               [+8.92596e-02]    (+8.92586e-02)
+        70                       30.8               [+8.92588e-02]    (+8.92586e-02)
+        80                       35.0               [+8.92586e-02]    (+8.92586e-02)
+        90                       39.2               [+8.92586e-02]    (+8.92586e-02)
+       100                       43.5               [+8.92586e-02]    (+8.92586e-02)
+
+ ---- Best value 0.0892586 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 1
+        Voltage_u2 = 0.8
+
+No falsifying trace found.
+max+spec_count 
+     2
+
+maximum weight is 
+     9
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 1250.126563 seconds.
+time taken
+------------------ITERATION
+    21
+
+----------------------------
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         3                        2.3               [-4.27182e-04]    (-4.27182e-04)
+
+ ---- Best value -0.000427182 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 0.8
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.000427182
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         4                        2.8               [-2.39097e-03]    (-2.39097e-03)
+
+ ---- Best value -0.00239097 found with
+        Voltage_u0 = 0.8
+        Voltage_u1 = 1
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.00239097
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         3                        2.3               [-1.06156e-03]    (-1.06156e-03)
+
+ ---- Best value -0.00106156 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 0.8
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.00106156
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   20.0000    0.7039    1.6500
+
+phi_settle
+falsify
+
+alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         3                        2.2               [-1.06156e-03]    (-1.06156e-03)
+
+ ---- Best value -0.00106156 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 0.8
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.00106156
+phi_ov
+falsify
+
+alw ((speed[t] < al))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        5.1               [+4.71150e-01]    (+4.11672e-01)
+        20                        9.2               [+4.59231e-01]    (+4.11672e-01)
+        30                       13.2               [+4.46797e-01]    (+4.11672e-01)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        40                       17.3               [+4.11678e-01]    (+4.11672e-01)
+        50                       21.5               [+4.11675e-01]    (+4.11672e-01)
+        60                       25.5               [+4.11672e-01]    (+4.11672e-01)
+        70                       29.7               [+4.11672e-01]    (+4.11672e-01)
+        80                       33.8               [+4.11672e-01]    (+4.11672e-01)
+        90                       37.9               [+4.11672e-01]    (+4.11672e-01)
+       100                       42.0               [+4.11672e-01]    (+4.11672e-01)
+
+ ---- Best value 0.411672 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 1
+        Voltage_u2 = 1
+
+No falsifying trace found.
+phi_spike
+falsify
+
+alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        5.3               [+1.79404e-01]    (+7.67459e-02)
+        20                        9.5               [+4.05255e-01]    (+7.67459e-02)
+        30                       13.7               [+4.56594e-01]    (+7.67459e-02)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        40                       18.0               [+7.69111e-02]    (+7.67459e-02)
+        50                       22.2               [+7.67857e-02]    (+7.67459e-02)
+        60                       26.4               [+7.67468e-02]    (+7.67459e-02)
+        70                       30.6               [+7.67459e-02]    (+7.67459e-02)
+        80                       34.8               [+7.67459e-02]    (+7.67459e-02)
+        90                       39.1               [+7.67459e-02]    (+7.67459e-02)
+       100                       43.3               [+7.67459e-02]    (+7.67459e-02)
+
+ ---- Best value 0.0767459 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 1
+        Voltage_u2 = 0.8
+
+No falsifying trace found.
+max+spec_count 
+     2
+
+maximum weight is 
+     9
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 1425.978535 seconds.
+time taken
+------------------ITERATION
+    23
+
+----------------------------
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         3                        2.3               [-1.39165e-03]    (-1.39165e-03)
+
+ ---- Best value -0.00139165 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 0.8
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.00139165
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         3                        2.4               [-7.40130e-04]    (-7.40130e-04)
+
+ ---- Best value -0.00074013 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 0.8
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.00074013
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         3                        2.3               [-2.73905e-04]    (-2.73905e-04)
+
+ ---- Best value -0.000273905 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 0.8
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.000273905
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         4                        2.9               [-1.00639e-03]    (-1.00639e-03)
+
+ ---- Best value -0.00100639 found with
+        Voltage_u0 = 0.8
+        Voltage_u1 = 1
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.00100639
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   20.0000    2.3757    1.6500
+
+phi_settle
+falsify
+
+alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         4                        2.8               [-1.00639e-03]    (-1.00639e-03)
+
+ ---- Best value -0.00100639 found with
+        Voltage_u0 = 0.8
+        Voltage_u1 = 1
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.00100639
+phi_ov
+falsify
+
+alw ((speed[t] < al))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        5.2               [+3.64373e-01]    (+2.95115e-01)
+        20                        9.3               [+3.50468e-01]    (+2.95115e-01)
+        30                       13.4               [+3.35513e-01]    (+2.95115e-01)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        40                       17.5               [+2.95122e-01]    (+2.95115e-01)
+        50                       21.7               [+2.95118e-01]    (+2.95115e-01)
+        60                       25.9               [+2.95115e-01]    (+2.95115e-01)
+        70                       30.1               [+2.95115e-01]    (+2.95115e-01)
+        80                       34.2               [+2.95115e-01]    (+2.95115e-01)
+        90                       38.3               [+2.95115e-01]    (+2.95115e-01)
+       100                       42.5               [+2.95115e-01]    (+2.95115e-01)
+
+ ---- Best value 0.295115 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 1
+        Voltage_u2 = 1
+
+No falsifying trace found.
+phi_spike
+falsify
+
+alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        5.3               [+1.93233e-01]    (+8.70905e-02)
+        20                        9.5               [+4.21958e-01]    (+8.70905e-02)
+        30                       13.7               [+4.70909e-01]    (+8.70905e-02)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        40                       18.0               [+8.72547e-02]    (+8.70905e-02)
+        50                       22.2               [+8.71301e-02]    (+8.70905e-02)
+        60                       26.5               [+8.70915e-02]    (+8.70905e-02)
+        70                       30.8               [+8.70906e-02]    (+8.70905e-02)
+        80                       34.9               [+8.70905e-02]    (+8.70905e-02)
+        90                       39.2               [+8.70905e-02]    (+8.70905e-02)
+       100                       43.4               [+8.70905e-02]    (+8.70905e-02)
+
+ ---- Best value 0.0870905 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 1
+        Voltage_u2 = 0.8
+
+No falsifying trace found.
+max+spec_count 
+     2
+
+maximum weight is 
+     9
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 1626.068143 seconds.
+time taken
+------------------ITERATION
+    26
+
+----------------------------
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         3                        2.4               [-6.21684e-04]    (-6.21684e-04)
+
+ ---- Best value -0.000621684 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 0.8
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.000621684
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         4                        2.8               [-1.85281e-03]    (-1.85281e-03)
+
+ ---- Best value -0.00185281 found with
+        Voltage_u0 = 0.8
+        Voltage_u1 = 1
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.00185281
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         3                        2.3               [-1.16377e-03]    (-1.16377e-03)
+
+ ---- Best value -0.00116377 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 0.8
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.00116377
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   20.0000    0.5939    1.6500
+
+phi_settle
+falsify
+
+alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         3                        2.3               [-1.16377e-03]    (-1.16377e-03)
+
+ ---- Best value -0.00116377 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 0.8
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.00116377
+phi_ov
+falsify
+
+alw ((speed[t] < al))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        5.2               [+4.80452e-01]    (+4.21842e-01)
+        20                        9.4               [+4.68711e-01]    (+4.21842e-01)
+        30                       13.4               [+4.56519e-01]    (+4.21842e-01)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        40                       17.6               [+4.21848e-01]    (+4.21842e-01)
+        50                       21.7               [+4.21844e-01]    (+4.21842e-01)
+        60                       25.9               [+4.21842e-01]    (+4.21842e-01)
+        70                       30.0               [+4.21842e-01]    (+4.21842e-01)
+        80                       34.2               [+4.21842e-01]    (+4.21842e-01)
+        90                       38.4               [+4.21842e-01]    (+4.21842e-01)
+       100                       42.5               [+4.21842e-01]    (+4.21842e-01)
+
+ ---- Best value 0.421842 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 1
+        Voltage_u2 = 1
+
+No falsifying trace found.
+phi_spike
+falsify
+
+alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        5.7               [+1.78432e-01]    (+7.59419e-02)
+        20                       10.1               [+4.04090e-01]    (+7.59419e-02)
+        30                       14.4               [+4.55517e-01]    (+7.59419e-02)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        40                       18.8               [+7.61072e-02]    (+7.59419e-02)
+        50                       23.2               [+7.59817e-02]    (+7.59419e-02)
+        60                       27.8               [+7.59428e-02]    (+7.59419e-02)
+        70                       32.4               [+7.59419e-02]    (+7.59419e-02)
+        80                       36.7               [+7.59419e-02]    (+7.59419e-02)
+        90                       41.3               [+7.59419e-02]    (+7.59419e-02)
+       100                       45.6               [+7.59419e-02]    (+7.59419e-02)
+
+ ---- Best value 0.0759419 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 1
+        Voltage_u2 = 0.8
+
+No falsifying trace found.
+max+spec_count 
+     2
+
+maximum weight is 
+     9
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 1807.267578 seconds.
+time taken
+------------------ITERATION
+    28
+
+----------------------------
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         3                        2.4               [-1.44401e-03]    (-1.44401e-03)
+
+ ---- Best value -0.00144401 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 0.8
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.00144401
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         3                        2.4               [-8.89689e-04]    (-8.89689e-04)
+
+ ---- Best value -0.000889689 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 0.8
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.000889689
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         3                        2.6               [-4.90058e-04]    (-4.90058e-04)
+
+ ---- Best value -0.000490058 found with
+        Voltage_u0 = 1
+        Voltage_u1 = 0.8
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.000490058
+falsify
+
+(alw_[1,10] ((abs(speed[t+dt]-speed[t]) < epsi1))) and ((alw ((speed[t] < al))) and (alw (not ((((speed[t+dt]-speed[t])*10 > m)) and (ev_[0,tau2] (((speed[t+dt]-speed[t])*10 < -1*m)))))))
+
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         4                        2.9               [-1.22908e-03]    (-1.22908e-03)
+
+ ---- Best value -0.00122908 found with
+        Voltage_u0 = 0.8
+        Voltage_u1 = 1
+        Voltage_u2 = 0.8
+
+Falsified with obj = -0.00122908
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.chart.primitive.Stair/forceFullUpdate')" style="font-weight:bold">matlab.graphics.chart.primitive.Stair/forceFullUpdate</a>
+Operation terminated by the user.
+
+Error in matlab.graphics.chart.primitive.Stair/get.Color
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotyy', '/usr/local/MATLAB/R2020a/toolbox/matlab/graph2d/plotyy.m', 97)" style="font-weight:bold">plotyy</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2020a/toolbox/matlab/graph2d/plotyy.m',97,0)">line 97</a>)
+colors = get(findobj(h1,'-property','Color'),{'Color'});
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SplotSat', '/home/nikhil/home/CSyn/breach/Plots/SplotSat.m', 127)" style="font-weight:bold">SplotSat</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/breach/Plots/SplotSat.m',127,0)">line 127</a>)
+        ax = plotyy(tsc, phi_val, tsc, phi_val>0, plot_style, 'stairs' );
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('BreachSystem/PlotRobustSat', '/home/nikhil/home/CSyn/breach/Core/BreachSystem.m', 425)" style="font-weight:bold">BreachSystem/PlotRobustSat</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/breach/Core/BreachSystem.m',425,0)">line 425</a>)
+            SplotSat(this.Sys,this.P, phi, depth, tau, ipts);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('init_dcmotor', '/home/nikhil/home/CSyn/src/init_dcmotor.m', 94)" style="font-weight:bold">init_dcmotor</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/src/init_dcmotor.m',94,0)">line 94</a>)
+     BrFalse.PlotRobustSat(phi);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('initialize', '/home/nikhil/home/CSyn/src/initialize.m', 16)" style="font-weight:bold">initialize</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/src/initialize.m',16,0)">line 16</a>)
+        [phi,rob,BrFalse]=init_dcmotor('DCMotor',specno,1);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_script_random', '/home/nikhil/home/CSyn/main_script_random.m', 329)" style="font-weight:bold">main_script_random</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/main_script_random.m',329,0)">line 329</a>)
+            [phi,rob,BrFalse]=initialize(modelno,specno);
+} 
+{Operation terminated by the user.
+} 
+main_script_random
+Initializing Breach from folder /home/nikhil/home/CSyn/breach...
+********* SELECT MODEL ******************
+select 1 for Quadcopter-SISO
+select 2 for Cruise Control
+select 3 for Aircraft Pitch
+select 4 for Inverted Pendulum
+select 5 for DC Motor
+select 6 for AutoPilot for Pass Jet
+select 7 for Quadcopter-MIMO
+select 9 for Robot Arm
+select 11 for DPC
+select 14 for Airframe
+select 15 for Heatex
+select 16 for Heatex
+***************************************
+enter the model number11
+ 
+********* SELECT SPECIFICATION ************
+select 1 for settling time
+select 2 for rise time
+select 3 for convergence
+select 4 for overshoot
+select 5 for smoothness
+select 6 for Conjunct of all specs
+*******************************************
+enter the specification number6
+---------------------------------------
+selected model is : 11
+---------------------------------------
+--------------------------------------
+selected specification is phi : 6
+---------------------------------------
+falsify
+
+(alw_[3,60] ((abs(alpha[t+dt]-alpha[t]) < epsi1))) and ((ev_[0,tau1] ((alpha[t] > bt*stick[t]))) and (ev_[0,tau2] (alw ((abs(alpha[t]-stick[t]) < epsi2 )))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.5               [-1.50974e-02]    (-1.50974e-02)
+
+ ---- Best value -0.0150974 found with
+        stick_u0 = -1
+
+Falsified with obj = -0.0150974
+#############################
+ tuning 
+     2
+
+#############################

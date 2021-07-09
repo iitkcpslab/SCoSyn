@@ -1,0 +1,15 @@
+
+# settling
+param dt=0.01, epsi=10, tau=2
+
+phi_d := alw (abs(pos[t+dt]-pos[t]) < 1)
+phi_settled := ev_[0,.04] (phi_d)
+
+#overshoot
+param ref=0.1
+phi_ov := alw (speed[t] < 1.15*.1)
+
+#rise time
+param tau = 1 
+phi_rise :=  ev_[0,0.4] (speed[t] > 0.9*0.1)
+

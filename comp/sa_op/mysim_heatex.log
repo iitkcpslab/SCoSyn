@@ -1,0 +1,4011 @@
+A copy of the original file "heatex_sim.slx" has been created because it was last saved in an earlier version of Simulink. To recover the original version, rename the file "heatex_sim.slx.r2020a" as "heatex_sim.slx".
+
+You can turn this feature off using the <a href="matlab:slprivate('showprefs')">Simulink Preferences</a>. Click <a href="matlab:com.mathworks.services.Prefs.setBooleanPref('SimulinkShowPersistentBackupNotification',false)">here</a> if you don't want to see this message again.
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.3               [-4.42700e-03]    (-4.42700e-03)
+
+ ---- Best value -0.004427 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -0.004427
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+     1     1
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        2.9               [-9.99049e-04]    (-9.99049e-04)
+
+ ---- Best value -0.000999049 found with
+        dis_u0 = 0
+        setp_u0 = 2
+
+Falsified with obj = -0.000999049
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        2.9               [-9.95656e-01]    (-9.95656e-01)
+
+ ---- Best value -0.995656 found with
+        dis_u0 = 0
+        setp_u0 = 2
+
+Falsified with obj = -0.995656
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.3               [-4.42700e-03]    (-4.42700e-03)
+
+ ---- Best value -0.004427 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -0.004427
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-1.06557e-01]    (-1.06557e-01)
+
+ ---- Best value -0.106557 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -0.106557
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        8.3               [+9.51282e-03]    (+2.58358e-03)
+        20                       15.2               [+9.11651e-03]    (+2.58358e-03)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       21.9               [+3.88505e-03]    (+1.20761e-03)
+        40                       29.3               [+1.32675e-03]    (+9.78327e-04)
+        48                       34.4               [-1.89022e-04]    (-1.89022e-04)
+
+ ---- Best value -0.000189022 found with
+        dis_u0 = -0.883236
+        setp_u0 = 0.78957
+
+Falsified with obj = -0.000189022
+max+spec_count 
+     0
+
+maximum weight is 
+     0
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 129.786663 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-2.43065e+14]    (-2.43065e+14)
+
+ ---- Best value -2.43065e+14 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -2.43065e+14
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   29.1342   96.9607
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-2.88254e+12]    (-2.88254e+12)
+
+ ---- Best value -2.88254e+12 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -2.88254e+12
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        8.7               [+4.98729e+01]    (+0.00000e+00)
+        20                       15.3               [+3.02800e+01]    (+0.00000e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       21.7               [+2.26394e-04]    (+0.00000e+00)
+        40                       28.1               [+6.18330e-06]    (+0.00000e+00)
+        50                       34.5               [+9.22117e-09]    (+0.00000e+00)
+        60                       41.2               [+1.13528e-10]    (+0.00000e+00)
+        70                       47.4               [+2.81596e-13]    (+0.00000e+00)
+        80                       53.9               [+3.16400e-15]    (+0.00000e+00)
+        90                       60.5               [+0.00000e+00]    (+0.00000e+00)
+       100                       67.8               [+0.00000e+00]    (+0.00000e+00)
+
+ ---- Best value 0 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+No falsifying trace found.
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-2.43065e+14]    (-2.43065e+14)
+
+ ---- Best value -2.43065e+14 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -2.43065e+14
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-2.43065e+14]    (-2.43065e+14)
+
+ ---- Best value -2.43065e+14 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -2.43065e+14
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.1               [-6.44838e+09]    (-6.44838e+09)
+
+ ---- Best value -6.44838e+09 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -6.44838e+09
+max+spec_count 
+     1
+
+maximum weight is 
+     2
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 287.518950 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.3               [-2.58660e+00]    (-2.58660e+00)
+
+ ---- Best value -2.5866 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -2.5866
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+    6.9525    0.7243
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-7.49714e-03]    (-7.49714e-03)
+
+ ---- Best value -0.00749714 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -0.00749714
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        2.8               [-1.16228e+00]    (-1.16228e+00)
+
+ ---- Best value -1.16228 found with
+        dis_u0 = 0
+        setp_u0 = 2
+
+Falsified with obj = -1.16228
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-2.58660e+00]    (-2.58660e+00)
+
+ ---- Best value -2.5866 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -2.5866
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.3               [-3.33262e+00]    (-3.33262e+00)
+
+ ---- Best value -3.33262 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -3.33262
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        6.7               [+7.59713e-03]    (+9.26139e-04)
+        20                       11.4               [+9.90047e-03]    (+9.26139e-04)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       17.7               [+9.26622e-04]    (+9.26139e-04)
+        40                       24.4               [+9.26153e-04]    (+9.26139e-04)
+        50                       30.9               [+9.26139e-04]    (+9.26139e-04)
+        60                       37.6               [+9.26139e-04]    (+9.26139e-04)
+        70                       44.1               [+9.26139e-04]    (+9.26139e-04)
+        80                       50.4               [+9.26139e-04]    (+9.26139e-04)
+        90                       56.9               [+9.26139e-04]    (+9.26139e-04)
+       100                       63.8               [+1.62014e-03]    (+9.26139e-04)
+
+ ---- Best value 0.000926139 found with
+        dis_u0 = -1
+        setp_u0 = 2
+
+No falsifying trace found.
+max+spec_count 
+     1
+
+maximum weight is 
+     5
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 437.733661 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-4.69245e+12]    (-4.69245e+12)
+
+ ---- Best value -4.69245e+12 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -4.69245e+12
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   68.8032   53.4751
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.1               [-8.61579e+10]    (-8.61579e+10)
+
+ ---- Best value -8.61579e+10 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -8.61579e+10
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        8.2               [+2.68777e+01]    (+0.00000e+00)
+        20                       15.2               [+1.63186e+01]    (+0.00000e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       21.9               [+1.22009e-04]    (+0.00000e+00)
+        40                       28.8               [+3.33233e-06]    (+0.00000e+00)
+        50                       35.7               [+4.96951e-09]    (+0.00000e+00)
+        60                       42.4               [+6.11827e-11]    (+0.00000e+00)
+        70                       48.8               [+1.51759e-13]    (+0.00000e+00)
+        80                       55.5               [+1.70516e-15]    (+0.00000e+00)
+        90                       62.6               [+0.00000e+00]    (+0.00000e+00)
+       100                       69.1               [+0.00000e+00]    (+0.00000e+00)
+
+ ---- Best value 0 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+No falsifying trace found.
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-4.69245e+12]    (-4.69245e+12)
+
+ ---- Best value -4.69245e+12 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -4.69245e+12
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.4               [-4.69245e+12]    (-4.69245e+12)
+
+ ---- Best value -4.69245e+12 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -4.69245e+12
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.4               [-3.76006e+08]    (-3.76006e+08)
+
+ ---- Best value -3.76006e+08 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -3.76006e+08
+max+spec_count 
+     1
+
+maximum weight is 
+     2
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 596.028500 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.3               [-4.49319e+01]    (-4.49319e+01)
+
+ ---- Best value -44.9319 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -44.9319
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   65.9385    0.2077
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-4.03691e-02]    (-4.03691e-02)
+
+ ---- Best value -0.0403691 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -0.0403691
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        3.1               [-1.47447e+00]    (-1.47447e+00)
+
+ ---- Best value -1.47447 found with
+        dis_u0 = 0
+        setp_u0 = 2
+
+Falsified with obj = -1.47447
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-4.49319e+01]    (-4.49319e+01)
+
+ ---- Best value -44.9319 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -44.9319
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.1               [-4.50319e+01]    (-4.50319e+01)
+
+ ---- Best value -45.0319 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -45.0319
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         3                        3.6               [-8.93077e-03]    (-8.93077e-03)
+
+ ---- Best value -0.00893077 found with
+        dis_u0 = -1
+        setp_u0 = 2
+
+Falsified with obj = -0.00893077
+max+spec_count 
+     0
+
+maximum weight is 
+     0
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 693.620792 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.1               [-8.70627e+13]    (-8.70627e+13)
+
+ ---- Best value -8.70627e+13 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -8.70627e+13
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   59.5124   77.3185
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-1.13632e+12]    (-1.13632e+12)
+
+ ---- Best value -1.13632e+12 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -1.13632e+12
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        9.0               [+3.94861e+01]    (+0.00000e+00)
+        20                       16.1               [+2.39737e+01]    (+0.00000e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       23.0               [+1.79244e-04]    (+0.00000e+00)
+        40                       29.6               [+4.89553e-06]    (+0.00000e+00)
+        50                       36.9               [+7.30072e-09]    (+0.00000e+00)
+        60                       43.8               [+8.98837e-11]    (+0.00000e+00)
+        70                       50.8               [+2.22949e-13]    (+0.00000e+00)
+        80                       57.6               [+2.50505e-15]    (+0.00000e+00)
+        90                       64.4               [+0.00000e+00]    (+0.00000e+00)
+       100                       70.7               [+0.00000e+00]    (+0.00000e+00)
+
+ ---- Best value 0 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+No falsifying trace found.
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-8.70627e+13]    (-8.70627e+13)
+
+ ---- Best value -8.70627e+13 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -8.70627e+13
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-8.70627e+13]    (-8.70627e+13)
+
+ ---- Best value -8.70627e+13 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -8.70627e+13
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-3.91432e+08]    (-3.91432e+08)
+
+ ---- Best value -3.91432e+08 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -3.91432e+08
+max+spec_count 
+     1
+
+maximum weight is 
+     2
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 854.697856 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.4               [-8.18508e+01]    (-8.18508e+01)
+
+ ---- Best value -81.8508 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -81.8508
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   94.8611    0.0398
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.4               [-9.96793e-02]    (-9.96793e-02)
+
+ ---- Best value -0.0996793 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -0.0996793
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        3.0               [-1.57593e+00]    (-1.57593e+00)
+
+ ---- Best value -1.57593 found with
+        dis_u0 = 0
+        setp_u0 = 2
+
+Falsified with obj = -1.57593
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-8.18508e+01]    (-8.18508e+01)
+
+ ---- Best value -81.8508 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -81.8508
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-8.19508e+01]    (-8.19508e+01)
+
+ ---- Best value -81.9508 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -81.9508
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        8.2               [+6.30955e-03]    (+5.02146e-03)
+        20                       15.3               [+9.45716e-03]    (+5.02146e-03)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       22.0               [+5.02184e-03]    (+5.02146e-03)
+        40                       28.6               [+5.02148e-03]    (+5.02146e-03)
+        50                       35.5               [+5.02146e-03]    (+5.02146e-03)
+        60                       42.1               [+5.02146e-03]    (+5.02146e-03)
+        70                       49.4               [+5.02146e-03]    (+5.02146e-03)
+        80                       56.1               [+5.78256e-03]    (+5.02146e-03)
+        90                       62.8               [+5.78234e-03]    (+5.02146e-03)
+       100                       69.7               [+5.78234e-03]    (+5.02146e-03)
+
+ ---- Best value 0.00502146 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+No falsifying trace found.
+max+spec_count 
+     1
+
+maximum weight is 
+     5
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 1010.654773 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.4               [-2.79067e+13]    (-2.79067e+13)
+
+ ---- Best value -2.79067e+13 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -2.79067e+13
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   95.7723   63.3480
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-4.41044e+11]    (-4.41044e+11)
+
+ ---- Best value -4.41044e+11 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -4.41044e+11
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        8.0               [+3.20985e+01]    (+0.00000e+00)
+        20                       14.9               [+1.94884e+01]    (+0.00000e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       21.8               [+1.45709e-04]    (+0.00000e+00)
+        40                       29.1               [+3.97961e-06]    (+0.00000e+00)
+        50                       35.6               [+5.93480e-09]    (+0.00000e+00)
+        60                       42.3               [+7.30670e-11]    (+0.00000e+00)
+        70                       49.0               [+1.81237e-13]    (+0.00000e+00)
+        80                       56.1               [+2.03637e-15]    (+0.00000e+00)
+        90                       63.1               [+0.00000e+00]    (+0.00000e+00)
+       100                       70.0               [+0.00000e+00]    (+0.00000e+00)
+
+ ---- Best value 0 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+No falsifying trace found.
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-2.79067e+13]    (-2.79067e+13)
+
+ ---- Best value -2.79067e+13 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -2.79067e+13
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-2.79067e+13]    (-2.79067e+13)
+
+ ---- Best value -2.79067e+13 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -2.79067e+13
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.1               [-1.82769e+09]    (-1.82769e+09)
+
+ ---- Best value -1.82769e+09 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -1.82769e+09
+max+spec_count 
+     1
+
+maximum weight is 
+     2
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 1174.114791 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-6.69318e+01]    (-6.69318e+01)
+
+ ---- Best value -66.9318 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -66.9318
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   82.3188    0.0681
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-8.02641e-02]    (-8.02641e-02)
+
+ ---- Best value -0.0802641 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -0.0802641
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        3.0               [-1.55883e+00]    (-1.55883e+00)
+
+ ---- Best value -1.55883 found with
+        dis_u0 = 0
+        setp_u0 = 2
+
+Falsified with obj = -1.55883
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-6.69318e+01]    (-6.69318e+01)
+
+ ---- Best value -66.9318 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -66.9318
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.3               [-6.70318e+01]    (-6.70318e+01)
+
+ ---- Best value -67.0318 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -67.0318
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        8.5               [+7.64188e-03]    (+2.83222e-03)
+        20                       14.9               [+9.57353e-03]    (+2.83222e-03)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       21.0               [+2.83225e-03]    (+2.83222e-03)
+        40                       27.9               [+2.83222e-03]    (+2.83222e-03)
+        50                       34.7               [+2.83222e-03]    (+2.83222e-03)
+        60                       41.2               [+2.83222e-03]    (+2.83222e-03)
+        70                       48.3               [+2.94697e-03]    (+2.83222e-03)
+        80                       55.1               [+2.94647e-03]    (+2.83222e-03)
+        90                       62.0               [+2.94644e-03]    (+2.83222e-03)
+       100                       68.6               [+2.94644e-03]    (+2.83222e-03)
+
+ ---- Best value 0.00283222 found with
+        dis_u0 = -1
+        setp_u0 = 2
+
+No falsifying trace found.
+max+spec_count 
+     1
+
+maximum weight is 
+     5
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 1327.566517 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.3               [-6.35679e+01]    (-6.35679e+01)
+
+ ---- Best value -63.5679 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -63.5679
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   77.4387    0.0625
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-7.65269e-02]    (-7.65269e-02)
+
+ ---- Best value -0.0765269 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -0.0765269
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        3.1               [-1.56224e+00]    (-1.56224e+00)
+
+ ---- Best value -1.56224 found with
+        dis_u0 = 0
+        setp_u0 = 2
+
+Falsified with obj = -1.56224
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.3               [-6.35679e+01]    (-6.35679e+01)
+
+ ---- Best value -63.5679 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -63.5679
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.9               [-6.36679e+01]    (-6.36679e+01)
+
+ ---- Best value -63.6679 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -63.6679
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        8.2               [+7.14060e-03]    (+3.11794e-03)
+        20                       15.5               [+9.76510e-03]    (+3.11794e-03)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       22.1               [+3.11846e-03]    (+3.11794e-03)
+        40                       29.8               [+3.11797e-03]    (+3.11794e-03)
+        50                       36.3               [+3.11794e-03]    (+3.11794e-03)
+        60                       43.0               [+3.11794e-03]    (+3.11794e-03)
+        70                       49.6               [+3.11794e-03]    (+3.11794e-03)
+        80                       56.8               [+3.11794e-03]    (+3.11794e-03)
+        90                       63.6               [+3.41993e-03]    (+3.11794e-03)
+       100                       70.7               [+3.41789e-03]    (+3.11794e-03)
+
+ ---- Best value 0.00311794 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+No falsifying trace found.
+max+spec_count 
+     1
+
+maximum weight is 
+     5
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 1486.656788 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-8.90494e+03]    (-8.90494e+03)
+
+ ---- Best value -8904.94 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -8904.94
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   84.5929    4.2492
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.1               [-8.89447e+01]    (-8.89447e+01)
+
+ ---- Best value -88.9447 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -88.9447
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        7.8               [+8.46981e-01]    (+0.00000e+00)
+        20                       15.0               [+5.14238e-01]    (+0.00000e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       21.5               [+3.84481e-06]    (+0.00000e+00)
+        40                       27.6               [+1.05010e-07]    (+0.00000e+00)
+        50                       34.5               [+1.56601e-10]    (+0.00000e+00)
+        60                       41.1               [+1.92802e-12]    (+0.00000e+00)
+        70                       47.9               [+4.78229e-15]    (+0.00000e+00)
+        80                       54.1               [+5.37336e-17]    (+0.00000e+00)
+        90                       60.3               [+0.00000e+00]    (+0.00000e+00)
+       100                       66.2               [+0.00000e+00]    (+0.00000e+00)
+
+ ---- Best value 0 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+No falsifying trace found.
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.9               [-8.90494e+03]    (-8.90494e+03)
+
+ ---- Best value -8904.94 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -8904.94
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-8.90504e+03]    (-8.90504e+03)
+
+ ---- Best value -8905.04 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -8905.04
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.1               [-1.13807e+01]    (-1.13807e+01)
+
+ ---- Best value -11.3807 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -11.3807
+max+spec_count 
+     1
+
+maximum weight is 
+     2
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 1641.341273 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-4.74374e+01]    (-4.74374e+01)
+
+ ---- Best value -47.4374 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -47.4374
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   55.7743    0.0425
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-5.74816e-02]    (-5.74816e-02)
+
+ ---- Best value -0.0574816 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -0.0574816
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        2.8               [-1.57434e+00]    (-1.57434e+00)
+
+ ---- Best value -1.57434 found with
+        dis_u0 = 0
+        setp_u0 = 2
+
+Falsified with obj = -1.57434
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.4               [-4.74374e+01]    (-4.74374e+01)
+
+ ---- Best value -47.4374 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -47.4374
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.3               [-4.75374e+01]    (-4.75374e+01)
+
+ ---- Best value -47.5374 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -47.5374
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        8.4               [+6.06891e-03]    (+5.50733e-03)
+        20                       15.0               [+9.59878e-03]    (+5.50733e-03)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       21.9               [+5.50735e-03]    (+5.50733e-03)
+        40                       28.7               [+5.50733e-03]    (+5.50733e-03)
+        50                       34.9               [+5.50733e-03]    (+5.50733e-03)
+        60                       42.0               [+5.50733e-03]    (+5.50733e-03)
+        70                       48.6               [+5.51193e-03]    (+5.50733e-03)
+        80                       55.2               [+5.50753e-03]    (+5.50733e-03)
+        90                       61.8               [+5.50735e-03]    (+5.50733e-03)
+       100                       68.7               [+5.50733e-03]    (+5.50733e-03)
+
+ ---- Best value 0.00550733 found with
+        dis_u0 = -1
+        setp_u0 = 2
+
+No falsifying trace found.
+max+spec_count 
+     1
+
+maximum weight is 
+     5
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 1795.649934 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.3               [-2.63508e+11]    (-2.63508e+11)
+
+ ---- Best value -2.63508e+11 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -2.63508e+11
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   94.3653   37.8660
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.3               [-6.82973e+09]    (-6.82973e+09)
+
+ ---- Best value -6.82973e+09 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -6.82973e+09
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        7.3               [+1.86236e+01]    (+0.00000e+00)
+        20                       12.9               [+1.13072e+01]    (+0.00000e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       19.8               [+8.45404e-05]    (+0.00000e+00)
+        40                       26.2               [+2.30897e-06]    (+0.00000e+00)
+        50                       33.0               [+3.44338e-09]    (+0.00000e+00)
+        60                       39.4               [+4.23936e-11]    (+0.00000e+00)
+        70                       45.3               [+1.05154e-13]    (+0.00000e+00)
+        80                       52.6               [+1.18150e-15]    (+0.00000e+00)
+        90                       58.8               [+0.00000e+00]    (+0.00000e+00)
+       100                       65.4               [+0.00000e+00]    (+0.00000e+00)
+
+ ---- Best value 0 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+No falsifying trace found.
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.9               [-2.63508e+11]    (-2.63508e+11)
+
+ ---- Best value -2.63508e+11 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -2.63508e+11
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.8               [-2.63508e+11]    (-2.63508e+11)
+
+ ---- Best value -2.63508e+11 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -2.63508e+11
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-1.02197e+08]    (-1.02197e+08)
+
+ ---- Best value -1.02197e+08 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -1.02197e+08
+max+spec_count 
+     1
+
+maximum weight is 
+     2
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 1950.151450 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-1.49524e+12]    (-1.49524e+12)
+
+ ---- Best value -1.49524e+12 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -1.49524e+12
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   42.7328   49.6924
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-2.95546e+10]    (-2.95546e+10)
+
+ ---- Best value -2.95546e+10 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -2.95546e+10
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        8.3               [+2.48774e+01]    (+0.00000e+00)
+        20                       15.1               [+1.51041e+01]    (+0.00000e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       21.8               [+1.12929e-04]    (+0.00000e+00)
+        40                       28.5               [+3.08433e-06]    (+0.00000e+00)
+        50                       35.5               [+4.59967e-09]    (+0.00000e+00)
+        60                       42.8               [+5.66293e-11]    (+0.00000e+00)
+        70                       49.8               [+1.40465e-13]    (+0.00000e+00)
+        80                       57.4               [+1.57825e-15]    (+0.00000e+00)
+        90                       64.6               [+0.00000e+00]    (+0.00000e+00)
+       100                       71.8               [+0.00000e+00]    (+0.00000e+00)
+
+ ---- Best value 0 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+No falsifying trace found.
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-1.49524e+12]    (-1.49524e+12)
+
+ ---- Best value -1.49524e+12 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -1.49524e+12
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-1.49524e+12]    (-1.49524e+12)
+
+ ---- Best value -1.49524e+12 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -1.49524e+12
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-2.32090e+08]    (-2.32090e+08)
+
+ ---- Best value -2.3209e+08 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -2.3209e+08
+max+spec_count 
+     1
+
+maximum weight is 
+     2
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 2109.095096 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-8.60618e+02]    (-8.60618e+02)
+
+ ---- Best value -860.618 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -860.618
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+    7.2012    4.3932
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.1               [-8.58520e+00]    (-8.58520e+00)
+
+ ---- Best value -8.5852 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -8.5852
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        8.4               [+9.23128e-01]    (+0.00000e+00)
+        20                       15.2               [+5.60471e-01]    (+0.00000e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       22.2               [+4.19047e-06]    (+0.00000e+00)
+        40                       29.1               [+1.14451e-07]    (+0.00000e+00)
+        50                       36.1               [+1.70680e-10]    (+0.00000e+00)
+        60                       42.6               [+2.10135e-12]    (+0.00000e+00)
+        70                       49.3               [+5.21224e-15]    (+0.00000e+00)
+        80                       55.9               [+5.85645e-17]    (+0.00000e+00)
+        90                       62.4               [+0.00000e+00]    (+0.00000e+00)
+       100                       68.9               [+0.00000e+00]    (+0.00000e+00)
+
+ ---- Best value 0 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+No falsifying trace found.
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.1               [-8.60618e+02]    (-8.60618e+02)
+
+ ---- Best value -860.618 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -860.618
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.9               [-8.60718e+02]    (-8.60718e+02)
+
+ ---- Best value -860.718 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -860.718
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-3.33515e-01]    (-3.33515e-01)
+
+ ---- Best value -0.333515 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -0.333515
+max+spec_count 
+     1
+
+maximum weight is 
+     2
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 2264.719408 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.3               [-1.05241e+12]    (-1.05241e+12)
+
+ ---- Best value -1.05241e+12 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -1.05241e+12
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   55.5672   46.3711
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-2.19885e+10]    (-2.19885e+10)
+
+ ---- Best value -2.19885e+10 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -2.19885e+10
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        7.6               [+2.31211e+01]    (+0.00000e+00)
+        20                       14.3               [+1.40378e+01]    (+0.00000e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       20.9               [+1.04956e-04]    (+0.00000e+00)
+        40                       27.6               [+2.86658e-06]    (+0.00000e+00)
+        50                       34.0               [+4.27494e-09]    (+0.00000e+00)
+        60                       40.9               [+5.26314e-11]    (+0.00000e+00)
+        70                       47.2               [+1.30548e-13]    (+0.00000e+00)
+        80                       52.6               [+1.46683e-15]    (+0.00000e+00)
+        90                       59.7               [+0.00000e+00]    (+0.00000e+00)
+       100                       66.5               [+0.00000e+00]    (+0.00000e+00)
+
+ ---- Best value 0 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+No falsifying trace found.
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.8               [-1.05241e+12]    (-1.05241e+12)
+
+ ---- Best value -1.05241e+12 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -1.05241e+12
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.1               [-1.05241e+12]    (-1.05241e+12)
+
+ ---- Best value -1.05241e+12 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -1.05241e+12
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.1               [-6.74282e+07]    (-6.74282e+07)
+
+ ---- Best value -6.74282e+07 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -6.74282e+07
+max+spec_count 
+     1
+
+maximum weight is 
+     2
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 2418.765210 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-4.56445e+11]    (-4.56445e+11)
+
+ ---- Best value -4.56445e+11 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -4.56445e+11
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   47.0642   43.1847
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.9               [-1.02707e+10]    (-1.02707e+10)
+
+ ---- Best value -1.02707e+10 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -1.02707e+10
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        9.6               [+2.14361e+01]    (+0.00000e+00)
+        20                       17.4               [+1.30148e+01]    (+0.00000e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       24.7               [+9.73077e-05]    (+0.00000e+00)
+        40                       31.5               [+2.65767e-06]    (+0.00000e+00)
+        50                       38.6               [+3.96340e-09]    (+0.00000e+00)
+        60                       45.7               [+4.87958e-11]    (+0.00000e+00)
+        70                       53.5               [+1.21034e-13]    (+0.00000e+00)
+        80                       60.9               [+1.35994e-15]    (+0.00000e+00)
+        90                       68.3               [+0.00000e+00]    (+0.00000e+00)
+       100                       75.0               [+0.00000e+00]    (+0.00000e+00)
+
+ ---- Best value 0 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+No falsifying trace found.
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-4.56445e+11]    (-4.56445e+11)
+
+ ---- Best value -4.56445e+11 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -4.56445e+11
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-4.56445e+11]    (-4.56445e+11)
+
+ ---- Best value -4.56445e+11 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -4.56445e+11
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.8               [-4.50278e+07]    (-4.50278e+07)
+
+ ---- Best value -4.50278e+07 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -4.50278e+07
+max+spec_count 
+     1
+
+maximum weight is 
+     2
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 2581.266855 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.8               [-1.82558e+11]    (-1.82558e+11)
+
+ ---- Best value -1.82558e+11 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -1.82558e+11
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   74.5335   37.4100
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.9               [-4.83257e+09]    (-4.83257e+09)
+
+ ---- Best value -4.83257e+09 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -4.83257e+09
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        8.6               [+1.83824e+01]    (+0.00000e+00)
+        20                       15.7               [+1.11608e+01]    (+0.00000e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       23.6               [+8.34458e-05]    (+0.00000e+00)
+        40                       30.4               [+2.27908e-06]    (+0.00000e+00)
+        50                       37.2               [+3.39879e-09]    (+0.00000e+00)
+        60                       44.2               [+4.18447e-11]    (+0.00000e+00)
+        70                       50.8               [+1.03792e-13]    (+0.00000e+00)
+        80                       57.6               [+1.16621e-15]    (+0.00000e+00)
+        90                       64.5               [+0.00000e+00]    (+0.00000e+00)
+       100                       71.1               [+0.00000e+00]    (+0.00000e+00)
+
+ ---- Best value 0 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+No falsifying trace found.
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.1               [-1.82558e+11]    (-1.82558e+11)
+
+ ---- Best value -1.82558e+11 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -1.82558e+11
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-1.82558e+11]    (-1.82558e+11)
+
+ ---- Best value -1.82558e+11 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -1.82558e+11
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-5.96431e+07]    (-5.96431e+07)
+
+ ---- Best value -5.96431e+07 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -5.96431e+07
+max+spec_count 
+     1
+
+maximum weight is 
+     2
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 2740.649267 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.9               [-4.02794e+01]    (-4.02794e+01)
+
+ ---- Best value -40.2794 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -40.2794
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   46.6170    0.0341
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.1               [-4.87376e-02]    (-4.87376e-02)
+
+ ---- Best value -0.0487376 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -0.0487376
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        2.9               [-1.57939e+00]    (-1.57939e+00)
+
+ ---- Best value -1.57939 found with
+        dis_u0 = 0
+        setp_u0 = 2
+
+Falsified with obj = -1.57939
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.9               [-4.02794e+01]    (-4.02794e+01)
+
+ ---- Best value -40.2794 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -40.2794
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-4.03794e+01]    (-4.03794e+01)
+
+ ---- Best value -40.3794 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -40.3794
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        9.7               [+6.83688e-03]    (+6.38500e-03)
+        20                       17.2               [+9.52199e-03]    (+6.38500e-03)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       25.0               [+6.38502e-03]    (+6.38500e-03)
+        40                       32.0               [+6.38500e-03]    (+6.38500e-03)
+        50                       39.1               [+6.38500e-03]    (+6.38500e-03)
+        60                       47.2               [+6.38500e-03]    (+6.38500e-03)
+        70                       55.4               [+6.38870e-03]    (+6.38500e-03)
+        80                       62.7               [+6.38517e-03]    (+6.38500e-03)
+        90                       70.0               [+6.38502e-03]    (+6.38500e-03)
+       100                       77.0               [+6.38500e-03]    (+6.38500e-03)
+
+ ---- Best value 0.006385 found with
+        dis_u0 = -1
+        setp_u0 = 2
+
+No falsifying trace found.
+max+spec_count 
+     1
+
+maximum weight is 
+     5
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 2906.891759 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.3               [-7.04373e+01]    (-7.04373e+01)
+
+ ---- Best value -70.4373 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -70.4373
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   76.3417    0.0145
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-8.48422e-02]    (-8.48422e-02)
+
+ ---- Best value -0.0848422 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -0.0848422
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        2.9               [-1.59125e+00]    (-1.59125e+00)
+
+ ---- Best value -1.59125 found with
+        dis_u0 = 0
+        setp_u0 = 2
+
+Falsified with obj = -1.59125
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-7.04373e+01]    (-7.04373e+01)
+
+ ---- Best value -70.4373 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -70.4373
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-7.05373e+01]    (-7.05373e+01)
+
+ ---- Best value -70.5373 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -70.5373
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        8.7               [+8.65128e-03]    (+8.09497e-03)
+        20                       16.3               [+9.38909e-03]    (+8.09497e-03)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       24.8               [+8.09042e-03]    (+8.09042e-03)
+        40                       32.4               [+8.01025e-03]    (+7.96608e-03)
+        50                       40.3               [+7.96620e-03]    (+7.94683e-03)
+        60                       48.2               [+7.94418e-03]    (+7.93863e-03)
+        70                       55.5               [+7.93424e-03]    (+7.93424e-03)
+        80                       62.6               [+7.93385e-03]    (+7.93385e-03)
+        90                       69.6               [+7.93381e-03]    (+7.93380e-03)
+       100                       76.6               [+7.93380e-03]    (+7.93379e-03)
+
+ ---- Best value 0.00793379 found with
+        dis_u0 = -0.999999
+        setp_u0 = 0.242325
+
+No falsifying trace found.
+max+spec_count 
+     1
+
+maximum weight is 
+     5
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 3074.510893 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.3               [-7.50171e+01]    (-7.50171e+01)
+
+ ---- Best value -75.0171 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -75.0171
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   80.9928    0.0136
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.4               [-9.03107e-02]    (-9.03107e-02)
+
+ ---- Best value -0.0903107 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -0.0903107
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        3.3               [-1.59178e+00]    (-1.59178e+00)
+
+ ---- Best value -1.59178 found with
+        dis_u0 = 0
+        setp_u0 = 2
+
+Falsified with obj = -1.59178
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-7.50171e+01]    (-7.50171e+01)
+
+ ---- Best value -75.0171 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -75.0171
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.9               [-7.51171e+01]    (-7.51171e+01)
+
+ ---- Best value -75.1171 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -75.1171
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        8.7               [+8.73302e-03]    (+8.03204e-03)
+        20                       16.1               [+9.33990e-03]    (+8.03204e-03)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       23.3               [+8.02775e-03]    (+8.02775e-03)
+        40                       30.4               [+7.98442e-03]    (+7.98060e-03)
+        50                       37.7               [+7.97996e-03]    (+7.97996e-03)
+        60                       44.4               [+7.97713e-03]    (+7.97688e-03)
+        70                       51.4               [+7.97679e-03]    (+7.97670e-03)
+        80                       59.0               [+7.97664e-03]    (+7.97664e-03)
+        90                       66.0               [+7.97663e-03]    (+7.97663e-03)
+       100                       73.0               [+7.97663e-03]    (+7.97663e-03)
+
+ ---- Best value 0.00797663 found with
+        dis_u0 = -1
+        setp_u0 = 1.91152
+
+No falsifying trace found.
+max+spec_count 
+     1
+
+maximum weight is 
+     5
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 3239.010750 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-8.16560e+01]    (-8.16560e+01)
+
+ ---- Best value -81.656 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -81.656
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   87.6769    0.0123
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.3               [-9.82069e-02]    (-9.82069e-02)
+
+ ---- Best value -0.0982069 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -0.0982069
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        3.1               [-1.59255e+00]    (-1.59255e+00)
+
+ ---- Best value -1.59255 found with
+        dis_u0 = 0
+        setp_u0 = 2
+
+Falsified with obj = -1.59255
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-8.16560e+01]    (-8.16560e+01)
+
+ ---- Best value -81.656 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -81.656
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.3               [-8.17560e+01]    (-8.17560e+01)
+
+ ---- Best value -81.756 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -81.756
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        8.6               [+8.85050e-03]    (+8.45270e-03)
+        20                       16.0               [+9.30209e-03]    (+8.19661e-03)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       23.1               [+8.10339e-03]    (+8.10339e-03)
+        40                       30.3               [+8.03238e-03]    (+8.03238e-03)
+        50                       37.6               [+7.98335e-03]    (+7.98283e-03)
+        60                       45.0               [+7.97874e-03]    (+7.97874e-03)
+        70                       51.6               [+7.97813e-03]    (+7.97804e-03)
+        80                       58.8               [+7.97805e-03]    (+7.97804e-03)
+        90                       65.7               [+7.97804e-03]    (+7.97804e-03)
+       100                       72.9               [+7.97804e-03]    (+7.97803e-03)
+
+ ---- Best value 0.00797803 found with
+        dis_u0 = -1
+        setp_u0 = 0.907297
+
+No falsifying trace found.
+max+spec_count 
+     1
+
+maximum weight is 
+     5
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 3400.840951 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.1               [-3.32594e+08]    (-3.32594e+08)
+
+ ---- Best value -3.32594e+08 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -3.32594e+08
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   98.4261   16.6729
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-3.14755e+06]    (-3.14755e+06)
+
+ ---- Best value -3.14755e+06 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -3.14755e+06
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        8.7               [+7.41665e+00]    (+0.00000e+00)
+        20                       17.6               [+4.50296e+00]    (+0.00000e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       25.2               [+3.36673e-05]    (+0.00000e+00)
+        40                       32.3               [+9.19525e-07]    (+0.00000e+00)
+        50                       39.6               [+1.37129e-09]    (+0.00000e+00)
+        60                       46.8               [+1.68828e-11]    (+0.00000e+00)
+        70                       54.1               [+4.18764e-14]    (+0.00000e+00)
+        80                       60.9               [+4.70522e-16]    (+0.00000e+00)
+        90                       68.2               [+0.00000e+00]    (+0.00000e+00)
+       100                       76.1               [+0.00000e+00]    (+0.00000e+00)
+
+ ---- Best value 0 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+No falsifying trace found.
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.3               [-3.32594e+08]    (-3.32594e+08)
+
+ ---- Best value -3.32594e+08 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -3.32594e+08
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-3.41339e+07]    (-3.41339e+07)
+
+ ---- Best value -3.41339e+07 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -3.41339e+07
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.3               [-4.74634e+05]    (-4.74634e+05)
+
+ ---- Best value -474634 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -474634
+max+spec_count 
+     1
+
+maximum weight is 
+     2
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 3565.307313 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.3               [-1.94249e+06]    (-1.94249e+06)
+
+ ---- Best value -1.94249e+06 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -1.94249e+06
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   88.2240    8.9928
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.3               [-4.38574e+04]    (-4.38574e+04)
+
+ ---- Best value -43857.4 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -43857.4
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        9.1               [+3.35540e+00]    (+0.00000e+00)
+        20                       16.2               [+2.03721e+00]    (+0.00000e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       22.7               [+1.52316e-05]    (+0.00000e+00)
+        40                       29.9               [+4.16007e-07]    (+0.00000e+00)
+        50                       36.3               [+6.20392e-10]    (+0.00000e+00)
+        60                       43.3               [+7.63803e-12]    (+0.00000e+00)
+        70                       50.9               [+1.89455e-14]    (+0.00000e+00)
+        80                       58.1               [+2.12871e-16]    (+0.00000e+00)
+        90                       66.4               [+0.00000e+00]    (+0.00000e+00)
+       100                       73.3               [+0.00000e+00]    (+0.00000e+00)
+
+ ---- Best value 0 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+No falsifying trace found.
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-1.94249e+06]    (-1.94249e+06)
+
+ ---- Best value -1.94249e+06 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -1.94249e+06
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.1               [-9.69395e+05]    (-9.69395e+05)
+
+ ---- Best value -969395 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -969395
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-9.75096e+03]    (-9.75096e+03)
+
+ ---- Best value -9750.96 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -9750.96
+max+spec_count 
+     1
+
+maximum weight is 
+     2
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 3726.719617 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-6.50849e+01]    (-6.50849e+01)
+
+ ---- Best value -65.0849 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -65.0849
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   69.9492    0.0117
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-7.80796e-02]    (-7.80796e-02)
+
+ ---- Best value -0.0780796 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -0.0780796
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        2.7               [-1.59294e+00]    (-1.59294e+00)
+
+ ---- Best value -1.59294 found with
+        dis_u0 = 0
+        setp_u0 = 2
+
+Falsified with obj = -1.59294
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-6.50849e+01]    (-6.50849e+01)
+
+ ---- Best value -65.0849 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -65.0849
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-6.51849e+01]    (-6.51849e+01)
+
+ ---- Best value -65.1849 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -65.1849
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        8.4               [+8.91038e-03]    (+8.75472e-03)
+        20                       13.8               [+9.33844e-03]    (+8.75472e-03)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       19.3               [+8.75472e-03]    (+8.75472e-03)
+        40                       27.1               [+8.75472e-03]    (+8.75472e-03)
+        50                       34.1               [+8.75472e-03]    (+8.75472e-03)
+        60                       41.7               [+8.81863e-03]    (+8.75472e-03)
+        70                       48.3               [+8.75615e-03]    (+8.75472e-03)
+        80                       55.2               [+8.75475e-03]    (+8.75472e-03)
+        90                       62.4               [+8.75473e-03]    (+8.75472e-03)
+       100                       69.7               [+8.75472e-03]    (+8.75472e-03)
+
+ ---- Best value 0.00875472 found with
+        dis_u0 = -1
+        setp_u0 = 2
+
+No falsifying trace found.
+max+spec_count 
+     1
+
+maximum weight is 
+     5
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 3884.616207 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.6               [-5.12016e+09]    (-5.12016e+09)
+
+ ---- Best value -5.12016e+09 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -5.12016e+09
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   77.4123   26.7278
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.4               [-2.25280e+08]    (-2.25280e+08)
+
+ ---- Best value -2.2528e+08 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -2.2528e+08
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        8.9               [+1.27337e+01]    (+0.00000e+00)
+        20                       15.9               [+7.73117e+00]    (+0.00000e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       23.3               [+5.78036e-05]    (+0.00000e+00)
+        40                       30.1               [+1.57874e-06]    (+0.00000e+00)
+        50                       37.8               [+2.35438e-09]    (+0.00000e+00)
+        60                       45.4               [+2.89862e-11]    (+0.00000e+00)
+        70                       52.3               [+7.18979e-14]    (+0.00000e+00)
+        80                       59.1               [+8.07842e-16]    (+0.00000e+00)
+        90                       65.8               [+0.00000e+00]    (+0.00000e+00)
+       100                       73.2               [+0.00000e+00]    (+0.00000e+00)
+
+ ---- Best value 0 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+No falsifying trace found.
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.9               [-5.12016e+09]    (-5.12016e+09)
+
+ ---- Best value -5.12016e+09 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -5.12016e+09
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-2.57088e+09]    (-2.57088e+09)
+
+ ---- Best value -2.57088e+09 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -2.57088e+09
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-6.95549e+06]    (-6.95549e+06)
+
+ ---- Best value -6.95549e+06 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -6.95549e+06
+max+spec_count 
+     1
+
+maximum weight is 
+     2
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 4050.499715 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-6.48623e+01]    (-6.48623e+01)
+
+ ---- Best value -64.8623 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -64.8623
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   69.5704    0.0111
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-7.77481e-02]    (-7.77481e-02)
+
+ ---- Best value -0.0777481 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -0.0777481
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        3.0               [-1.59328e+00]    (-1.59328e+00)
+
+ ---- Best value -1.59328 found with
+        dis_u0 = 0
+        setp_u0 = 2
+
+Falsified with obj = -1.59328
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.9               [-6.48623e+01]    (-6.48623e+01)
+
+ ---- Best value -64.8623 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -64.8623
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-6.49623e+01]    (-6.49623e+01)
+
+ ---- Best value -64.9623 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -64.9623
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        9.0               [+8.96330e-03]    (+8.81520e-03)
+        20                       15.9               [+9.37057e-03]    (+8.81520e-03)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       24.0               [+8.81520e-03]    (+8.81520e-03)
+        40                       30.9               [+8.81520e-03]    (+8.81520e-03)
+        50                       38.0               [+8.81520e-03]    (+8.81520e-03)
+        60                       45.1               [+8.88070e-03]    (+8.81520e-03)
+        70                       52.5               [+8.88006e-03]    (+8.81520e-03)
+        80                       59.6               [+8.88005e-03]    (+8.81520e-03)
+        90                       66.6               [+8.88005e-03]    (+8.81520e-03)
+       100                       74.0               [+8.88005e-03]    (+8.81520e-03)
+
+ ---- Best value 0.0088152 found with
+        dis_u0 = -1
+        setp_u0 = 2
+
+No falsifying trace found.
+max+spec_count 
+     1
+
+maximum weight is 
+     5
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 4210.934804 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-5.27165e+06]    (-5.27165e+06)
+
+ ---- Best value -5.27165e+06 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -5.27165e+06
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   46.8985   10.6275
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.3               [-7.81548e+04]    (-7.81548e+04)
+
+ ---- Best value -78154.8 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -78154.8
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        8.9               [+4.21983e+00]    (+0.00000e+00)
+        20                       16.0               [+2.56204e+00]    (+0.00000e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       24.4               [+1.91556e-05]    (+0.00000e+00)
+        40                       31.8               [+5.23180e-07]    (+0.00000e+00)
+        50                       39.1               [+7.80219e-10]    (+0.00000e+00)
+        60                       46.6               [+9.60576e-12]    (+0.00000e+00)
+        70                       53.2               [+2.38263e-14]    (+0.00000e+00)
+        80                       59.7               [+2.67712e-16]    (+0.00000e+00)
+        90                       67.1               [+0.00000e+00]    (+0.00000e+00)
+       100                       73.7               [+0.00000e+00]    (+0.00000e+00)
+
+ ---- Best value 0 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+No falsifying trace found.
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.3               [-5.27165e+06]    (-5.27165e+06)
+
+ ---- Best value -5.27165e+06 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -5.27165e+06
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.4               [-1.32345e+06]    (-1.32345e+06)
+
+ ---- Best value -1.32345e+06 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -1.32345e+06
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.3               [-7.04945e+03]    (-7.04945e+03)
+
+ ---- Best value -7049.45 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -7049.45
+max+spec_count 
+     1
+
+maximum weight is 
+     2
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 4372.521980 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.3               [-1.16675e+07]    (-1.16675e+07)
+
+ ---- Best value -1.16675e+07 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -1.16675e+07
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   48.7969   11.5903
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.8               [-1.42712e+05]    (-1.42712e+05)
+
+ ---- Best value -142712 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -142712
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        8.1               [+4.72896e+00]    (+0.00000e+00)
+        20                       14.7               [+2.87116e+00]    (+0.00000e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       22.4               [+2.14668e-05]    (+0.00000e+00)
+        40                       29.3               [+5.86302e-07]    (+0.00000e+00)
+        50                       36.1               [+8.74354e-10]    (+0.00000e+00)
+        60                       42.5               [+1.07647e-11]    (+0.00000e+00)
+        70                       49.5               [+2.67010e-14]    (+0.00000e+00)
+        80                       56.1               [+3.00012e-16]    (+0.00000e+00)
+        90                       62.9               [+0.00000e+00]    (+0.00000e+00)
+       100                       69.7               [+0.00000e+00]    (+0.00000e+00)
+
+ ---- Best value 0 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+No falsifying trace found.
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-1.16675e+07]    (-1.16675e+07)
+
+ ---- Best value -1.16675e+07 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -1.16675e+07
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.1               [-2.26156e+06]    (-2.26156e+06)
+
+ ---- Best value -2.26156e+06 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -2.26156e+06
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.1               [-3.35880e+04]    (-3.35880e+04)
+
+ ---- Best value -33588 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -33588
+max+spec_count 
+     1
+
+maximum weight is 
+     2
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 4529.501392 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-1.06405e+09]    (-1.06405e+09)
+
+ ---- Best value -1.06405e+09 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -1.06405e+09
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   78.5287   20.7528
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.1               [-1.37485e+07]    (-1.37485e+07)
+
+ ---- Best value -1.37485e+07 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -1.37485e+07
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        8.5               [+9.57410e+00]    (+0.00000e+00)
+        20                       15.4               [+5.81285e+00]    (+0.00000e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       22.8               [+4.34609e-05]    (+0.00000e+00)
+        40                       29.3               [+1.18701e-06]    (+0.00000e+00)
+        50                       35.6               [+1.77019e-09]    (+0.00000e+00)
+        60                       43.2               [+2.17939e-11]    (+0.00000e+00)
+        70                       50.5               [+5.40580e-14]    (+0.00000e+00)
+        80                       57.0               [+6.07394e-16]    (+0.00000e+00)
+        90                       64.4               [+0.00000e+00]    (+0.00000e+00)
+       100                       71.3               [+0.00000e+00]    (+0.00000e+00)
+
+ ---- Best value 0 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+No falsifying trace found.
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-1.06405e+09]    (-1.06405e+09)
+
+ ---- Best value -1.06405e+09 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -1.06405e+09
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-8.99951e+07]    (-8.99951e+07)
+
+ ---- Best value -8.99951e+07 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -8.99951e+07
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.3               [-3.36339e+06]    (-3.36339e+06)
+
+ ---- Best value -3.36339e+06 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -3.36339e+06
+max+spec_count 
+     1
+
+maximum weight is 
+     2
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 4690.603906 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.1               [-3.52007e+08]    (-3.52007e+08)
+
+ ---- Best value -3.52007e+08 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -3.52007e+08
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   58.2627   18.2549
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-3.28381e+06]    (-3.28381e+06)
+
+ ---- Best value -3.28381e+06 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -3.28381e+06
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        8.5               [+8.25321e+00]    (+0.00000e+00)
+        20                       15.9               [+5.01088e+00]    (+0.00000e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       23.3               [+3.74648e-05]    (+0.00000e+00)
+        40                       30.6               [+1.02324e-06]    (+0.00000e+00)
+        50                       37.4               [+1.52596e-09]    (+0.00000e+00)
+        60                       44.2               [+1.87871e-11]    (+0.00000e+00)
+        70                       51.2               [+4.65999e-14]    (+0.00000e+00)
+        80                       57.7               [+5.23594e-16]    (+0.00000e+00)
+        90                       64.7               [+0.00000e+00]    (+0.00000e+00)
+       100                       71.1               [+0.00000e+00]    (+0.00000e+00)
+
+ ---- Best value 0 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+No falsifying trace found.
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.3               [-3.52007e+08]    (-3.52007e+08)
+
+ ---- Best value -3.52007e+08 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -3.52007e+08
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-3.32211e+07]    (-3.32211e+07)
+
+ ---- Best value -3.32211e+07 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -3.32211e+07
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-6.84192e+05]    (-6.84192e+05)
+
+ ---- Best value -684192 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -684192
+max+spec_count 
+     1
+
+maximum weight is 
+     2
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 4851.816878 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.3               [-8.42312e+08]    (-8.42312e+08)
+
+ ---- Best value -8.42312e+08 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -8.42312e+08
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   71.3245   20.3262
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-9.39021e+06]    (-9.39021e+06)
+
+ ---- Best value -9.39021e+06 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -9.39021e+06
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        8.9               [+9.34851e+00]    (+0.00000e+00)
+        20                       15.8               [+5.67588e+00]    (+0.00000e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       23.1               [+4.24369e-05]    (+0.00000e+00)
+        40                       30.0               [+1.15904e-06]    (+0.00000e+00)
+        50                       36.5               [+1.72848e-09]    (+0.00000e+00)
+        60                       43.7               [+2.12804e-11]    (+0.00000e+00)
+        70                       51.1               [+5.27843e-14]    (+0.00000e+00)
+        80                       57.8               [+5.93082e-16]    (+0.00000e+00)
+        90                       65.0               [+0.00000e+00]    (+0.00000e+00)
+       100                       72.4               [+0.00000e+00]    (+0.00000e+00)
+
+ ---- Best value 0 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+No falsifying trace found.
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.1               [-8.42312e+08]    (-8.42312e+08)
+
+ ---- Best value -8.42312e+08 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -8.42312e+08
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-7.28564e+07]    (-7.28564e+07)
+
+ ---- Best value -7.28564e+07 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -7.28564e+07
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.3               [-1.90941e+06]    (-1.90941e+06)
+
+ ---- Best value -1.90941e+06 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -1.90941e+06
+max+spec_count 
+     1
+
+maximum weight is 
+     2
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 5013.118368 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.9               [-3.30631e+08]    (-3.30631e+08)
+
+ ---- Best value -3.30631e+08 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -3.30631e+08
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   62.1400   17.9005
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.9               [-3.10980e+06]    (-3.10980e+06)
+
+ ---- Best value -3.1098e+06 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -3.1098e+06
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        9.0               [+8.06580e+00]    (+0.00000e+00)
+        20                       15.9               [+4.89709e+00]    (+0.00000e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       23.3               [+3.66141e-05]    (+0.00000e+00)
+        40                       30.2               [+1.00001e-06]    (+0.00000e+00)
+        50                       37.1               [+1.49131e-09]    (+0.00000e+00)
+        60                       45.5               [+1.83605e-11]    (+0.00000e+00)
+        70                       52.4               [+4.55418e-14]    (+0.00000e+00)
+        80                       59.5               [+5.11705e-16]    (+0.00000e+00)
+        90                       66.4               [+0.00000e+00]    (+0.00000e+00)
+       100                       73.7               [+0.00000e+00]    (+0.00000e+00)
+
+ ---- Best value 0 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+No falsifying trace found.
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.1               [-3.30631e+08]    (-3.30631e+08)
+
+ ---- Best value -3.30631e+08 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -3.30631e+08
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.1               [-3.19185e+07]    (-3.19185e+07)
+
+ ---- Best value -3.19185e+07 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -3.19185e+07
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-8.62234e+05]    (-8.62234e+05)
+
+ ---- Best value -862234 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -862234
+max+spec_count 
+     1
+
+maximum weight is 
+     2
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 5178.026909 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.1               [-1.90746e+08]    (-1.90746e+08)
+
+ ---- Best value -1.90746e+08 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -1.90746e+08
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   79.0202   15.8021
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-1.76711e+06]    (-1.76711e+06)
+
+ ---- Best value -1.76711e+06 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -1.76711e+06
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        8.3               [+6.95617e+00]    (+0.00000e+00)
+        20                       15.2               [+4.22339e+00]    (+0.00000e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       22.6               [+3.15770e-05]    (+0.00000e+00)
+        40                       30.1               [+8.62434e-07]    (+0.00000e+00)
+        50                       36.7               [+1.28615e-09]    (+0.00000e+00)
+        60                       44.0               [+1.58346e-11]    (+0.00000e+00)
+        70                       51.2               [+3.92764e-14]    (+0.00000e+00)
+        80                       58.1               [+4.41308e-16]    (+0.00000e+00)
+        90                       65.0               [+0.00000e+00]    (+0.00000e+00)
+       100                       72.3               [+0.00000e+00]    (+0.00000e+00)
+
+ ---- Best value 0 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+No falsifying trace found.
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.1               [-1.90746e+08]    (-1.90746e+08)
+
+ ---- Best value -1.90746e+08 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -1.90746e+08
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.3               [-2.03996e+07]    (-2.03996e+07)
+
+ ---- Best value -2.03996e+07 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -2.03996e+07
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-2.03425e+05]    (-2.03425e+05)
+
+ ---- Best value -203425 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -203425
+max+spec_count 
+     1
+
+maximum weight is 
+     2
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 5340.375782 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-2.46213e+08]    (-2.46213e+08)
+
+ ---- Best value -2.46213e+08 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -2.46213e+08
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   65.3613   16.9793
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-2.34779e+06]    (-2.34779e+06)
+
+ ---- Best value -2.34779e+06 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -2.34779e+06
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        8.9               [+7.57867e+00]    (+0.00000e+00)
+        20                       15.6               [+4.60134e+00]    (+0.00000e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       23.0               [+3.44028e-05]    (+0.00000e+00)
+        40                       29.8               [+9.39613e-07]    (+0.00000e+00)
+        50                       37.3               [+1.40125e-09]    (+0.00000e+00)
+        60                       44.4               [+1.72516e-11]    (+0.00000e+00)
+        70                       51.1               [+4.27913e-14]    (+0.00000e+00)
+        80                       58.5               [+4.80801e-16]    (+0.00000e+00)
+        90                       65.1               [+0.00000e+00]    (+0.00000e+00)
+       100                       72.0               [+0.00000e+00]    (+0.00000e+00)
+
+ ---- Best value 0 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+No falsifying trace found.
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-2.46213e+08]    (-2.46213e+08)
+
+ ---- Best value -2.46213e+08 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -2.46213e+08
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-2.50821e+07]    (-2.50821e+07)
+
+ ---- Best value -2.50821e+07 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -2.50821e+07
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-5.21165e+05]    (-5.21165e+05)
+
+ ---- Best value -521165 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -521165
+max+spec_count 
+     1
+
+maximum weight is 
+     2
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 5500.751080 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.3               [-6.26432e+01]    (-6.26432e+01)
+
+ ---- Best value -62.6432 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -62.6432
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   67.1884    0.0110
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.9               [-7.50487e-02]    (-7.50487e-02)
+
+ ---- Best value -0.0750487 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -0.0750487
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        3.0               [-1.59338e+00]    (-1.59338e+00)
+
+ ---- Best value -1.59338 found with
+        dis_u0 = 0
+        setp_u0 = 2
+
+Falsified with obj = -1.59338
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-6.26432e+01]    (-6.26432e+01)
+
+ ---- Best value -62.6432 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -62.6432
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-6.27432e+01]    (-6.27432e+01)
+
+ ---- Best value -62.7432 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -62.7432
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        8.9               [+8.97846e-03]    (+8.83253e-03)
+        20                       15.8               [+9.37978e-03]    (+8.83253e-03)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       22.9               [+8.83253e-03]    (+8.83253e-03)
+        40                       30.7               [+8.83253e-03]    (+8.83253e-03)
+        50                       37.7               [+8.83253e-03]    (+8.83253e-03)
+        60                       43.7               [+8.89244e-03]    (+8.83253e-03)
+        70                       50.6               [+8.83387e-03]    (+8.83253e-03)
+        80                       57.3               [+8.83256e-03]    (+8.83253e-03)
+        90                       64.6               [+8.83253e-03]    (+8.83253e-03)
+       100                       71.2               [+8.83253e-03]    (+8.83253e-03)
+
+ ---- Best value 0.00883253 found with
+        dis_u0 = -1
+        setp_u0 = 2
+
+No falsifying trace found.
+max+spec_count 
+     1
+
+maximum weight is 
+     5
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 5655.100344 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.9               [-1.39255e+04]    (-1.39255e+04)
+
+ ---- Best value -13925.5 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -13925.5
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   52.1703    4.8483
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-1.26043e+02]    (-1.26043e+02)
+
+ ---- Best value -126.043 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -126.043
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        9.8               [+1.16379e+00]    (+0.00000e+00)
+        20                       17.3               [+7.06584e-01]    (+0.00000e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       24.4               [+5.28292e-06]    (+0.00000e+00)
+        40                       31.5               [+1.44288e-07]    (+0.00000e+00)
+        50                       39.1               [+2.15176e-10]    (+0.00000e+00)
+        60                       46.3               [+2.64917e-12]    (+0.00000e+00)
+        70                       53.9               [+6.57106e-15]    (+0.00000e+00)
+        80                       62.2               [+7.38321e-17]    (+0.00000e+00)
+        90                       68.9               [+0.00000e+00]    (+0.00000e+00)
+       100                       75.4               [+0.00000e+00]    (+0.00000e+00)
+
+ ---- Best value 0 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+No falsifying trace found.
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-1.39255e+04]    (-1.39255e+04)
+
+ ---- Best value -13925.5 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -13925.5
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-1.39256e+04]    (-1.39256e+04)
+
+ ---- Best value -13925.6 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -13925.6
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.1               [-2.36824e+01]    (-2.36824e+01)
+
+ ---- Best value -23.6824 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -23.6824
+max+spec_count 
+     1
+
+maximum weight is 
+     2
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 5816.482003 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.9               [-2.63012e+06]    (-2.63012e+06)
+
+ ---- Best value -2.63012e+06 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -2.63012e+06
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   55.7417    9.6880
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-4.83931e+04]    (-4.83931e+04)
+
+ ---- Best value -48393.1 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -48393.1
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        8.3               [+3.72302e+00]    (+0.00000e+00)
+        20                       15.4               [+2.26041e+00]    (+0.00000e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       22.6               [+1.69004e-05]    (+0.00000e+00)
+        40                       31.4               [+4.61585e-07]    (+0.00000e+00)
+        50                       40.1               [+6.88363e-10]    (+0.00000e+00)
+        60                       47.5               [+8.47486e-12]    (+0.00000e+00)
+        70                       53.6               [+2.10212e-14]    (+0.00000e+00)
+        80                       60.7               [+2.36194e-16]    (+0.00000e+00)
+        90                       67.7               [+0.00000e+00]    (+0.00000e+00)
+       100                       74.9               [+0.00000e+00]    (+0.00000e+00)
+
+ ---- Best value 0 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+No falsifying trace found.
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.1               [-2.63012e+06]    (-2.63012e+06)
+
+ ---- Best value -2.63012e+06 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -2.63012e+06
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.9               [-9.39069e+05]    (-9.39069e+05)
+
+ ---- Best value -939069 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -939069
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-2.09334e+04]    (-2.09334e+04)
+
+ ---- Best value -20933.4 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -20933.4
+max+spec_count 
+     1
+
+maximum weight is 
+     2
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 5981.985192 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-6.27490e+01]    (-6.27490e+01)
+
+ ---- Best value -62.749 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -62.749
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   67.2825    0.0109
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.8               [-7.51689e-02]    (-7.51689e-02)
+
+ ---- Best value -0.0751689 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -0.0751689
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        2.5               [-1.59342e+00]    (-1.59342e+00)
+
+ ---- Best value -1.59342 found with
+        dis_u0 = 0
+        setp_u0 = 2
+
+Falsified with obj = -1.59342
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-6.27490e+01]    (-6.27490e+01)
+
+ ---- Best value -62.749 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -62.749
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.1               [-6.28490e+01]    (-6.28490e+01)
+
+ ---- Best value -62.849 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -62.849
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        8.7               [+8.98516e-03]    (+8.84018e-03)
+        20                       16.8               [+9.38385e-03]    (+8.84018e-03)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       25.9               [+8.84018e-03]    (+8.84018e-03)
+        40                       34.3               [+8.84018e-03]    (+8.84018e-03)
+        50                       42.4               [+8.84018e-03]    (+8.84018e-03)
+        60                       50.5               [+8.89971e-03]    (+8.84018e-03)
+        70                       58.3               [+8.84151e-03]    (+8.84018e-03)
+        80                       66.2               [+8.84021e-03]    (+8.84018e-03)
+        90                       73.5               [+8.84019e-03]    (+8.84018e-03)
+       100                       81.0               [+8.84018e-03]    (+8.84018e-03)
+
+ ---- Best value 0.00884018 found with
+        dis_u0 = -1
+        setp_u0 = 2
+
+No falsifying trace found.
+max+spec_count 
+     1
+
+maximum weight is 
+     5
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 6143.851682 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.3               [-6.08050e+01]    (-6.08050e+01)
+
+ ---- Best value -60.805 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -60.805
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   65.1817    0.0107
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.3               [-7.27975e-02]    (-7.27975e-02)
+
+ ---- Best value -0.0727975 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -0.0727975
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        2.6               [-1.59355e+00]    (-1.59355e+00)
+
+ ---- Best value -1.59355 found with
+        dis_u0 = 0
+        setp_u0 = 2
+
+Falsified with obj = -1.59355
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-6.08050e+01]    (-6.08050e+01)
+
+ ---- Best value -60.805 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -60.805
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.9               [-6.09050e+01]    (-6.09050e+01)
+
+ ---- Best value -60.905 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -60.905
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        8.0               [+9.00488e-03]    (+8.73010e-03)
+        20                       14.2               [+9.39582e-03]    (+8.73010e-03)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       20.7               [+8.72669e-03]    (+8.72669e-03)
+        40                       28.0               [+8.72487e-03]    (+8.72487e-03)
+        50                       34.7               [+8.72492e-03]    (+8.72480e-03)
+        60                       41.7               [+8.72477e-03]    (+8.72476e-03)
+        70                       49.7               [+8.72475e-03]    (+8.72475e-03)
+        80                       57.6               [+8.72475e-03]    (+8.72475e-03)
+        90                       65.1               [+8.72475e-03]    (+8.72475e-03)
+       100                       72.5               [+8.72475e-03]    (+8.72475e-03)
+
+ ---- Best value 0.00872475 found with
+        dis_u0 = -1
+        setp_u0 = 1.98927
+
+No falsifying trace found.
+max+spec_count 
+     1
+
+maximum weight is 
+     5
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 6300.349434 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.2               [-5.81035e+01]    (-5.81035e+01)
+
+ ---- Best value -58.1035 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -58.1035
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   62.1951    0.0101
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.4               [-6.94709e-02]    (-6.94709e-02)
+
+ ---- Best value -0.0694709 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -0.0694709
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        3.0               [-1.59392e+00]    (-1.59392e+00)
+
+ ---- Best value -1.59392 found with
+        dis_u0 = 0
+        setp_u0 = 2
+
+Falsified with obj = -1.59392
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.9               [-5.81035e+01]    (-5.81035e+01)
+
+ ---- Best value -58.1035 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -58.1035
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.9               [-5.82035e+01]    (-5.82035e+01)
+
+ ---- Best value -58.2035 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -58.2035
+phi_spike
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        8.0               [+9.06127e-03]    (+8.92716e-03)
+        20                       14.9               [+9.43005e-03]    (+8.92716e-03)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        30                       21.4               [+8.92717e-03]    (+8.92716e-03)
+        40                       27.6               [+8.92716e-03]    (+8.92716e-03)
+        50                       34.2               [+8.92716e-03]    (+8.92716e-03)
+        60                       41.8               [+8.98222e-03]    (+8.92716e-03)
+        70                       49.0               [+8.92839e-03]    (+8.92716e-03)
+        80                       56.2               [+8.92719e-03]    (+8.92716e-03)
+        90                       62.7               [+8.92717e-03]    (+8.92716e-03)
+       100                       69.1               [+8.92716e-03]    (+8.92716e-03)
+
+ ---- Best value 0.00892716 found with
+        dis_u0 = -1
+        setp_u0 = 2
+
+No falsifying trace found.
+max+spec_count 
+     1
+
+maximum weight is 
+     5
+
+****************************************
+****************************************
+****************************************
+****************************************
+Elapsed time is 6454.965366 seconds.
+pso time
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.6               [-6.37880e+01]    (-6.37880e+01)
+
+ ---- Best value -63.788 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -63.788
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+   68.1637    0.0100
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.9               [-7.63273e-02]    (-7.63273e-02)
+
+ ---- Best value -0.0763273 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -0.0763273
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        2.8               [-1.59394e+00]    (-1.59394e+00)
+
+ ---- Best value -1.59394 found with
+        dis_u0 = 0
+        setp_u0 = 2
+
+Falsified with obj = -1.59394
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.8               [-6.37880e+01]    (-6.37880e+01)
+
+ ---- Best value -63.788 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -63.788
+phi_ov
+{Error using load_system (line 21)
+Program interruption (Ctrl-C) has been detected.
+
+Error in BreachSimulinkSystem/CreateInterface (line 192)
+            load_system(mdl);
+
+Error in BreachSimulinkSystem (line 78)
+                    this.CreateInterface(mdl_name);
+
+Error in init_heatex (line 20)
+    B = BreachSimulinkSystem(newfile);
+
+Error in maximal_specifications (line 306)
+                 [phi,rob,BrFalse]=init_heatex('heatex_sim',specno,1);
+
+Error in pidtest (line 105)
+     [count,wcount]=maximal_specifications(modelno,pval);
+
+Error in globaloptim.simulannealbnd.sanewpoint (line 24)
+newfval = problem.objective(newx);
+
+Error in globaloptim.simulannealbnd.saengine (line 29)
+    solverData =
+    globaloptim.simulannealbnd.sanewpoint(solverData,problem,options);
+
+Error in globaloptim.simulannealbnd.driver (line 24)
+solverData = globaloptim.simulannealbnd.saengine(solverData,problem,options);
+
+Error in simulannealbnd (line 185)
+    globaloptim.simulannealbnd.driver(FUN, x0, [], [], [], [], lb, ub, options,
+    defaultopt);
+
+Error in simulated_annealing (line 81)
+[x,fval,exitFlag,output] = simulannealbnd(fun,x0,lb,ub); - Show complete stack
+trace
+} 
+
+simulated_annealing

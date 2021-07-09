@@ -1,0 +1,40 @@
+Conversion Report for SimMechanics 1G -> 2G for mech_interface_crate_trans
+
+*** Creating Body Body A
+Inertia vectors hardcoded
+CG Ref Frames Unmatched: Translated From, Axes in, and Relative CS should match
+CS1 Ref Frames Unmatched: Translated From, Axes in, and Relative CS should match
+CS2 Ref Frames Unmatched: Translated From, Axes in, and Relative CS should match
+*** Creating Body Body B
+Inertia vectors hardcoded
+CG Ref Frames Unmatched: Translated From, Axes in, and Relative CS should match
+CS1 Ref Frames Unmatched: Translated From, Axes in, and Relative CS should match
+CS2 Ref Frames Unmatched: Translated From, Axes in, and Relative CS should match
+CS3 Ref Frames Unmatched: Translated From, Axes in, and Relative CS should match
+*** Creating Body Body C
+Inertia vectors hardcoded
+CG Ref Frames Unmatched: Translated From, Axes in, and Relative CS should match
+CS1 Ref Frames Unmatched: Translated From, Axes in, and Relative CS should match
+CS2 Ref Frames Unmatched: Translated From, Axes in, and Relative CS should match
+*** Creating Body Body A
+Inertia vectors hardcoded
+CS1 Ref Frames Unmatched: Translated From, Axes in, and Relative CS should match
+*** Creating Body Body B
+Inertia vectors hardcoded
+CS1 Ref Frame Adjoining: Check downstream frame positions and orientations
+*** Creating Joint Prismatic
+P1: Joint axis of action is [1 0 0], should be [0  0  1]
+*** Creating Joint Spherical A 
+*** Creating Joint Spherical B
+*** Creating Joint Revolute A
+R1: Joint axis reference is World, should be Base
+*** Creating Joint Revolute B
+*** Creating Joint Revolute C
+R1: Joint axis reference is WORLD, should be Base
+*** Creating Joint Revolute D
+R1: Joint axis reference is World, should be Base
+*** Creating Ground Ground A
+*** Creating Ground Ground B
+*** Creating Ground Ground C
+No elements unique to 1G were found
+END OF REPORT

@@ -1,0 +1,14 @@
+
+# convergence in cruise control
+param tau = 15, epsi=0.5
+phi_conv :=  ev_[0,15] alw(abs(speed[t]-ref_speed[t]) < epsi )
+
+#rise time
+param tau=1, b=0.9 
+phi_rise := ev_[0,1] (speed[t] > b*ref_speed[t])
+
+param dt=0.1,epsi=3e-2
+phi_cd := abs(speed[t+dt]-speed[t])<epsi
+phi_settle := alw_[10, 60] (phi_cd)
+
+phi_all := (phi_rise and phi_settle and phi_conv)

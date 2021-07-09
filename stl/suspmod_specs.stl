@@ -1,0 +1,15 @@
+
+# settling not fixed
+#param dt=0.01, epsi=1e-2, tau=5
+#phi_d := alw (abs(out[t+dt]-out[t]) < 0.001)
+#phi_settled := ev_[0,10] (phi_d)
+
+
+# settling 
+param dt=0.1, epsi=5e-2, tau=5
+phi_d := alw (abs(out[t+dt]-out[t]) < 0.01)
+phi_settled := ev_[0,10] (phi_d)
+
+#overshoot
+param ref=0.1
+phi_ov := alw (out[t] < (.08+r[t]))

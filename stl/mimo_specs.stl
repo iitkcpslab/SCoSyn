@@ -1,0 +1,19 @@
+
+
+#full quadcopter specs
+# convergence
+param tau = 5
+zconv := (abs(Z[t]-Zd[t]) < 0.1 ) 
+xconv := (abs(X[t]-Xd[t]) < 0.1 )
+yconv := (abs(Y[t]-Yd[t]) < 0.1 )
+pconv := (abs(Psi[t]-Psid[t]) < 0.1 )
+phi_full_conv :=  ev_[0,5] (xconv and yconv and zconv and pconv)
+#phi_full_conv :=  ev_[0,tau] (xconv)
+
+#overshoot
+zov := (Z[t] < 1.05*Zd[t]) 
+xov := (X[t] < 1.05*Xd[t])
+yov := (Y[t] < 1.05*Yd[t])
+#pov := (Psi[t] < 1.05*Psid[t])
+phi_full_ov :=  alw (xov and yov and zov)
+

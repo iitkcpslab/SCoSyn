@@ -1,0 +1,593 @@
+$$$$$$ default value $$$$$$$
+  Columns 1 through 11
+
+    0.1000         0   -0.1000    0.1000         0   -0.1000    4.0000         0   -4.0000    4.5000         0
+
+  Columns 12 through 18
+
+         0    4.5000         0         0   10.0000         0         0
+
+Elapsed time is 292.226624 seconds.
+initialisation time
+Elapsed time is 0.000060 seconds.
+time taken
+------------------ITERATION
+     1
+
+----------------------------
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        3.5               [-2.20663e-02]    (-2.20663e-02)
+
+ ---- Best value -0.0220663 found with
+        Xd_u0 = 4.1
+        Yd_u0 = 0.4
+        Zd_u0 = 2.1
+
+Falsified with obj = -0.0220663
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        4.5               [-1.30752e-01]    (-1.30752e-01)
+
+ ---- Best value -0.130752 found with
+        Xd_u0 = 4.1
+        Yd_u0 = 0.4
+        Zd_u0 = 2.1
+
+Falsified with obj = -0.130752
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        4.8               [-2.69422e-01]    (-2.69422e-01)
+
+ ---- Best value -0.269422 found with
+        Xd_u0 = 4.1
+        Yd_u0 = 0.4
+        Zd_u0 = 2.1
+
+Falsified with obj = -0.269422
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+  Columns 1 through 11
+
+    0.1000         0   -0.1000    0.1000         0   -0.1000    2.2500         0   -4.0000    4.5000         0
+
+  Columns 12 through 18
+
+         0    4.5000         0         0   10.0000         0         0
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        7.2               [-1.92137e-03]    (-1.92137e-03)
+
+ ---- Best value -0.00192137 found with
+        Xd_u0 = 4.4
+        Yd_u0 = 0.6
+        Zd_u0 = 2.3
+
+Falsified with obj = -0.00192137
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        3.8               [-2.69422e-01]    (-2.69422e-01)
+
+ ---- Best value -0.269422 found with
+        Xd_u0 = 4.1
+        Yd_u0 = 0.4
+        Zd_u0 = 2.1
+
+Falsified with obj = -0.269422
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        6.4               [-4.65818e-03]    (-4.65818e-03)
+
+ ---- Best value -0.00465818 found with
+        Xd_u0 = 4.4
+        Yd_u0 = 0.6
+        Zd_u0 = 2.3
+
+Falsified with obj = -0.00465818
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        6.2               [-5.63883e-03]    (-5.63883e-03)
+
+ ---- Best value -0.00563883 found with
+        Xd_u0 = 4.4
+        Yd_u0 = 0.6
+        Zd_u0 = 2.3
+
+Falsified with obj = -0.00563883
+max+spec_count 
+     0
+
+maximum weight is 
+     0
+
+****************************************
+****************************************
+****************************************
+****************************************
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        3.6               [-2.69422e-01]    (-2.69422e-01)
+
+ ---- Best value -0.269422 found with
+        Xd_u0 = 4.1
+        Yd_u0 = 0.4
+        Zd_u0 = 2.1
+
+Falsified with obj = -0.269422
+join: BrFalse_Robust_all.csv:392: is not sorted: 10.42,0.084215
+join: BrFalse.csv:1001: is not sorted: 10,-0.0059389,0,-0.004528,-0.00026587,0,-0.00024603,0.024706,0,0.06502,0.00016567,-0,0,-0.0031683,-0,-0,1.0825e-06,-0,-0
+     9     7    13     3
+
+*******************************************
+ index chosen is 9
+*******************************************
+Elapsed time is 416.417105 seconds.
+time taken
+------------------ITERATION
+     3
+
+----------------------------
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        4.1               [-1.00999e-01]    (-1.00999e-01)
+
+ ---- Best value -0.100999 found with
+        Xd_u0 = 4.1
+        Yd_u0 = 0.4
+        Zd_u0 = 2.1
+
+Falsified with obj = -0.100999
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        4.9               [-7.50605e-02]    (-7.50605e-02)
+
+ ---- Best value -0.0750605 found with
+        Xd_u0 = 4.1
+        Yd_u0 = 0.4
+        Zd_u0 = 2.1
+
+Falsified with obj = -0.0750605
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        4.6               [-6.22501e-02]    (-6.22501e-02)
+
+ ---- Best value -0.0622501 found with
+        Xd_u0 = 4.1
+        Yd_u0 = 0.4
+        Zd_u0 = 2.1
+
+Falsified with obj = -0.0622501
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        5.2               [-5.16200e-02]    (-5.16200e-02)
+
+ ---- Best value -0.05162 found with
+        Xd_u0 = 4.1
+        Yd_u0 = 0.4
+        Zd_u0 = 2.1
+
+Falsified with obj = -0.05162
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        5.5               [-1.64336e-01]    (-1.64336e-01)
+
+ ---- Best value -0.164336 found with
+        Xd_u0 = 4.1
+        Yd_u0 = 0.4
+        Zd_u0 = 2.1
+
+Falsified with obj = -0.164336
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+  Columns 1 through 11
+
+    0.1000         0   -0.1000    0.1000         0   -0.1000    2.2500         0   -6.4072    4.5000         0
+
+  Columns 12 through 18
+
+         0    4.5000         0         0   10.0000         0         0
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        5.2               [-1.08165e-02]    (-1.08165e-02)
+
+ ---- Best value -0.0108165 found with
+        Xd_u0 = 4.1
+        Yd_u0 = 0.4
+        Zd_u0 = 2.1
+
+Falsified with obj = -0.0108165
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        3.9               [-1.64336e-01]    (-1.64336e-01)
+
+ ---- Best value -0.164336 found with
+        Xd_u0 = 4.1
+        Yd_u0 = 0.4
+        Zd_u0 = 2.1
+
+Falsified with obj = -0.164336
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        6.2               [-1.25717e-02]    (-1.25717e-02)
+
+ ---- Best value -0.0125717 found with
+        Xd_u0 = 4.4
+        Yd_u0 = 0.6
+        Zd_u0 = 2.3
+
+Falsified with obj = -0.0125717
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        3.5               [-3.55961e-02]    (-3.55961e-02)
+
+ ---- Best value -0.0355961 found with
+        Xd_u0 = 4.1
+        Yd_u0 = 0.4
+        Zd_u0 = 2.1
+
+Falsified with obj = -0.0355961
+max+spec_count 
+     0
+
+maximum weight is 
+     0
+
+****************************************
+****************************************
+****************************************
+****************************************
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        3.9               [-1.64336e-01]    (-1.64336e-01)
+
+ ---- Best value -0.164336 found with
+        Xd_u0 = 4.1
+        Yd_u0 = 0.4
+        Zd_u0 = 2.1
+
+Falsified with obj = -0.164336
+join: BrFalse.csv:1001: is not sorted: 10,-0.0056797,0,-0.0060553,-0.00033122,0,-0.0001755,0.034504,0,0.054846,0.0002572,-0,0,-0.0021141,-0,-0,3.7786e-07,-0,-0
+join: BrFalse_Robust_all.csv:460: is not sorted: 10,0.097324
+     7     9
+
+*******************************************
+ index chosen is 7
+*******************************************
+Elapsed time is 977.567005 seconds.
+time taken
+------------------ITERATION
+     7
+
+----------------------------
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        4.2               [-7.44853e-02]    (-7.44853e-02)
+
+ ---- Best value -0.0744853 found with
+        Xd_u0 = 4.1
+        Yd_u0 = 0.4
+        Zd_u0 = 2.1
+
+Falsified with obj = -0.0744853
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        5.0               [-9.95793e-02]    (-9.95793e-02)
+
+ ---- Best value -0.0995793 found with
+        Xd_u0 = 4.1
+        Yd_u0 = 0.4
+        Zd_u0 = 2.1
+
+Falsified with obj = -0.0995793
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        5.3               [-6.13458e-02]    (-6.13458e-02)
+
+ ---- Best value -0.0613458 found with
+        Xd_u0 = 4.1
+        Yd_u0 = 0.4
+        Zd_u0 = 2.1
+
+Falsified with obj = -0.0613458
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        4.7               [-4.80989e-02]    (-4.80989e-02)
+
+ ---- Best value -0.0480989 found with
+        Xd_u0 = 4.1
+        Yd_u0 = 0.4
+        Zd_u0 = 2.1
+
+Falsified with obj = -0.0480989
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        4.9               [-3.10578e-02]    (-3.10578e-02)
+
+ ---- Best value -0.0310578 found with
+        Xd_u0 = 4.1
+        Yd_u0 = 0.4
+        Zd_u0 = 2.1
+
+Falsified with obj = -0.0310578
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        5.0               [-1.75339e-02]    (-1.75339e-02)
+
+ ---- Best value -0.0175339 found with
+        Xd_u0 = 4.1
+        Yd_u0 = 0.4
+        Zd_u0 = 2.1
+
+Falsified with obj = -0.0175339
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        4.7               [-8.07758e-02]    (-8.07758e-02)
+
+ ---- Best value -0.0807758 found with
+        Xd_u0 = 4.1
+        Yd_u0 = 0.4
+        Zd_u0 = 2.1
+
+Falsified with obj = -0.0807758
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+  Columns 1 through 11
+
+    0.1000         0   -0.1000    0.1000         0   -0.1000    2.7157         0   -6.4072    4.5000         0
+
+  Columns 12 through 18
+
+         0    4.5000         0         0   10.0000         0         0
+
+phi_settle
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        7.5               [-1.56357e-02]    (-1.56357e-02)
+
+ ---- Best value -0.0156357 found with
+        Xd_u0 = 4.4
+        Yd_u0 = 0.6
+        Zd_u0 = 2.3
+
+Falsified with obj = -0.0156357
+phi_rise
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        4.1               [-8.07758e-02]    (-8.07758e-02)
+
+ ---- Best value -0.0807758 found with
+        Xd_u0 = 4.1
+        Yd_u0 = 0.4
+        Zd_u0 = 2.1
+
+Falsified with obj = -0.0807758
+phi_conv
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        7.3               [-9.30049e-03]    (-9.30049e-03)
+
+ ---- Best value -0.00930049 found with
+        Xd_u0 = 4.4
+        Yd_u0 = 0.6
+        Zd_u0 = 2.3
+
+Falsified with obj = -0.00930049
+phi_ov
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        3.9               [-5.88842e-03]    (-5.88842e-03)
+
+ ---- Best value -0.00588842 found with
+        Xd_u0 = 4.1
+        Yd_u0 = 0.4
+        Zd_u0 = 2.1
+
+Falsified with obj = -0.00588842
+max+spec_count 
+     0
+
+maximum weight is 
+     0
+
+****************************************
+****************************************
+****************************************
+****************************************
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        3.8               [-8.07758e-02]    (-8.07758e-02)
+
+ ---- Best value -0.0807758 found with
+        Xd_u0 = 4.1
+        Yd_u0 = 0.4
+        Zd_u0 = 2.1
+
+Falsified with obj = -0.0807758
+join: BrFalse_Robust_all.csv:377: is not sorted: 10.42,0.084351
+join: BrFalse.csv:1001: is not sorted: 10,-0.0060543,0,-0.0048954,-0.00027296,0,-0.00025703,0.037115,0,0.059751,0.00016825,-0,0,-0.0030799,-0,-0,1.0233e-06,-0,-0
+     7     9    13
+
+*******************************************
+ index chosen is 7
+*******************************************
+Elapsed time is 1697.695373 seconds.
+time taken
+------------------ITERATION
+    13
+
+----------------------------
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        3.9               [-8.10580e-02]    (-8.10580e-02)
+
+ ---- Best value -0.081058 found with
+        Xd_u0 = 4.1
+        Yd_u0 = 0.4
+        Zd_u0 = 2.1
+
+Falsified with obj = -0.081058
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        4.9               [-9.36992e-02]    (-9.36992e-02)
+
+ ---- Best value -0.0936992 found with
+        Xd_u0 = 4.1
+        Yd_u0 = 0.4
+        Zd_u0 = 2.1
+
+Falsified with obj = -0.0936992
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        4.9               [-7.46443e-02]    (-7.46443e-02)
+
+ ---- Best value -0.0746443 found with
+        Xd_u0 = 4.1
+        Yd_u0 = 0.4
+        Zd_u0 = 2.1
+
+Falsified with obj = -0.0746443
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        5.1               [-6.82420e-02]    (-6.82420e-02)
+
+ ---- Best value -0.068242 found with
+        Xd_u0 = 4.1
+        Yd_u0 = 0.4
+        Zd_u0 = 2.1
+
+Falsified with obj = -0.068242
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        5.0               [-6.17498e-02]    (-6.17498e-02)
+
+ ---- Best value -0.0617498 found with
+        Xd_u0 = 4.1
+        Yd_u0 = 0.4
+        Zd_u0 = 2.1
+
+Falsified with obj = -0.0617498
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        5.0               [-5.53849e-02]    (-5.53849e-02)
+
+ ---- Best value -0.0553849 found with
+        Xd_u0 = 4.1
+        Yd_u0 = 0.4
+        Zd_u0 = 2.1
+
+Falsified with obj = -0.0553849
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        5.5               [-4.87218e-02]    (-4.87218e-02)
+
+ ---- Best value -0.0487218 found with
+        Xd_u0 = 4.1
+        Yd_u0 = 0.4
+        Zd_u0 = 2.1
+
+Falsified with obj = -0.0487218
+omCallMethod failed on slmsgviewer.renameTab
+falsify
+Eval objective function on 38 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        5.6               [-4.21939e-02]    (-4.21939e-02)
+
+ ---- Best value -0.0421939 found with
+        Xd_u0 = 4.1
+        Yd_u0 = 0.4
+        Zd_u0 = 2.1
+
+Falsified with obj = -0.0421939

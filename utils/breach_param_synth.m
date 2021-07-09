@@ -1,0 +1,12 @@
+  clear all;
+  specno=3;
+  mode=1;
+  init_aircraft;  
+  %AP.Sim;
+  %synth_pb = ParamSynthProblem(AP, phi_rise, {'tau'}, [0 10]);
+  %synth_pb.solver_options.monotony = [1];
+  %synth_pb.solve();
+  AP = B.copy();
+  synth_pb = ParamSynthProblem(AP, phi_conv, {'epsi'}, [0.01 0.50]);
+  synth_pb.solver_options.monotony = [1];
+  synth_pb.solve();

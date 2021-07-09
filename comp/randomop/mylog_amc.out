@@ -1,0 +1,3784 @@
+$$$$$$ default value $$$$$$$
+    0.0003    2.7718
+
+Elapsed time is 235.597741 seconds.
+initialisation time
+Elapsed time is 0.000100 seconds.
+time taken
+------------------ITERATION
+     1
+
+----------------------------
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-1.21041e+02]    (-1.21041e+02)
+
+ ---- Best value -121.041 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -121.041
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-2.82946e+01]    (-2.82946e+01)
+
+ ---- Best value -28.2946 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -28.2946
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-1.73450e+02]    (-1.73450e+02)
+
+ ---- Best value -173.45 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -173.45
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+    0.0006    2.7718
+
+phi_settle
+
+alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-5.55723e-02]    (-5.55723e-02)
+
+ ---- Best value -0.0555723 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -0.0555723
+phi_rise
+
+ev_[0,tau1] ((az[t] > az_ref[t]*bt))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        4.6               [+4.18406e+01]    (+4.02703e+01)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        6.7               [+4.02703e+01]    (+4.02703e+01)
+        30                        8.4               [+4.02703e+01]    (+4.02703e+01)
+        40                       10.1               [+4.02703e+01]    (+4.02703e+01)
+        50                       13.3               [+4.02703e+01]    (+4.02703e+01)
+        60                       16.3               [+4.02703e+01]    (+4.02703e+01)
+        70                       19.6               [+4.02703e+01]    (+4.02703e+01)
+        80                       22.4               [+4.06057e+01]    (+4.02703e+01)
+        90                       25.1               [+4.02709e+01]    (+4.02703e+01)
+       100                       27.9               [+4.02703e+01]    (+4.02703e+01)
+
+ ---- Best value 40.2703 found with
+        az_ref_u0 = 180
+
+No falsifying trace found.
+phi_conv
+
+ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        4.2               [+2.40859e+00]    (+1.58444e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        6.2               [+1.58446e+00]    (+1.58444e+00)
+        30                        7.8               [+1.58444e+00]    (+1.58444e+00)
+        40                        9.3               [+1.58444e+00]    (+1.58444e+00)
+        50                       11.7               [+1.67071e+00]    (+1.58444e+00)
+        60                       14.4               [+1.58444e+00]    (+1.58444e+00)
+        70                       17.3               [+1.58444e+00]    (+1.58444e+00)
+        80                       20.0               [+1.58444e+00]    (+1.58444e+00)
+        90                       22.8               [+1.96068e+00]    (+1.58444e+00)
+       100                       25.5               [+1.58579e+00]    (+1.58444e+00)
+
+ ---- Best value 1.58444 found with
+        az_ref_u0 = 200
+
+No falsifying trace found.
+phi_spike
+
+alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m)))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-1.73450e+02]    (-1.73450e+02)
+
+ ---- Best value -173.45 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -173.45
+pval_best
+max+spec_count 
+     2
+
+maximum weight is 
+     5
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 1
+*******************************************
+Elapsed time is 194.608951 seconds.
+time taken
+------------------ITERATION
+     3
+
+----------------------------
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-5.64934e+01]    (-5.64934e+01)
+
+ ---- Best value -56.4934 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -56.4934
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-5.89987e+02]    (-5.89987e+02)
+
+ ---- Best value -589.987 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -589.987
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-1.14314e+02]    (-1.14314e+02)
+
+ ---- Best value -114.314 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -114.314
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+    0.0002    2.7718
+
+phi_settle
+
+alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-1.12333e+00]    (-1.12333e+00)
+
+ ---- Best value -1.12333 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -1.12333
+phi_rise
+
+ev_[0,tau1] ((az[t] > az_ref[t]*bt))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-1.14314e+02]    (-1.14314e+02)
+
+ ---- Best value -114.314 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -114.314
+phi_conv
+
+ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        1.9               [-1.48882e+00]    (-1.48882e+00)
+
+ ---- Best value -1.48882 found with
+        az_ref_u0 = 200
+
+Falsified with obj = -1.48882
+phi_spike
+
+alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m)))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-1.00434e-02]    (-1.00434e-02)
+
+ ---- Best value -0.0100434 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -0.0100434
+max+spec_count 
+     2
+
+maximum weight is 
+     5
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 1
+*******************************************
+Elapsed time is 327.518018 seconds.
+time taken
+------------------ITERATION
+     5
+
+----------------------------
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-1.44467e+02]    (-1.44467e+02)
+
+ ---- Best value -144.467 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -144.467
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-8.49372e+01]    (-8.49372e+01)
+
+ ---- Best value -84.9372 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -84.9372
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-4.31183e+01]    (-4.31183e+01)
+
+ ---- Best value -43.1183 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -43.1183
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.2               [-9.20367e+01]    (-9.20367e+01)
+
+ ---- Best value -92.0367 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -92.0367
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+    0.0005    2.7718
+
+phi_settle
+
+alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        5.6               [+1.15961e-02]    (+7.76445e-03)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        8.5               [+7.76779e-03]    (+7.76445e-03)
+        30                       10.7               [+7.76446e-03]    (+7.76445e-03)
+        40                       12.9               [+7.76445e-03]    (+7.76445e-03)
+        50                       16.2               [+7.76445e-03]    (+7.76445e-03)
+        60                       20.4               [+7.76445e-03]    (+7.76445e-03)
+        70                       25.0               [+7.76445e-03]    (+7.76445e-03)
+        80                       29.3               [+1.10247e-02]    (+7.76445e-03)
+        90                       32.4               [+1.09500e-02]    (+7.76445e-03)
+       100                       35.7               [+1.09475e-02]    (+7.76445e-03)
+
+ ---- Best value 0.00776445 found with
+        az_ref_u0 = 200
+
+No falsifying trace found.
+phi_rise
+
+ev_[0,tau1] ((az[t] > az_ref[t]*bt))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        7.3               [+1.30683e+01]    (+1.27901e+01)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                       11.6               [+1.27901e+01]    (+1.27901e+01)
+        30                       13.8               [+1.27901e+01]    (+1.27901e+01)
+        40                       16.0               [+1.27901e+01]    (+1.27901e+01)
+        50                       19.8               [+1.27901e+01]    (+1.27901e+01)
+        60                       23.9               [+1.27901e+01]    (+1.27901e+01)
+        70                       30.2               [+1.27901e+01]    (+1.27901e+01)
+        80                       34.8               [+1.28586e+01]    (+1.27901e+01)
+        90                       38.7               [+1.27903e+01]    (+1.27901e+01)
+       100                       42.7               [+1.27901e+01]    (+1.27901e+01)
+
+ ---- Best value 12.7901 found with
+        az_ref_u0 = 180
+
+No falsifying trace found.
+phi_conv
+
+ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        5.2               [+2.23466e+00]    (+1.30178e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        8.1               [+1.30177e+00]    (+1.30177e+00)
+        30                       11.6               [+1.30176e+00]    (+1.30176e+00)
+        40                       15.5               [+1.30176e+00]    (+1.30176e+00)
+        50                       22.3               [+1.30176e+00]    (+1.30176e+00)
+        60                       27.6               [+1.30176e+00]    (+1.30176e+00)
+        70                       33.5               [+1.30176e+00]    (+1.30176e+00)
+        80                       37.8               [+1.30176e+00]    (+1.30176e+00)
+        90                       42.3               [+1.30176e+00]    (+1.30176e+00)
+       100                       46.9               [+1.30176e+00]    (+1.30176e+00)
+
+ ---- Best value 1.30176 found with
+        az_ref_u0 = 200
+
+No falsifying trace found.
+phi_spike
+
+alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m)))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.2               [-9.20367e+01]    (-9.20367e+01)
+
+ ---- Best value -92.0367 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -92.0367
+pval_best
+max+spec_count 
+     3
+
+maximum weight is 
+     6
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 648.952600 seconds.
+time taken
+------------------ITERATION
+     8
+
+----------------------------
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.9               [-6.80806e+01]    (-6.80806e+01)
+
+ ---- Best value -68.0806 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -68.0806
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.3               [-9.11020e+01]    (-9.11020e+01)
+
+ ---- Best value -91.102 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -91.102
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.9               [-6.34912e+01]    (-6.34912e+01)
+
+ ---- Best value -63.4912 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -63.4912
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.7               [-1.11947e+02]    (-1.11947e+02)
+
+ ---- Best value -111.947 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -111.947
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+    0.0005    0.3465
+
+phi_settle
+
+alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.3               [-1.44498e+00]    (-1.44498e+00)
+
+ ---- Best value -1.44498 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -1.44498
+phi_rise
+
+ev_[0,tau1] ((az[t] > az_ref[t]*bt))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.1               [-1.11947e+02]    (-1.11947e+02)
+
+ ---- Best value -111.947 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -111.947
+phi_conv
+
+ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        2.8               [-6.42757e-01]    (-6.42757e-01)
+
+ ---- Best value -0.642757 found with
+        az_ref_u0 = 200
+
+Falsified with obj = -0.642757
+phi_spike
+
+alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m)))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.1               [-1.46498e+01]    (-1.46498e+01)
+
+ ---- Best value -14.6498 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -14.6498
+max+spec_count 
+     3
+
+maximum weight is 
+     6
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 1
+*******************************************
+Elapsed time is 912.778912 seconds.
+time taken
+------------------ITERATION
+    11
+
+----------------------------
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.8               [-1.44661e+02]    (-1.44661e+02)
+
+ ---- Best value -144.661 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -144.661
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-7.83500e+01]    (-7.83500e+01)
+
+ ---- Best value -78.35 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -78.35
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-1.28063e+02]    (-1.28063e+02)
+
+ ---- Best value -128.063 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -128.063
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+    0.0012    0.3465
+
+phi_settle
+
+alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-3.28127e-01]    (-3.28127e-01)
+
+ ---- Best value -0.328127 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -0.328127
+phi_rise
+
+ev_[0,tau1] ((az[t] > az_ref[t]*bt))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-2.87544e+01]    (-2.87544e+01)
+
+ ---- Best value -28.7544 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -28.7544
+phi_conv
+
+ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        4.3               [+2.29782e+00]    (+1.34537e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        6.4               [+1.34542e+00]    (+1.34537e+00)
+        30                        7.9               [+1.34537e+00]    (+1.34537e+00)
+        40                        9.5               [+1.34537e+00]    (+1.34537e+00)
+        50                       12.6               [+1.47218e+00]    (+1.34537e+00)
+        60                       16.9               [+1.34538e+00]    (+1.34537e+00)
+        70                       20.8               [+1.34537e+00]    (+1.34537e+00)
+        80                       23.9               [+1.34537e+00]    (+1.34537e+00)
+        90                       27.4               [+1.69921e+00]    (+1.34537e+00)
+       100                       30.8               [+1.34540e+00]    (+1.34537e+00)
+
+ ---- Best value 1.34537 found with
+        az_ref_u0 = 200
+
+No falsifying trace found.
+phi_spike
+
+alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m)))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-1.28063e+02]    (-1.28063e+02)
+
+ ---- Best value -128.063 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -128.063
+max+spec_count 
+     3
+
+maximum weight is 
+     6
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 1093.812710 seconds.
+time taken
+------------------ITERATION
+    13
+
+----------------------------
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-9.78693e+01]    (-9.78693e+01)
+
+ ---- Best value -97.8693 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -97.8693
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-2.46884e+02]    (-2.46884e+02)
+
+ ---- Best value -246.884 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -246.884
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-1.36651e+02]    (-1.36651e+02)
+
+ ---- Best value -136.651 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -136.651
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+    0.0012    0.0866
+
+phi_settle
+
+alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-1.89077e+00]    (-1.89077e+00)
+
+ ---- Best value -1.89077 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -1.89077
+phi_rise
+
+ev_[0,tau1] ((az[t] > az_ref[t]*bt))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-1.36651e+02]    (-1.36651e+02)
+
+ ---- Best value -136.651 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -136.651
+phi_conv
+
+ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-1.27691e+00]    (-1.27691e+00)
+
+ ---- Best value -1.27691 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -1.27691
+phi_spike
+
+alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m)))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-1.91077e+01]    (-1.91077e+01)
+
+ ---- Best value -19.1077 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -19.1077
+max+spec_count 
+     3
+
+maximum weight is 
+     6
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 1
+*******************************************
+Elapsed time is 1229.678412 seconds.
+time taken
+------------------ITERATION
+    15
+
+----------------------------
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-1.56499e+02]    (-1.56499e+02)
+
+ ---- Best value -156.499 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -156.499
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-1.16031e+02]    (-1.16031e+02)
+
+ ---- Best value -116.031 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -116.031
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-8.41312e+01]    (-8.41312e+01)
+
+ ---- Best value -84.1312 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -84.1312
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-1.46993e+02]    (-1.46993e+02)
+
+ ---- Best value -146.993 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -146.993
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+    0.0040    0.0866
+
+phi_settle
+
+alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-6.55855e-01]    (-6.55855e-01)
+
+ ---- Best value -0.655855 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -0.655855
+phi_rise
+
+ev_[0,tau1] ((az[t] > az_ref[t]*bt))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-3.63713e+01]    (-3.63713e+01)
+
+ ---- Best value -36.3713 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -36.3713
+phi_conv
+
+ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        4.3               [+2.51120e+00]    (+1.57366e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        6.4               [+1.57369e+00]    (+1.57366e+00)
+        30                        8.0               [+1.57366e+00]    (+1.57366e+00)
+        40                        9.6               [+1.57366e+00]    (+1.57366e+00)
+        50                       11.1               [+1.57366e+00]    (+1.57366e+00)
+        60                       14.0               [+1.60227e+00]    (+1.57366e+00)
+        70                       16.9               [+1.57367e+00]    (+1.57366e+00)
+        80                       19.8               [+1.57366e+00]    (+1.57366e+00)
+        90                       22.6               [+1.57366e+00]    (+1.57366e+00)
+       100                       25.4               [+1.59424e+00]    (+1.57366e+00)
+
+ ---- Best value 1.57366 found with
+        az_ref_u0 = 200
+
+No falsifying trace found.
+phi_spike
+
+alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m)))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-1.46993e+02]    (-1.46993e+02)
+
+ ---- Best value -146.993 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -146.993
+max+spec_count 
+     3
+
+maximum weight is 
+     6
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 1416.765918 seconds.
+time taken
+------------------ITERATION
+    18
+
+----------------------------
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-1.06799e+02]    (-1.06799e+02)
+
+ ---- Best value -106.799 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -106.799
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-3.24256e+02]    (-3.24256e+02)
+
+ ---- Best value -324.256 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -324.256
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-1.42178e+02]    (-1.42178e+02)
+
+ ---- Best value -142.178 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -142.178
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+    0.0040    0.0217
+
+phi_settle
+
+alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-2.09818e+00]    (-2.09818e+00)
+
+ ---- Best value -2.09818 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -2.09818
+phi_rise
+
+ev_[0,tau1] ((az[t] > az_ref[t]*bt))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-1.42178e+02]    (-1.42178e+02)
+
+ ---- Best value -142.178 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -142.178
+phi_conv
+
+ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-4.30558e+00]    (-4.30558e+00)
+
+ ---- Best value -4.30558 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -4.30558
+phi_spike
+
+alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m)))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-2.11818e+01]    (-2.11818e+01)
+
+ ---- Best value -21.1818 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -21.1818
+max+spec_count 
+     3
+
+maximum weight is 
+     6
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 1
+*******************************************
+Elapsed time is 1553.701006 seconds.
+time taken
+------------------ITERATION
+    20
+
+----------------------------
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-9.45407e+01]    (-9.45407e+01)
+
+ ---- Best value -94.5407 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -94.5407
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-4.46042e+01]    (-4.46042e+01)
+
+ ---- Best value -44.6042 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -44.6042
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-3.58132e+01]    (-3.58132e+01)
+
+ ---- Best value -35.8132 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -35.8132
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-1.02716e+02]    (-1.02716e+02)
+
+ ---- Best value -102.716 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -102.716
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+    0.0005    0.0217
+
+phi_settle
+
+alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        4.1               [+6.41307e-03]    (+6.34735e-03)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        6.9               [+6.46906e-03]    (+6.21844e-03)
+        30                        9.4               [+6.23485e-03]    (+6.20116e-03)
+        40                       11.8               [+6.20090e-03]    (+6.20064e-03)
+        50                       14.0               [+6.20027e-03]    (+6.20024e-03)
+        60                       16.2               [+6.23601e-03]    (+6.20018e-03)
+        70                       18.7               [+6.20018e-03]    (+6.20018e-03)
+        80                       21.4               [+6.23602e-03]    (+6.20018e-03)
+        90                       23.6               [+6.20018e-03]    (+6.20018e-03)
+       100                       25.9               [+6.23602e-03]    (+6.20018e-03)
+
+ ---- Best value 0.00620018 found with
+        az_ref_u0 = 194.498
+
+No falsifying trace found.
+phi_rise
+
+ev_[0,tau1] ((az[t] > az_ref[t]*bt))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        4.2               [+1.76971e+01]    (+1.71807e+01)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        6.2               [+1.71807e+01]    (+1.71807e+01)
+        30                        7.7               [+1.71807e+01]    (+1.71807e+01)
+        40                        9.3               [+1.71807e+01]    (+1.71807e+01)
+        50                       12.1               [+1.71807e+01]    (+1.71807e+01)
+        60                       14.8               [+1.71807e+01]    (+1.71807e+01)
+        70                       17.6               [+1.71807e+01]    (+1.71807e+01)
+        80                       20.4               [+1.72721e+01]    (+1.71807e+01)
+        90                       23.4               [+1.71810e+01]    (+1.71807e+01)
+       100                       26.2               [+1.71807e+01]    (+1.71807e+01)
+
+ ---- Best value 17.1807 found with
+        az_ref_u0 = 180
+
+No falsifying trace found.
+phi_conv
+
+ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        4.2               [+2.26664e+00]    (+1.35103e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        6.9               [+1.35282e+00]    (+1.34994e+00)
+        30                        9.7               [+1.35010e+00]    (+1.34994e+00)
+        40                       12.0               [+1.34985e+00]    (+1.34983e+00)
+        50                       14.5               [+1.34981e+00]    (+1.34981e+00)
+        60                       16.7               [+1.34981e+00]    (+1.34980e+00)
+        70                       19.2               [+1.35340e+00]    (+1.34980e+00)
+        80                       21.5               [+1.34980e+00]    (+1.34980e+00)
+        90                       23.8               [+1.34980e+00]    (+1.34980e+00)
+       100                       26.5               [+1.35340e+00]    (+1.34980e+00)
+
+ ---- Best value 1.3498 found with
+        az_ref_u0 = 199.988
+
+No falsifying trace found.
+phi_spike
+
+alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m)))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-1.02716e+02]    (-1.02716e+02)
+
+ ---- Best value -102.716 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -102.716
+max+spec_count 
+     3
+
+maximum weight is 
+     6
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 1789.862830 seconds.
+time taken
+------------------ITERATION
+    23
+
+----------------------------
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-7.09430e+01]    (-7.09430e+01)
+
+ ---- Best value -70.943 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -70.943
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-6.76970e+01]    (-6.76970e+01)
+
+ ---- Best value -67.697 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -67.697
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+    0.0005    3.1182
+
+phi_settle
+
+alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-5.00914e-02]    (-5.00914e-02)
+
+ ---- Best value -0.0500914 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -0.0500914
+phi_rise
+
+ev_[0,tau1] ((az[t] > az_ref[t]*bt))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-6.76970e+01]    (-6.76970e+01)
+
+ ---- Best value -67.697 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -67.697
+phi_conv
+
+ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        2.1               [-2.87310e-04]    (-2.87310e-04)
+
+ ---- Best value -0.00028731 found with
+        az_ref_u0 = 200
+
+Falsified with obj = -0.00028731
+phi_spike
+
+alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m)))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        2.0               [-1.57429e-02]    (-1.57429e-02)
+
+ ---- Best value -0.0157429 found with
+        az_ref_u0 = 200
+
+Falsified with obj = -0.0157429
+max+spec_count 
+     3
+
+maximum weight is 
+     6
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 1
+*******************************************
+Elapsed time is 1902.250055 seconds.
+time taken
+------------------ITERATION
+    24
+
+----------------------------
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-8.04124e+01]    (-8.04124e+01)
+
+ ---- Best value -80.4124 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -80.4124
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-5.51700e+01]    (-5.51700e+01)
+
+ ---- Best value -55.17 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -55.17
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-4.16930e+01]    (-4.16930e+01)
+
+ ---- Best value -41.693 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -41.693
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-2.67890e+01]    (-2.67890e+01)
+
+ ---- Best value -26.789 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -26.789
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-4.17694e+01]    (-4.17694e+01)
+
+ ---- Best value -41.7694 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -41.7694
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+    0.0004    3.1182
+
+phi_settle
+
+alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        4.3               [+5.56262e-03]    (+2.40438e-03)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        14                        5.2               [-3.02772e-04]    (-3.02772e-04)
+
+ ---- Best value -0.000302772 found with
+        az_ref_u0 = 196.632
+
+Falsified with obj = -0.000302772
+phi_rise
+
+ev_[0,tau1] ((az[t] > az_ref[t]*bt))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-1.09934e+01]    (-1.09934e+01)
+
+ ---- Best value -10.9934 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -10.9934
+phi_conv
+
+ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        4.2               [+2.06352e+00]    (+1.02184e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        6.3               [+1.02187e+00]    (+1.02184e+00)
+        30                        7.9               [+1.02184e+00]    (+1.02184e+00)
+        40                        9.5               [+1.02184e+00]    (+1.02184e+00)
+        50                       11.3               [+1.34023e+00]    (+1.02184e+00)
+        60                       14.1               [+1.02639e+00]    (+1.02184e+00)
+        70                       17.7               [+1.02184e+00]    (+1.02184e+00)
+        80                       20.6               [+1.02184e+00]    (+1.02184e+00)
+        90                       23.5               [+1.02184e+00]    (+1.02184e+00)
+       100                       26.5               [+1.02437e+00]    (+1.02184e+00)
+
+ ---- Best value 1.02184 found with
+        az_ref_u0 = 200
+
+No falsifying trace found.
+phi_spike
+
+alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m)))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-4.17694e+01]    (-4.17694e+01)
+
+ ---- Best value -41.7694 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -41.7694
+max+spec_count 
+     3
+
+maximum weight is 
+     6
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 2122.813467 seconds.
+time taken
+------------------ITERATION
+    28
+
+----------------------------
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-4.09112e+01]    (-4.09112e+01)
+
+ ---- Best value -40.9112 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -40.9112
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-4.25048e+01]    (-4.25048e+01)
+
+ ---- Best value -42.5048 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -42.5048
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+    0.0004    3.5080
+
+phi_settle
+
+alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-3.64364e-03]    (-3.64364e-03)
+
+ ---- Best value -0.00364364 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -0.00364364
+phi_rise
+
+ev_[0,tau1] ((az[t] > az_ref[t]*bt))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-1.00660e+01]    (-1.00660e+01)
+
+ ---- Best value -10.066 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -10.066
+phi_conv
+
+ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        4.2               [+2.08138e+00]    (+1.05491e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        6.3               [+1.05494e+00]    (+1.05491e+00)
+        30                        7.9               [+1.05491e+00]    (+1.05491e+00)
+        40                        9.5               [+1.05491e+00]    (+1.05491e+00)
+        50                       11.9               [+1.16100e+00]    (+1.05491e+00)
+        60                       14.7               [+1.05491e+00]    (+1.05491e+00)
+        70                       17.6               [+1.05491e+00]    (+1.05491e+00)
+        80                       20.4               [+1.05491e+00]    (+1.05491e+00)
+        90                       23.3               [+1.43220e+00]    (+1.05491e+00)
+       100                       26.1               [+1.05492e+00]    (+1.05491e+00)
+
+ ---- Best value 1.05491 found with
+        az_ref_u0 = 200
+
+No falsifying trace found.
+phi_spike
+
+alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m)))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        1.5               [-4.25048e+01]    (-4.25048e+01)
+
+ ---- Best value -42.5048 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -42.5048
+max+spec_count 
+     3
+
+maximum weight is 
+     6
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 1
+*******************************************
+Elapsed time is 2260.336792 seconds.
+time taken
+------------------ITERATION
+    29
+
+----------------------------
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.0               [-2.77918e+01]    (-2.77918e+01)
+
+ ---- Best value -27.7918 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -27.7918
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-7.39261e+01]    (-7.39261e+01)
+
+ ---- Best value -73.9261 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -73.9261
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-4.43714e+01]    (-4.43714e+01)
+
+ ---- Best value -44.3714 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -44.3714
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+    0.0003    3.5080
+
+phi_settle
+
+alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-5.31243e-02]    (-5.31243e-02)
+
+ ---- Best value -0.0531243 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -0.0531243
+phi_rise
+
+ev_[0,tau1] ((az[t] > az_ref[t]*bt))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-4.43714e+01]    (-4.43714e+01)
+
+ ---- Best value -44.3714 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -44.3714
+phi_conv
+
+ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        4.2               [+1.74735e+00]    (+5.08337e-01)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        6.3               [+5.08373e-01]    (+5.08337e-01)
+        30                        7.9               [+5.08337e-01]    (+5.08337e-01)
+        40                        9.4               [+5.08337e-01]    (+5.08337e-01)
+        50                       11.5               [+7.89977e-01]    (+5.08337e-01)
+        60                       14.4               [+5.08819e-01]    (+5.08337e-01)
+        70                       17.2               [+5.08337e-01]    (+5.08337e-01)
+        80                       20.0               [+5.08337e-01]    (+5.08337e-01)
+        90                       22.8               [+5.08337e-01]    (+5.08337e-01)
+       100                       25.6               [+5.28019e-01]    (+5.08337e-01)
+
+ ---- Best value 0.508337 found with
+        az_ref_u0 = 200
+
+No falsifying trace found.
+phi_spike
+
+alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m)))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-4.99205e+00]    (-4.99205e+00)
+
+ ---- Best value -4.99205 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -4.99205
+max+spec_count 
+     3
+
+maximum weight is 
+     6
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 1
+*******************************************
+Elapsed time is 2436.835202 seconds.
+time taken
+------------------ITERATION
+    31
+
+----------------------------
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-5.92084e+01]    (-5.92084e+01)
+
+ ---- Best value -59.2084 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -59.2084
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-2.98086e+01]    (-2.98086e+01)
+
+ ---- Best value -29.8086 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -29.8086
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-3.55214e+01]    (-3.55214e+01)
+
+ ---- Best value -35.5214 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -35.5214
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+    0.0004    3.5080
+
+phi_settle
+
+alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-8.18511e-03]    (-8.18511e-03)
+
+ ---- Best value -0.00818511 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -0.00818511
+phi_rise
+
+ev_[0,tau1] ((az[t] > az_ref[t]*bt))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-1.44021e+01]    (-1.44021e+01)
+
+ ---- Best value -14.4021 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -14.4021
+phi_conv
+
+ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        4.2               [+2.04460e+00]    (+9.95420e-01)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        6.3               [+9.95452e-01]    (+9.95420e-01)
+        30                        7.9               [+9.95420e-01]    (+9.95420e-01)
+        40                        9.5               [+9.95420e-01]    (+9.95420e-01)
+        50                       11.8               [+1.10378e+00]    (+9.95420e-01)
+        60                       14.6               [+9.95424e-01]    (+9.95420e-01)
+        70                       17.5               [+9.95420e-01]    (+9.95420e-01)
+        80                       20.3               [+9.95420e-01]    (+9.95420e-01)
+        90                       23.1               [+1.37950e+00]    (+9.95420e-01)
+       100                       26.0               [+9.95435e-01]    (+9.95420e-01)
+
+ ---- Best value 0.99542 found with
+        az_ref_u0 = 200
+
+No falsifying trace found.
+phi_spike
+
+alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m)))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-3.55214e+01]    (-3.55214e+01)
+
+ ---- Best value -35.5214 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -35.5214
+max+spec_count 
+     3
+
+maximum weight is 
+     6
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 2593.853923 seconds.
+time taken
+------------------ITERATION
+    33
+
+----------------------------
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-3.49447e+01]    (-3.49447e+01)
+
+ ---- Best value -34.9447 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -34.9447
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-3.57954e+01]    (-3.57954e+01)
+
+ ---- Best value -35.7954 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -35.7954
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+    0.0004    3.9465
+
+phi_settle
+
+alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-2.08752e-02]    (-2.08752e-02)
+
+ ---- Best value -0.0208752 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -0.0208752
+phi_rise
+
+ev_[0,tau1] ((az[t] > az_ref[t]*bt))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-1.34118e+01]    (-1.34118e+01)
+
+ ---- Best value -13.4118 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -13.4118
+phi_conv
+
+ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        4.2               [+2.06079e+00]    (+1.02523e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        6.3               [+1.02526e+00]    (+1.02523e+00)
+        30                        8.0               [+1.02523e+00]    (+1.02523e+00)
+        40                        9.7               [+1.02523e+00]    (+1.02523e+00)
+        50                       12.0               [+1.13360e+00]    (+1.02523e+00)
+        60                       15.0               [+1.02523e+00]    (+1.02523e+00)
+        70                       17.8               [+1.02523e+00]    (+1.02523e+00)
+        80                       20.6               [+1.02523e+00]    (+1.02523e+00)
+        90                       23.5               [+1.40510e+00]    (+1.02523e+00)
+       100                       26.4               [+1.02524e+00]    (+1.02523e+00)
+
+ ---- Best value 1.02523 found with
+        az_ref_u0 = 200
+
+No falsifying trace found.
+phi_spike
+
+alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m)))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-3.57954e+01]    (-3.57954e+01)
+
+ ---- Best value -35.7954 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -35.7954
+max+spec_count 
+     3
+
+maximum weight is 
+     6
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 2722.848510 seconds.
+time taken
+------------------ITERATION
+    34
+
+----------------------------
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-3.54722e+01]    (-3.54722e+01)
+
+ ---- Best value -35.4722 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -35.4722
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-3.61180e+01]    (-3.61180e+01)
+
+ ---- Best value -36.118 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -36.118
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+    0.0004    4.4398
+
+phi_settle
+
+alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-3.29813e-02]    (-3.29813e-02)
+
+ ---- Best value -0.0329813 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -0.0329813
+phi_rise
+
+ev_[0,tau1] ((az[t] > az_ref[t]*bt))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-1.23633e+01]    (-1.23633e+01)
+
+ ---- Best value -12.3633 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -12.3633
+phi_conv
+
+ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        4.2               [+2.07513e+00]    (+1.05147e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        6.3               [+1.05150e+00]    (+1.05147e+00)
+        30                        7.9               [+1.05147e+00]    (+1.05147e+00)
+        40                        9.4               [+1.05147e+00]    (+1.05147e+00)
+        50                       11.4               [+1.28844e+00]    (+1.05147e+00)
+        60                       14.2               [+1.05187e+00]    (+1.05147e+00)
+        70                       17.0               [+1.05147e+00]    (+1.05147e+00)
+        80                       19.9               [+1.05147e+00]    (+1.05147e+00)
+        90                       22.7               [+1.05147e+00]    (+1.05147e+00)
+       100                       25.5               [+1.05430e+00]    (+1.05147e+00)
+
+ ---- Best value 1.05147 found with
+        az_ref_u0 = 200
+
+No falsifying trace found.
+phi_spike
+
+alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m)))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-3.61180e+01]    (-3.61180e+01)
+
+ ---- Best value -36.118 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -36.118
+max+spec_count 
+     3
+
+maximum weight is 
+     6
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 1
+*******************************************
+Elapsed time is 2850.853501 seconds.
+time taken
+------------------ITERATION
+    35
+
+----------------------------
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-2.96903e+01]    (-2.96903e+01)
+
+ ---- Best value -29.6903 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -29.6903
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-6.47981e+01]    (-6.47981e+01)
+
+ ---- Best value -64.7981 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -64.7981
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-4.59220e+01]    (-4.59220e+01)
+
+ ---- Best value -45.922 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -45.922
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+    0.0003    4.4398
+
+phi_settle
+
+alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-9.03914e-02]    (-9.03914e-02)
+
+ ---- Best value -0.0903914 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -0.0903914
+phi_rise
+
+ev_[0,tau1] ((az[t] > az_ref[t]*bt))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-4.59220e+01]    (-4.59220e+01)
+
+ ---- Best value -45.922 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -45.922
+phi_conv
+
+ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        4.2               [+1.74229e+00]    (+5.08307e-01)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        6.4               [+5.08344e-01]    (+5.08307e-01)
+        30                        8.0               [+5.08307e-01]    (+5.08307e-01)
+        40                        9.6               [+5.08307e-01]    (+5.08307e-01)
+        50                       11.6               [+7.90293e-01]    (+5.08307e-01)
+        60                       14.5               [+5.08792e-01]    (+5.08307e-01)
+        70                       17.3               [+5.08308e-01]    (+5.08307e-01)
+        80                       20.2               [+5.08307e-01]    (+5.08307e-01)
+        90                       23.1               [+5.08307e-01]    (+5.08307e-01)
+       100                       26.0               [+5.11072e-01]    (+5.08307e-01)
+
+ ---- Best value 0.508307 found with
+        az_ref_u0 = 200
+
+No falsifying trace found.
+phi_spike
+
+alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m)))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-2.85237e+00]    (-2.85237e+00)
+
+ ---- Best value -2.85237 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -2.85237
+max+spec_count 
+     3
+
+maximum weight is 
+     6
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 1
+*******************************************
+Elapsed time is 3007.820165 seconds.
+time taken
+------------------ITERATION
+    37
+
+----------------------------
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-6.06463e+01]    (-6.06463e+01)
+
+ ---- Best value -60.6463 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -60.6463
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-3.16804e+01]    (-3.16804e+01)
+
+ ---- Best value -31.6804 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -31.6804
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-2.94725e+01]    (-2.94725e+01)
+
+ ---- Best value -29.4725 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -29.4725
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-5.61933e+01]    (-5.61933e+01)
+
+ ---- Best value -56.1933 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -56.1933
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+    0.0005    4.4398
+
+phi_settle
+
+alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-2.50745e-02]    (-2.50745e-02)
+
+ ---- Best value -0.0250745 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -0.0250745
+phi_rise
+
+ev_[0,tau1] ((az[t] > az_ref[t]*bt))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-9.54341e-01]    (-9.54341e-01)
+
+ ---- Best value -0.954341 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -0.954341
+phi_conv
+
+ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        4.3               [+2.17257e+00]    (+1.21115e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        6.7               [+1.21118e+00]    (+1.21085e+00)
+        30                        9.5               [+1.21124e+00]    (+1.21083e+00)
+        40                       11.9               [+1.21124e+00]    (+1.21083e+00)
+        50                       14.2               [+1.21082e+00]    (+1.21082e+00)
+        60                       16.6               [+1.21082e+00]    (+1.21082e+00)
+        70                       19.3               [+1.21124e+00]    (+1.21082e+00)
+        80                       21.9               [+1.21124e+00]    (+1.21082e+00)
+        90                       24.8               [+1.21124e+00]    (+1.21082e+00)
+       100                       27.4               [+1.21124e+00]    (+1.21082e+00)
+
+ ---- Best value 1.21082 found with
+        az_ref_u0 = 199.999
+
+No falsifying trace found.
+phi_spike
+
+alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m)))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-5.61933e+01]    (-5.61933e+01)
+
+ ---- Best value -56.1933 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -56.1933
+max+spec_count 
+     3
+
+maximum weight is 
+     6
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 1
+*******************************************
+Elapsed time is 3196.956614 seconds.
+time taken
+------------------ITERATION
+    40
+
+----------------------------
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-2.70285e+01]    (-2.70285e+01)
+
+ ---- Best value -27.0285 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -27.0285
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-9.26549e+01]    (-9.26549e+01)
+
+ ---- Best value -92.6549 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -92.6549
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-3.55733e+01]    (-3.55733e+01)
+
+ ---- Best value -35.5733 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -35.5733
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+    0.0004    4.4398
+
+phi_settle
+
+alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-7.24901e-02]    (-7.24901e-02)
+
+ ---- Best value -0.0724901 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -0.0724901
+phi_rise
+
+ev_[0,tau1] ((az[t] > az_ref[t]*bt))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-3.55733e+01]    (-3.55733e+01)
+
+ ---- Best value -35.5733 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -35.5733
+phi_conv
+
+ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        4.3               [+1.85494e+00]    (+6.94146e-01)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        6.4               [+6.94181e-01]    (+6.94146e-01)
+        30                        8.0               [+6.94146e-01]    (+6.94146e-01)
+        40                        9.5               [+6.94146e-01]    (+6.94146e-01)
+        50                       11.6               [+9.59062e-01]    (+6.94146e-01)
+        60                       14.6               [+6.94605e-01]    (+6.94146e-01)
+        70                       17.5               [+6.94146e-01]    (+6.94146e-01)
+        80                       20.5               [+6.94146e-01]    (+6.94146e-01)
+        90                       23.4               [+6.94146e-01]    (+6.94146e-01)
+       100                       26.4               [+6.96769e-01]    (+6.94146e-01)
+
+ ---- Best value 0.694146 found with
+        az_ref_u0 = 200
+
+No falsifying trace found.
+phi_spike
+
+alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m)))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-9.68658e+00]    (-9.68658e+00)
+
+ ---- Best value -9.68658 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -9.68658
+max+spec_count 
+     3
+
+maximum weight is 
+     6
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 3355.070471 seconds.
+time taken
+------------------ITERATION
+    42
+
+----------------------------
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-3.67633e+01]    (-3.67633e+01)
+
+ ---- Best value -36.7633 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -36.7633
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-3.42611e+01]    (-3.42611e+01)
+
+ ---- Best value -34.2611 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -34.2611
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-3.29773e+01]    (-3.29773e+01)
+
+ ---- Best value -32.9773 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -32.9773
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+    0.0004    5.6191
+
+phi_settle
+
+alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-9.24910e-02]    (-9.24910e-02)
+
+ ---- Best value -0.092491 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -0.092491
+phi_rise
+
+ev_[0,tau1] ((az[t] > az_ref[t]*bt))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-3.29773e+01]    (-3.29773e+01)
+
+ ---- Best value -32.9773 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -32.9773
+phi_conv
+
+ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        4.3               [+1.88288e+00]    (+7.45005e-01)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        6.4               [+7.45039e-01]    (+7.45005e-01)
+        30                        8.1               [+7.45005e-01]    (+7.45005e-01)
+        40                        9.7               [+7.45005e-01]    (+7.45005e-01)
+        50                       12.1               [+8.60421e-01]    (+7.45005e-01)
+        60                       15.1               [+7.45009e-01]    (+7.45005e-01)
+        70                       18.0               [+7.45005e-01]    (+7.45005e-01)
+        80                       20.9               [+7.45005e-01]    (+7.45005e-01)
+        90                       23.9               [+1.15101e+00]    (+7.45005e-01)
+       100                       26.8               [+7.45021e-01]    (+7.45005e-01)
+
+ ---- Best value 0.745005 found with
+        az_ref_u0 = 200
+
+No falsifying trace found.
+phi_spike
+
+alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m)))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-9.69026e+00]    (-9.69026e+00)
+
+ ---- Best value -9.69026 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -9.69026
+max+spec_count 
+     3
+
+maximum weight is 
+     6
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 3514.935057 seconds.
+time taken
+------------------ITERATION
+    44
+
+----------------------------
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-3.44682e+01]    (-3.44682e+01)
+
+ ---- Best value -34.4682 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -34.4682
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-3.19140e+01]    (-3.19140e+01)
+
+ ---- Best value -31.914 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -31.914
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-3.14861e+01]    (-3.14861e+01)
+
+ ---- Best value -31.4861 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -31.4861
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+    0.0004    7.1117
+
+phi_settle
+
+alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-1.07860e-01]    (-1.07860e-01)
+
+ ---- Best value -0.10786 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -0.10786
+phi_rise
+
+ev_[0,tau1] ((az[t] > az_ref[t]*bt))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-3.14861e+01]    (-3.14861e+01)
+
+ ---- Best value -31.4861 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -31.4861
+phi_conv
+
+ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        4.4               [+1.90512e+00]    (+7.84153e-01)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        6.5               [+7.84186e-01]    (+7.84153e-01)
+        30                        8.2               [+7.84153e-01]    (+7.84153e-01)
+        40                        9.9               [+7.84153e-01]    (+7.84153e-01)
+        50                       11.8               [+7.84153e-01]    (+7.84153e-01)
+        60                       14.5               [+7.84790e-01]    (+7.84153e-01)
+        70                       17.5               [+7.84243e-01]    (+7.84153e-01)
+        80                       20.5               [+7.84153e-01]    (+7.84153e-01)
+        90                       23.4               [+7.84153e-01]    (+7.84153e-01)
+       100                       26.4               [+7.84153e-01]    (+7.84153e-01)
+
+ ---- Best value 0.784153 found with
+        az_ref_u0 = 200
+
+No falsifying trace found.
+phi_spike
+
+alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m)))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-9.63728e+00]    (-9.63728e+00)
+
+ ---- Best value -9.63728 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -9.63728
+max+spec_count 
+     3
+
+maximum weight is 
+     6
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 3673.997357 seconds.
+time taken
+------------------ITERATION
+    46
+
+----------------------------
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-3.20301e+01]    (-3.20301e+01)
+
+ ---- Best value -32.0301 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -32.0301
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-3.16381e+01]    (-3.16381e+01)
+
+ ---- Best value -31.6381 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -31.6381
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+    0.0004    8.0007
+
+phi_settle
+
+alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-1.14537e-01]    (-1.14537e-01)
+
+ ---- Best value -0.114537 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -0.114537
+phi_rise
+
+ev_[0,tau1] ((az[t] > az_ref[t]*bt))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-3.16381e+01]    (-3.16381e+01)
+
+ ---- Best value -31.6381 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -31.6381
+phi_conv
+
+ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        4.3               [+1.91433e+00]    (+8.01944e-01)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        6.8               [+8.02078e-01]    (+8.01944e-01)
+        30                        8.5               [+8.01944e-01]    (+8.01944e-01)
+        40                       10.1               [+8.01944e-01]    (+8.01944e-01)
+        50                       12.0               [+8.01944e-01]    (+8.01944e-01)
+        60                       14.6               [+8.02583e-01]    (+8.01944e-01)
+        70                       17.5               [+8.02034e-01]    (+8.01944e-01)
+        80                       20.6               [+8.01944e-01]    (+8.01944e-01)
+        90                       23.5               [+8.01944e-01]    (+8.01944e-01)
+       100                       26.5               [+1.04040e+00]    (+8.01944e-01)
+
+ ---- Best value 0.801944 found with
+        az_ref_u0 = 200
+
+No falsifying trace found.
+phi_spike
+
+alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m)))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-1.02617e+01]    (-1.02617e+01)
+
+ ---- Best value -10.2617 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -10.2617
+max+spec_count 
+     3
+
+maximum weight is 
+     6
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 3803.930449 seconds.
+time taken
+------------------ITERATION
+    47
+
+----------------------------
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-3.14932e+01]    (-3.14932e+01)
+
+ ---- Best value -31.4932 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -31.4932
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-3.21740e+01]    (-3.21740e+01)
+
+ ---- Best value -32.174 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -32.174
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+    0.0004    9.0008
+
+phi_settle
+
+alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-1.21328e-01]    (-1.21328e-01)
+
+ ---- Best value -0.121328 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -0.121328
+phi_rise
+
+ev_[0,tau1] ((az[t] > az_ref[t]*bt))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-3.21740e+01]    (-3.21740e+01)
+
+ ---- Best value -32.174 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -32.174
+phi_conv
+
+ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        4.4               [+1.92275e+00]    (+8.14939e-01)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        6.5               [+8.14972e-01]    (+8.14939e-01)
+        30                        8.1               [+8.14939e-01]    (+8.14939e-01)
+        40                        9.7               [+8.14939e-01]    (+8.14939e-01)
+        50                       12.2               [+9.31259e-01]    (+8.14939e-01)
+        60                       15.3               [+8.14943e-01]    (+8.14939e-01)
+        70                       18.3               [+8.14939e-01]    (+8.14939e-01)
+        80                       21.4               [+8.14939e-01]    (+8.14939e-01)
+        90                       24.4               [+1.31251e+00]    (+8.14939e-01)
+       100                       27.4               [+8.16718e-01]    (+8.14939e-01)
+
+ ---- Best value 0.814939 found with
+        az_ref_u0 = 200
+
+No falsifying trace found.
+phi_spike
+
+alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m)))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-1.06862e+01]    (-1.06862e+01)
+
+ ---- Best value -10.6862 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -10.6862
+max+spec_count 
+     3
+
+maximum weight is 
+     6
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 3935.057653 seconds.
+time taken
+------------------ITERATION
+    48
+
+----------------------------
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-3.16045e+01]    (-3.16045e+01)
+
+ ---- Best value -31.6045 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -31.6045
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-3.19545e+01]    (-3.19545e+01)
+
+ ---- Best value -31.9545 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -31.9545
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+    0.0004   10.1259
+
+phi_settle
+
+alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-1.28794e-01]    (-1.28794e-01)
+
+ ---- Best value -0.128794 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -0.128794
+phi_rise
+
+ev_[0,tau1] ((az[t] > az_ref[t]*bt))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-3.19545e+01]    (-3.19545e+01)
+
+ ---- Best value -31.9545 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -31.9545
+phi_conv
+
+ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        4.3               [+1.93043e+00]    (+8.28530e-01)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        7.0               [+8.28662e-01]    (+8.28519e-01)
+        30                       10.0               [+8.28299e-01]    (+8.28287e-01)
+        40                       12.5               [+8.28270e-01]    (+8.28268e-01)
+        50                       15.6               [+8.28809e-01]    (+8.28268e-01)
+        60                       17.9               [+8.28268e-01]    (+8.28268e-01)
+        70                       20.6               [+8.28809e-01]    (+8.28268e-01)
+        80                       23.1               [+8.28268e-01]    (+8.28268e-01)
+        90                       25.5               [+8.28809e-01]    (+8.28268e-01)
+       100                       28.0               [+8.28268e-01]    (+8.28268e-01)
+
+ ---- Best value 0.828268 found with
+        az_ref_u0 = 199.998
+
+No falsifying trace found.
+phi_spike
+
+alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m)))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-1.16061e+01]    (-1.16061e+01)
+
+ ---- Best value -11.6061 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -11.6061
+max+spec_count 
+     3
+
+maximum weight is 
+     6
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 1
+*******************************************
+Elapsed time is 4068.033931 seconds.
+time taken
+------------------ITERATION
+    49
+
+----------------------------
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-4.75373e+01]    (-4.75373e+01)
+
+ ---- Best value -47.5373 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -47.5373
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-3.00097e+01]    (-3.00097e+01)
+
+ ---- Best value -30.0097 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -30.0097
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-5.35992e+01]    (-5.35992e+01)
+
+ ---- Best value -53.5992 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -53.5992
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+    0.0005   10.1259
+
+phi_settle
+
+alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-8.04607e-02]    (-8.04607e-02)
+
+ ---- Best value -0.0804607 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -0.0804607
+phi_rise
+
+ev_[0,tau1] ((az[t] > az_ref[t]*bt))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-3.15364e+00]    (-3.15364e+00)
+
+ ---- Best value -3.15364 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -3.15364
+phi_conv
+
+ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        4.5               [+2.20068e+00]    (+1.27198e+00)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        6.9               [+1.27210e+00]    (+1.27198e+00)
+        30                        8.6               [+1.27198e+00]    (+1.27198e+00)
+        40                       10.3               [+1.27198e+00]    (+1.27198e+00)
+        50                       12.6               [+1.56839e+00]    (+1.27198e+00)
+        60                       15.7               [+1.27584e+00]    (+1.27198e+00)
+        70                       18.7               [+1.27198e+00]    (+1.27198e+00)
+        80                       21.8               [+1.27198e+00]    (+1.27198e+00)
+        90                       24.8               [+1.27198e+00]    (+1.27198e+00)
+       100                       27.9               [+1.27198e+00]    (+1.27198e+00)
+
+ ---- Best value 1.27198 found with
+        az_ref_u0 = 200
+
+No falsifying trace found.
+phi_spike
+
+alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m)))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-5.35992e+01]    (-5.35992e+01)
+
+ ---- Best value -53.5992 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -53.5992
+max+spec_count 
+     3
+
+maximum weight is 
+     6
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 1
+*******************************************
+Elapsed time is 4228.033860 seconds.
+time taken
+------------------ITERATION
+    51
+
+----------------------------
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-2.76378e+01]    (-2.76378e+01)
+
+ ---- Best value -27.6378 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -27.6378
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-8.97595e+01]    (-8.97595e+01)
+
+ ---- Best value -89.7595 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -89.7595
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-3.57183e+01]    (-3.57183e+01)
+
+ ---- Best value -35.7183 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -35.7183
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+    0.0003   10.1259
+
+phi_settle
+
+alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-1.37678e-01]    (-1.37678e-01)
+
+ ---- Best value -0.137678 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -0.137678
+phi_rise
+
+ev_[0,tau1] ((az[t] > az_ref[t]*bt))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-3.57183e+01]    (-3.57183e+01)
+
+ ---- Best value -35.7183 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -35.7183
+phi_conv
+
+ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        4.4               [+1.89163e+00]    (+7.70840e-01)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        6.6               [+7.70874e-01]    (+7.70840e-01)
+        30                        8.3               [+7.70840e-01]    (+7.70840e-01)
+        40                        9.9               [+7.70840e-01]    (+7.70840e-01)
+        50                       12.2               [+1.03237e+00]    (+7.70840e-01)
+        60                       15.3               [+7.71291e-01]    (+7.70840e-01)
+        70                       18.3               [+7.70840e-01]    (+7.70840e-01)
+        80                       21.5               [+7.70840e-01]    (+7.70840e-01)
+        90                       24.6               [+1.27066e+00]    (+7.70840e-01)
+       100                       27.6               [+7.72658e-01]    (+7.70840e-01)
+
+ ---- Best value 0.77084 found with
+        az_ref_u0 = 200
+
+No falsifying trace found.
+phi_spike
+
+alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m)))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-9.22241e+00]    (-9.22241e+00)
+
+ ---- Best value -9.22241 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -9.22241
+max+spec_count 
+     3
+
+maximum weight is 
+     6
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 1
+*******************************************
+Elapsed time is 4388.138555 seconds.
+time taken
+------------------ITERATION
+    53
+
+----------------------------
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-7.51573e+01]    (-7.51573e+01)
+
+ ---- Best value -75.1573 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -75.1573
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-6.27608e+01]    (-6.27608e+01)
+
+ ---- Best value -62.7608 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -62.7608
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-5.61077e+01]    (-5.61077e+01)
+
+ ---- Best value -56.1077 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -56.1077
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-4.93270e+01]    (-4.93270e+01)
+
+ ---- Best value -49.327 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -49.327
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-4.22323e+01]    (-4.22323e+01)
+
+ ---- Best value -42.2323 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -42.2323
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-3.45404e+01]    (-3.45404e+01)
+
+ ---- Best value -34.5404 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -34.5404
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-2.68821e+01]    (-2.68821e+01)
+
+ ---- Best value -26.8821 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -26.8821
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-3.17604e+01]    (-3.17604e+01)
+
+ ---- Best value -31.7604 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -31.7604
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+    0.0004   10.1259
+
+phi_settle
+
+alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        4.4               [+1.12537e-02]    (+2.23043e-03)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        7.0               [+2.03478e-03]    (+1.80459e-03)
+        30                        9.9               [+1.78191e-03]    (+1.77029e-03)
+        40                       12.7               [+1.76482e-03]    (+1.76407e-03)
+        50                       15.7               [+1.76401e-03]    (+1.76401e-03)
+        60                       18.7               [+1.76400e-03]    (+1.76400e-03)
+        70                       21.7               [+1.76400e-03]    (+1.76400e-03)
+        80                       24.8               [+1.76400e-03]    (+1.76400e-03)
+        90                       27.9               [+1.76400e-03]    (+1.76400e-03)
+       100                       31.0               [+1.76400e-03]    (+1.76400e-03)
+
+ ---- Best value 0.001764 found with
+        az_ref_u0 = 199.953
+
+No falsifying trace found.
+phi_rise
+
+ev_[0,tau1] ((az[t] > az_ref[t]*bt))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-1.88498e+01]    (-1.88498e+01)
+
+ ---- Best value -18.8498 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -18.8498
+phi_conv
+
+ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        4.5               [+1.98736e+00]    (+8.94658e-01)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        6.8               [+8.94691e-01]    (+8.94658e-01)
+        30                        8.5               [+8.94658e-01]    (+8.94658e-01)
+        40                       10.3               [+8.94658e-01]    (+8.94658e-01)
+        50                       12.8               [+1.00357e+00]    (+8.94658e-01)
+        60                       16.0               [+8.94662e-01]    (+8.94658e-01)
+        70                       19.0               [+8.94658e-01]    (+8.94658e-01)
+        80                       22.2               [+8.94658e-01]    (+8.94658e-01)
+        90                       25.2               [+1.29392e+00]    (+8.94658e-01)
+       100                       28.3               [+8.94674e-01]    (+8.94658e-01)
+
+ ---- Best value 0.894658 found with
+        az_ref_u0 = 200
+
+No falsifying trace found.
+phi_spike
+
+alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m)))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-3.17604e+01]    (-3.17604e+01)
+
+ ---- Best value -31.7604 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -31.7604
+max+spec_count 
+     3
+
+maximum weight is 
+     6
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 1
+*******************************************
+Elapsed time is 4730.210738 seconds.
+time taken
+------------------ITERATION
+    60
+
+----------------------------
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-2.73959e+01]    (-2.73959e+01)
+
+ ---- Best value -27.3959 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -27.3959
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-4.43154e+01]    (-4.43154e+01)
+
+ ---- Best value -44.3154 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -44.3154
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-3.55991e+01]    (-3.55991e+01)
+
+ ---- Best value -35.5991 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -35.5991
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+    0.0004   10.1259
+
+phi_settle
+
+alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-7.14883e-03]    (-7.14883e-03)
+
+ ---- Best value -0.00714883 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -0.00714883
+phi_rise
+
+ev_[0,tau1] ((az[t] > az_ref[t]*bt))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-3.55991e+01]    (-3.55991e+01)
+
+ ---- Best value -35.5991 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -35.5991
+phi_conv
+
+ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        4.5               [+1.82377e+00]    (+6.25684e-01)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        6.7               [+6.25720e-01]    (+6.25684e-01)
+        30                        8.5               [+6.25684e-01]    (+6.25684e-01)
+        40                       10.1               [+6.25684e-01]    (+6.25684e-01)
+        50                       12.3               [+8.94569e-01]    (+6.25684e-01)
+        60                       15.5               [+6.26330e-01]    (+6.25684e-01)
+        70                       18.5               [+6.25685e-01]    (+6.25684e-01)
+        80                       21.6               [+6.25684e-01]    (+6.25684e-01)
+        90                       24.7               [+6.25684e-01]    (+6.25684e-01)
+       100                       27.8               [+6.28524e-01]    (+6.25684e-01)
+
+ ---- Best value 0.625684 found with
+        az_ref_u0 = 200
+
+No falsifying trace found.
+phi_spike
+
+alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m)))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-1.27928e+01]    (-1.27928e+01)
+
+ ---- Best value -12.7928 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -12.7928
+max+spec_count 
+     3
+
+maximum weight is 
+     6
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 1
+*******************************************
+Elapsed time is 4892.980672 seconds.
+time taken
+------------------ITERATION
+    62
+
+----------------------------
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-4.37132e+01]    (-4.37132e+01)
+
+ ---- Best value -43.7132 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -43.7132
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-2.79169e+01]    (-2.79169e+01)
+
+ ---- Best value -27.9169 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -27.9169
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-3.01894e+01]    (-3.01894e+01)
+
+ ---- Best value -30.1894 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -30.1894
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+    0.0004   10.1259
+
+phi_settle
+
+alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        4.5               [+8.75482e-03]    (+1.70865e-03)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        6.9               [+1.92882e-03]    (+1.70865e-03)
+        30                        9.4               [+1.70140e-03]    (+1.69821e-03)
+        40                       11.9               [+1.69289e-03]    (+1.69235e-03)
+        50                       14.6               [+1.69184e-03]    (+1.69180e-03)
+        60                       17.4               [+1.69180e-03]    (+1.69179e-03)
+        70                       19.9               [+1.69179e-03]    (+1.69179e-03)
+        80                       22.7               [+1.69179e-03]    (+1.69179e-03)
+        90                       25.2               [+1.93050e-03]    (+1.69179e-03)
+       100                       28.4               [+1.93050e-03]    (+1.69179e-03)
+
+ ---- Best value 0.00169179 found with
+        az_ref_u0 = 199.999
+
+No falsifying trace found.
+phi_rise
+
+ev_[0,tau1] ((az[t] > az_ref[t]*bt))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-1.99256e+01]    (-1.99256e+01)
+
+ ---- Best value -19.9256 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -19.9256
+phi_conv
+
+ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        4.5               [+1.97778e+00]    (+8.78544e-01)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        6.7               [+8.78577e-01]    (+8.78544e-01)
+        30                        8.4               [+8.78544e-01]    (+8.78544e-01)
+        40                       10.2               [+8.78544e-01]    (+8.78544e-01)
+        50                       12.7               [+9.86622e-01]    (+8.78544e-01)
+        60                       15.8               [+8.78549e-01]    (+8.78544e-01)
+        70                       18.9               [+8.78544e-01]    (+8.78544e-01)
+        80                       22.0               [+8.78544e-01]    (+8.78544e-01)
+        90                       25.1               [+1.28089e+00]    (+8.78544e-01)
+       100                       28.3               [+8.78560e-01]    (+8.78544e-01)
+
+ ---- Best value 0.878544 found with
+        az_ref_u0 = 200
+
+No falsifying trace found.
+phi_spike
+
+alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m)))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-3.01894e+01]    (-3.01894e+01)
+
+ ---- Best value -30.1894 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -30.1894
+max+spec_count 
+     3
+
+maximum weight is 
+     6
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 5078.040759 seconds.
+time taken
+------------------ITERATION
+    64
+
+----------------------------
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.9               [-2.99889e+01]    (-2.99889e+01)
+
+ ---- Best value -29.9889 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -29.9889
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-3.05878e+01]    (-3.05878e+01)
+
+ ---- Best value -30.5878 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -30.5878
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+    0.0004    2.9450
+
+phi_settle
+
+alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         2                        1.9               [-3.12144e-03]    (-3.12144e-03)
+
+ ---- Best value -0.00312144 found with
+        az_ref_u0 = 200
+
+Falsified with obj = -0.00312144
+phi_rise
+
+ev_[0,tau1] ((az[t] > az_ref[t]*bt))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-1.91783e+01]    (-1.91783e+01)
+
+ ---- Best value -19.1783 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -19.1783
+phi_conv
+
+ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        10                        4.5               [+1.98885e+00]    (+8.98560e-01)
+
+Starting local optimization using Nelder-Mead algorithm
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+        20                        6.8               [+8.98593e-01]    (+8.98560e-01)
+        30                        8.6               [+8.98560e-01]    (+8.98560e-01)
+        40                       10.3               [+8.98560e-01]    (+8.98560e-01)
+        50                       12.6               [+1.14473e+00]    (+8.98560e-01)
+        60                       15.8               [+8.98990e-01]    (+8.98560e-01)
+        70                       19.0               [+8.98561e-01]    (+8.98560e-01)
+        80                       22.1               [+8.98560e-01]    (+8.98560e-01)
+        90                       25.2               [+1.39147e+00]    (+8.98560e-01)
+       100                       28.5               [+9.00601e-01]    (+8.98560e-01)
+
+ ---- Best value 0.89856 found with
+        az_ref_u0 = 200
+
+No falsifying trace found.
+phi_spike
+
+alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m)))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-3.05878e+01]    (-3.05878e+01)
+
+ ---- Best value -30.5878 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -30.5878
+max+spec_count 
+     3
+
+maximum weight is 
+     6
+
+****************************************
+****************************************
+****************************************
+****************************************
+*******************************************
+ index chosen is 2
+*******************************************
+Elapsed time is 5210.070631 seconds.
+time taken
+------------------ITERATION
+    65
+
+----------------------------
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.8               [-3.01770e+01]    (-3.01770e+01)
+
+ ---- Best value -30.177 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -30.177
+
+(alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))) and ((ev_[0,tau1] ((az[t] > az_ref[t]*bt))) and ((ev_[0,tau2] (alw (((abs(az[t]-az_ref[t]) < epsi2) )))) and (alw (not ((((az[t+dt2]-az[t])*10 > m)) and (ev_[0,tau3] (((az[t+dt2]-az[t])*10 < -1*m))))))))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-3.08335e+01]    (-3.08335e+01)
+
+ ---- Best value -30.8335 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -30.8335
+****************************************
+****************************************
+****************************************
+****************************************
+pval is :
+    0.0004    3.1291
+
+phi_settle
+
+alw_[2,20] (((abs(az[t+dt]-az[t]) < epsi1)))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-5.62381e-04]    (-5.62381e-04)
+
+ ---- Best value -0.000562381 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -0.000562381
+phi_rise
+
+ev_[0,tau1] ((az[t] > az_ref[t]*bt))
+
+Eval objective function on 12 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        0.7               [-1.85432e+01]    (-1.85432e+01)
+
+ ---- Best value -18.5432 found with
+        az_ref_u0 = 180
+
+Falsified with obj = -18.5432
+phi_conv
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('save_system', '/usr/local/MATLAB/R2020a/toolbox/simulink/simulink/save_system.m', 43)" style="font-weight:bold">save_system</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2020a/toolbox/simulink/simulink/save_system.m',43,0)">line 43</a>)
+Error due to multiple causes.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('BreachSimulinkSystem/CreateInterface', '/home/nikhil/home/CSyn/breach/Core/BreachSimulinkSystem.m', 540)" style="font-weight:bold">BreachSimulinkSystem/CreateInterface</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/breach/Core/BreachSimulinkSystem.m',540,0)">line 540</a>)
+            save_system(mdl_breach);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('BreachSimulinkSystem', '/home/nikhil/home/CSyn/breach/Core/BreachSimulinkSystem.m', 78)" style="font-weight:bold">BreachSimulinkSystem</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/breach/Core/BreachSimulinkSystem.m',78,0)">line 78</a>)
+                    this.CreateInterface(mdl_name);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('init_airframe', '/home/nikhil/home/CSyn/src/init_airframe.m', 5)" style="font-weight:bold">init_airframe</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/src/init_airframe.m',5,0)">line 5</a>)
+    B = BreachSimulinkSystem(newfile);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('maximal_specifications', '/home/nikhil/home/CSyn/src/maximal_specifications.m', 508)" style="font-weight:bold">maximal_specifications</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/src/maximal_specifications.m',508,0)">line 508</a>)
+                [phi,rob,BrFalse]=init_airframe('scdairframectrl',specno,1);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_script_random', '/home/nikhil/home/CSyn/main_script_random.m', 400)" style="font-weight:bold">main_script_random</a> (<a href="matlab: opentoline('/home/nikhil/home/CSyn/main_script_random.m',400,0)">line 400</a>)
+     [max_spec_count,pval_best,max_wt]=maximal_specifications(modelno,pval,max_spec_count,pval_best,max_wt); - <a href="matlab:interactive_actions_helper.displayMStack([struct('file','/usr/local/MATLAB/R2020a/toolbox/simulink/simulink/save_system.m','line',43,'name','save_system'),struct('file','/home/nikhil/home/CSyn/breach/Core/BreachSimulinkSystem.m','line',540,'name','BreachSimulinkSystem>BreachSimulinkSystem.CreateInterface'),struct('file','/home/nikhil/home/CSyn/breach/Core/BreachSimulinkSystem.m','line',78,'name','BreachSimulinkSystem>BreachSimulinkSystem.BreachSimulinkSystem'),struct('file','/home/nikhil/home/CSyn/src/init_airframe.m','line',5,'name','init_airframe'),struct('file','/home/nikhil/home/CSyn/src/maximal_specifications.m','line',508,'name','maximal_specifications'),struct('file','/home/nikhil/home/CSyn/main_script_random.m','line',400,'name','main_script_random')]);">Show
+     complete stack trace</a>
+Caused by:
+    Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('save_system', '/usr/local/MATLAB/R2020a/toolbox/simulink/simulink/save_system.m', 43)" style="font-weight:bold">save_system</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2020a/toolbox/simulink/simulink/save_system.m',43,0)">line 43</a>)
+    Program interruption (Ctrl-C) has been detected. - <a href="matlab:interactive_actions_helper.displayMStack([struct('file','/usr/local/MATLAB/R2020a/toolbox/simulink/simulink/save_system.m','line',43,'name','save_system'),struct('file','/home/nikhil/home/CSyn/breach/Core/BreachSimulinkSystem.m','line',540,'name','BreachSimulinkSystem>BreachSimulinkSystem.CreateInterface'),struct('file','/home/nikhil/home/CSyn/breach/Core/BreachSimulinkSystem.m','line',78,'name','BreachSimulinkSystem>BreachSimulinkSystem.BreachSimulinkSystem'),struct('file','/home/nikhil/home/CSyn/src/init_airframe.m','line',5,'name','init_airframe'),struct('file','/home/nikhil/home/CSyn/src/maximal_specifications.m','line',508,'name','maximal_specifications'),struct('file','/home/nikhil/home/CSyn/main_script_random.m','line',400,'name','main_script_random')]);">Show complete stack trace</a>
+    Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('save_system', '/usr/local/MATLAB/R2020a/toolbox/simulink/simulink/save_system.m', 43)" style="font-weight:bold">save_system</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2020a/toolbox/simulink/simulink/save_system.m',43,0)">line 43</a>)
+    Program interruption (Ctrl-C) has been detected. - <a href="matlab:interactive_actions_helper.displayMStack([struct('file','/usr/local/MATLAB/R2020a/toolbox/simulink/simulink/save_system.m','line',43,'name','save_system'),struct('file','/home/nikhil/home/CSyn/breach/Core/BreachSimulinkSystem.m','line',540,'name','BreachSimulinkSystem>BreachSimulinkSystem.CreateInterface'),struct('file','/home/nikhil/home/CSyn/breach/Core/BreachSimulinkSystem.m','line',78,'name','BreachSimulinkSystem>BreachSimulinkSystem.BreachSimulinkSystem'),struct('file','/home/nikhil/home/CSyn/src/init_airframe.m','line',5,'name','init_airframe'),struct('file','/home/nikhil/home/CSyn/src/maximal_specifications.m','line',508,'name','maximal_specifications'),struct('file','/home/nikhil/home/CSyn/main_script_random.m','line',400,'name','main_script_random')]);">Show complete stack trace</a>
+} 
+
+main_script_random
+Initializing Breach from folder /home/nikhil/home/CSyn/breach...
+********* SELECT MODEL ******************
+select 1 for Quadcopter-SISO
+select 2 for Cruise Control
+select 3 for Aircraft Pitch
+select 4 for Inverted Pendulum
+select 5 for DC Motor
+select 6 for AutoPilot for Pass Jet
+select 7 for Quadcopter-MIMO
+select 9 for Robot Arm
+select 11 for DPC
+select 14 for Airframe
+select 15 for Heatex
+select 16 for Heatex
+***************************************
+enter the model number15
+ 
+********* SELECT SPECIFICATION ************
+select 1 for settling time
+select 2 for rise time
+select 3 for convergence
+select 4 for overshoot
+select 5 for smoothness
+select 6 for Conjunct of all specs
+*******************************************
+enter the specification number6
+---------------------------------------
+selected model is : 15
+---------------------------------------
+--------------------------------------
+selected specification is phi : 6
+---------------------------------------
+
+(alw_[70,200] ((abs(temp[t+dt]-temp[t]) < epsi1))) and ((ev_[0,tau1] (((temp[t] > setp[t]*bt) ))) and (ev_[0,tau2] (alw ((abs(temp[t]-setp[t]) < epsi2)))))
+
+Eval objective function on 24 initial parameters.
+#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
+         1                        2.3               [-4.42700e-03]    (-4.42700e-03)
+
+ ---- Best value -0.004427 found with
+        dis_u0 = -1
+        setp_u0 = 0
+
+Falsified with obj = -0.004427
+#############################
+ tuning 
+     1
+
+#############################
