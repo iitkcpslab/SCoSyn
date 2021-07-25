@@ -30,3 +30,6 @@ Also comparison with [18] is embedded within the main script
 with modelno 16. For more details look at code init_demo.m 
 within src/ folder.
 
+Authors : Nikhil Kumar Singh cniks117@gmail.com  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Indranil Saha saha.indra@gmail.com  
+  
