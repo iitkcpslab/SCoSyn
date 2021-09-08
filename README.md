@@ -1,4 +1,4 @@
-# SCoSyn (pronounced "esco-syn")  
+# SCoSyn  
 a tool for **S**pecification Guided Automated **Co**ntroller **Syn**thesis  
 
 
